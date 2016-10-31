@@ -1,7 +1,20 @@
 ---
 layout: default
 ---
-We've collected a lot of tunes to learn in the slow session. You can find the tunes we've been working on since last October as well as those we worked on last year and tunes we think are good for beginners using the <strong>Tags</strong> filter option.
+There are a number of Irish Music sessions around New Zealand but the
+number of musicians is relatively small - it's a long, long way from
+Clare to here.
+
+When musicians from different parts of the country get together at
+events like <a href="http://www.irishmusic.org.nz/">Ceol Aneas</a>,
+the various folk festivals or simply visiting a session in another
+city, there's often a mismatch between the tunes people know.
+
+This site has a number of tunes from various parts of the country. You
+can look at them all or you can select by area such as Wellington,
+Dunedin etc.
+
+We're happy to add tunes from other parts of NZ.
 
 <fieldset>
     <legend>Select from the Tunes Archive</legend>

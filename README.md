@@ -4,7 +4,7 @@ layout: null
 
 # Session tunes
 
-A collection of tunes for the Wellington Irish session.
+A collection of tunes for the New Zealand Irish sessions.
 
 ## A static website
 
@@ -49,37 +49,7 @@ This code open source (released under an [MIT licence](https://github.com/wellin
 
 ## Developing
 
-To develop the website, follow the instructions for [Jekyll](https://jekyllrb.com/).
+This site is based on the code base at
+https://github.com/slow-session/wellingtonsession.org
 
-If you are on a system with [Docker](https://www.docker.com/), you can get up and
-running fast by changing into the root directory of the project and running the command:
-
-```
-docker run --rm --label=jekyll --volume=$(pwd):/srv/jekyll \
-  -it -p 127.0.0.1:4000:4000 jekyll/jekyll jekyll serve
-```
-
-You should now be able to see a local version of the website by visiting `localhost:4000`
-in your browser. Refresh the page to see the results of any changes you make.
-
-Send us a pull request if you have any new features that you think we should include, or if you
-have fixed any issues.
-
-## Loading changes to live website
-
-Once you've pushed updates to the **Branch: master** these changes need to be incorporated to the 
-**Branch: gh-pages**.
-
-Using the website <https://github.com/slow-session/wellingtonsession.org> you can issue a **Pull** request to get the changes from the **master** branch into the **gh-pages** branch.
-
-  * Select the button **New pull request**
-  * You should now see a screen headed **Compare changes**
-  * Set *base:* to **gh-pages** and *compare:* to **master**
-    * **Make sure you get these in the right order otherwise you'll downgrade the master branch to be the same as the gh-pages branch**
-  * If you're happy that the changes should be committed to the live website, press **Create pull request**
-    * You should see a message like: *asjl  wants to merge 1 commit into gh-pages from master*
-  * Choose **Merge pull request** and then **Confirm Merge**
-    * You should see a message like: *asjl  merged 1 commit into gh-pages from master 12 seconds ago*
-  * Check the website <http://wellingtonsession.org/> to make sure the changes are correct.
-  
-    
+See that site for more detail.

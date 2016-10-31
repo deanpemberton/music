@@ -3,7 +3,9 @@
   <div class="wrapper">
 
     <div class="footer-col-wrapper">
-      <p> For more information, get in touch via email (<a href="mailto:{{ site.email }}">{{ site.email }}</a>).
+      <p> For more information, follow us
+        on <a href="{{ site.facebook }}">Facebook</a>,
+        get in touch via email (<a href="mailto:{{ site.email }}">{{ site.email }}</a>).
       </p>
       <p> This website is built using <a href="{{ site.jekyll }}">Jekyll</a>, and the source code
       is available at <a href="{{ site.github }}">Github</a>. You are
