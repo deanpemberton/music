@@ -1,0 +1,1916 @@
+I:abc-charset utf-8
+%%titlefont Helvetica 26
+%%subtitlefont Helvetica 16
+%%gchordfont Helvetica 12
+%%composerfont Helvetica-Oblique 14
+%%partsfont Helvetica 12
+%%printtempo 0
+%%printparts 1
+%%partsbox 1
+%%bstemdown 1
+%%dateformat \%b \%e, \%Y
+%%footer "Wellington Session Archive	$P	$d"
+
+%%topspace 0.0cm
+%%staffsep 0.7cm
+%%titleformat T-1
+%%musiconly 1
+%%printtempo 0
+%%titlefont Helvetica-Oblique 16
+%%subtitlefont Helvetica-Oblique 13
+
+
+%%multicol start
+%%rightmargin 11.5cm
+%%leftmargin 1.5cm
+
+
+%%withxrefs 0
+X:100
+T:Jigs 
+M:1/1
+K:C
+
+
+X: 1
+T: Banish Misfortune
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+de|:"D"fed "C"cAG| "D"Add "C"cAG| 
+
+
+
+
+
+
+X: 1
+T: Behind the Haystack
+T:Munster Buttermilk
+R:Jig
+O:Trad Jig in D
+G:Jigs
+E:11
+Q:110
+M:6/8
+K:D
+|:A|"D"d2e fdB|d2e fdB| 
+
+
+
+
+
+X: 1
+T: Bill Collins' Jig
+T: Dan Collins' Father's
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:d2A BAB|def a3| 
+
+
+
+
+
+
+X: 1
+T: The Blackthorn Stick
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+|:d|gfg ege|dBG AGE| 
+
+
+
+
+
+X: 7
+T: The Blarney Pilgrim
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+|:"G"DED DEG| "D"A2A ABc| 
+
+
+
+
+
+
+X: 1
+T: Brendan Tonra's
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+E|~F3 AFE|EDB, A,B,D| 
+
+
+
+
+
+
+X: 1
+T: Brid Harper's
+R: jig
+M: 6/8
+S: Richard Tait
+L: 1/8
+K: Emin
+|:F|GEF G2A|B2e dBd| 
+
+
+
+
+
+X:20
+T:Bride's Favourite, The
+R:Jig
+O:ITM Jig in G
+G:jig
+C:John McGrath or
+C:Seamus Tansey
+M:6/8
+L:1/8
+Q:110
+K:Gmaj
+|:"G"G3 BAB|GBd gdB| 
+
+
+
+
+
+
+X: 1
+T: Caileach an Airgid (The Hag With The Money)
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+|:Adc A3 | AGE G3 | 
+
+
+
+
+
+
+X: 1
+T:Christy Barry's #2
+S:Kevin Crawford, _D Flute Album_
+M:6/8
+L:1/8
+K:G
+EDG EDB,|DEG B3|DEG B2e| 
+
+
+
+%%multicol new
+%%rightmargin 1.5cm
+%%leftmargin 11.5cm
+
+
+
+
+X: 1
+T: The Cliffs Of Moher
+R: jig
+M: 6/8
+L: 1/8
+K: Ador
+|:a3 bag| eaf ged| 
+
+
+
+
+
+
+X: 2
+T: Con Cassidy's
+T: Tracey's Set
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+|:B^AB cBc | dBg d2 g | 
+
+
+
+
+
+
+X: 1
+T: The Connachtman's Rambles
+R: jig
+M: 6/8
+L: 1/8
+K: D
+K: Bm
+AG|"D":FA(A d)AA|({B2d}"G"BAB) dA(G| 
+
+
+
+
+
+
+X: 1
+T: The Drunken Gauger
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+|:D|GAB c2A|BAG AGE| 
+
+
+
+
+
+X: 1
+T: The Foxhunter's
+R: slip jig
+M: 9/8
+L: 1/8
+K: Dmaj
+|: FDF F2D G2E | FDF F2D E2D | 
+
+
+
+
+
+
+X: 1
+T: The Frost is All Over
+T: The American Dwarf
+O: Trad
+Z: John Chambers -jc:trillian.mit.edu-
+R: jig
+M: 6/8
+L: 1/8
+K: D
+A \
+| "D"d>ef edB \
+| "D"AFD "A7"E2D \
+| 
+
+
+
+
+
+
+X: 5
+T: The Gander In The Pratie Hole
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+"D"FAD FAD | "A7"GFG EFG | "D"FAD FAD | 
+
+
+
+
+
+
+X: 1
+T: Garrett Barry's
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+A|: DEF ~G3|AGE c2A| 
+
+
+
+
+
+
+X: 1
+T: The Geese In The Bog
+R: jig
+M: 6/8
+L: 1/8
+K: Ador
+B|"C"cEE GEE|cEE GAB| 
+
+
+
+
+
+
+X: 1
+T: The Hare In The Corn
+R: jig
+M: 6/8
+L: 1/8
+S: Richard Tait
+K: Dmaj
+|:F2A AFA|BdB AFE| 
+
+
+
+
+
+%%multicol end
+%%newpage
+%%multicol start
+%%rightmargin 11.5cm
+%%leftmargin 1.5cm
+
+
+
+X:65
+T:Haunted House, The
+O:Jig in G
+G:jig
+C:House Ghosts & Vincent Broderick
+M:6/8
+L:1/8
+Q:100
+R:jig
+K:G
+D|:"G"GFG "D"AGA|"G"BGE "Em"EDE| 
+
+
+
+
+
+
+X: 1
+T: The Humours Of Ballyloughlin
+R: jig
+M: 6/8
+L: 1/8
+K: Dmix
+|:ABA AGE|GED D2 B| 
+
+
+
+
+
+
+X: 1
+T: Humors of Ennistymon
+M: 6/8
+L: 1/8
+R: jig
+K: Gmaj
+A| ~B3 GBd | cBc ABc | 
+
+
+
+
+
+
+X: 5
+T: I Ne'er Shall Wean Her
+R: jig
+M: 6/8
+L: 1/8
+K: Ador
+|:G|EGG GED|EGG c2B| 
+
+
+
+
+
+X: 1
+T: Jerry's Beaver Hat
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:D|"D"DFA d2 e|"Bm"fdB BAF| 
+
+
+
+
+
+X: 2
+T: Jim Ward's
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+|:EF | G3 GAB | 
+
+
+
+
+
+
+X:25
+T:Kid on the Mountain, The
+M:9/8
+R:slip jig
+E:13
+K:G
+|:~E3 FEF  ~G3| ~E3 c2 A BGE| 
+
+
+
+
+
+
+X: 1
+T: Kilglass Lakes
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+DED DFA|BAF d2e|faf ede| 
+
+
+
+
+
+
+X: 1
+T: Kitty Lie Over
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+S: Richard Tait
+|:B|AFD DFA|BdB BAF| 
+
+
+
+
+
+X: 1
+T: Leslie's March
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:d3 d3|dcB ABc| 
+
+
+
+%%multicol new
+%%rightmargin 1.5cm
+%%leftmargin 11.5cm
+
+
+
+
+X: 1
+T: McHugh's
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+B2d ded | BAB G2 B | AGE DEG | 
+
+
+
+
+
+
+X:5
+T:Mike McGoldrick's
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|: f3 efg | fdA G3 | 
+
+
+
+
+
+
+X: 1
+T: The Mist On The Mountain
+R: jig
+M: 6/8
+L: 1/8
+K: Ador
+G|EAA ABd|e2 A AGE| 
+
+
+
+
+
+
+X: 1
+T: Morrison's
+R: jig
+M: 6/8
+L: 1/8
+K: Edor
+|:~E3 ~B3|EBE AFD| 
+
+
+
+
+
+
+X:1
+T:Mouse in the Mug
+M:6/8
+L:1/8
+S:Kevin Crawford
+R:Jig
+K:G
+|~G3 EGD| ~G3 Bdg| 
+
+
+
+
+
+
+X: 1
+T: Munster Bacon
+R: jig
+M: 6/8
+L: 1/8
+S: Jonathan Berkahn
+K: D
+|ABA DFA|dfe d2c| 
+
+
+
+
+
+
+X: 4
+T: My Darling Asleep
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:e|fdd cAA|BAG A2G| 
+
+
+
+
+
+X: 2
+T: My Former Wife
+R: jig
+M: 6/8
+L: 1/8
+K: Ador
+|:EAA ABc|BAB c2A| 
+
+
+
+
+
+
+X: 1
+T: Out On The Ocean
+R: jig
+M: 6/8
+L: 1/8
+K: Gmaj
+|:GE|D2B BAG|BdB A2B| 
+
+
+
+
+
+X: 1
+T: Paddy Fahy's Jig #1
+C: by Paddy Fahy
+R: jig
+N: (can be played starting with Em with a capo on fret 3) 
+M: 6/8
+L: 1/8
+K: G
+F |\
+"Gm"DGA _B2G | "Dm"cBc d2g | 
+
+
+
+
+
+%%multicol end
+%%newpage
+%%multicol start
+%%rightmargin 11.5cm
+%%leftmargin 1.5cm
+
+
+
+X: 1
+T: The Rose in the Heather
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+D2F EDB,|DFA BAF|ABd ede| 
+
+
+
+
+
+
+X: 1
+T: The Snowy Path
+R: slip jig
+M: 9/8
+L: 1/8
+K: Dmaj
+|"D"F2A B2F A2F|"G"G2B d2e dBA| 
+
+
+
+
+
+
+X: 1
+T: The Stool Of Repentance
+R: jig
+M: 6/8
+L: 1/8
+K: Amaj
+|:a2e c2e|agf e2c| 
+
+
+
+
+
+
+X: 1
+T: Tar Road To Sligo
+R:jig
+M:6/8
+L:1/8
+Q:120
+K:D
+|:e|"Bm"fdB Bcd|"A"ecA BAG| 
+
+
+
+
+
+X: 1
+T: The Shannon Jig
+R: jig
+M: 6/8
+L: 1/8
+K: Amaj
+EAc EAd|EAc BAF|EAc EAd| 
+
+
+
+
+
+
+X: 1
+T: Tobin's Favourite
+R: jig
+M: 6/8
+L: 1/8
+K: Dmaj
+|:AF|DFA dcd|ecA cde| 
+
+
+
+
+
+X:200
+T:Reels 
+M:1/1
+K:C
+
+
+X: 22
+T: Anderson's Reel
+R: reel
+M: C|
+L: 1/8
+K: D
+"D" ABdf "G" efdB|"D" AFFF "A" EDEF| 
+
+
+
+
+
+
+X:18
+T:Austin Tierneys
+R:reel
+M:4/4
+H:From the 70's, and seems to be from a recording. I don't recognise the fiddle 
+H:player. I always have trouble knowing what to do with this tune, so its 
+H:nice to hear a version with no self doubt.
+K:D
+D3B {d}BAFB | Ad~d2 fded | D2(3FED ADFA | 
+
+
+
+
+
+
+X:26
+T:Bank of Ireland, The
+R:reel
+Z:id:hn-reel-26
+M:C|
+K:Dmix
+c2AB cBAG|EGDG EGAB| 
+
+
+
+
+
+
+X: 1
+T: The Banshee
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+|:G2 GD EDEG|AGAB d2 Bd| 
+
+
+
+%%multicol new
+%%rightmargin 1.5cm
+%%leftmargin 11.5cm
+
+
+
+
+X: 2
+T: The Bird In The Bush
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+|: d2eB dB~B2|dBAB G2AG| 
+
+
+
+
+
+
+X: 19
+T:Blackberry Blossom, The
+M:C|
+L:1/8
+R:reel
+K:G
+ge|dBAc BAGA| 
+
+
+
+
+
+
+X:2014
+T:The Boyne Hunt
+R:reel
+C:Trad.
+O:Ireland
+M:4/4
+L:1/8
+%Q:1/8=260
+Z:Paul G Hardy
+K:D
+|: "D"BAFA DAFA | BAFA "Em"BEE2 | 
+
+
+
+
+
+
+X:57
+T:Boys of Ballisodare, The
+R:reel
+I:speed 350
+E:7.5
+M:C|
+K:DMix
+dG~G2 dGeG|dG~G2 BAAB| 
+
+
+
+
+
+
+X:148
+T:Bucks of Oranmore, The
+R:reel
+D:Stockton's Wing
+Z:id:hn-reel-148
+M:C|
+K:D
+A2FA ~A2dB|ADFA BE~E2| 
+
+
+
+
+
+
+X:1
+T: The Cameronian
+M: C|
+L:1/8
+Q:240
+R:reel
+K:D
+A2 FA DAFA | GE~E2  GBdB | 
+
+
+
+
+
+
+X: 1
+T: Catharsis
+R: reel
+S: MP3 from Gillian Gillies, Wellington Session
+M: 4/4
+L: 1/8
+K: Gmin
+[G,D]GGF DGGF|DFGA B/A/G AF|DGGF DGGF| 
+
+
+
+
+
+
+X: 1
+T: The Concertina
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+|:A2FA BAFA|A2FA BAFA| 
+
+
+
+
+
+
+X: 1
+T: Creggs Pipes
+T: Greig's Pipes
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+|: "G"~B2BA BAGA | B2GB "C"AGEG | 
+
+
+
+
+
+
+X: 5
+T: The Cup Of Tea
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+|:"Em"BAGF GEEF|"Em"GEBE GEE/E/E| 
+
+
+
+
+
+%%multicol end
+%%newpage
+%%multicol start
+%%rightmargin 11.5cm
+%%leftmargin 1.5cm
+
+
+
+X:488
+T:Derry Reel
+R:reel
+Z:id:hn-reel-488
+M:C|
+K:A
+~c3B ABcA|BAcA BAFA| 
+
+
+
+
+
+
+X: 1
+T: The Dunmore Lasses
+R: reel
+M: 4/4
+L: 1/8
+K: Emin
+~E3F ~G3A|Be~e2 Be~e2|~E3F G2BG| 
+
+
+
+
+
+
+X: 1
+T: The Earl's Chair
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+A|"Bm"B2dB BAFA | B2Bd BAFA | 
+
+
+
+
+
+
+X: 7
+T: Father Kelly's
+R: reel
+M: 4/4
+L: 1/8
+K: G
+ GA|: "G"B2 GB AGEG |"G" DGGF G2AB | 
+
+
+
+
+
+
+X: 1
+T: The Fox On The Town
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+ef|gedB edBA|G2BG DGBd| 
+
+
+
+
+
+
+X: 1
+T: Frank's
+R: reel
+M: 4/4
+L: 1/8
+K: Amaj
+|Ac BA F2 AF|EF AB cA Bc | 
+
+
+
+
+
+
+X: 1
+T: The Gravel Walks
+R: reel
+M: 4/4
+L: 1/8
+K: Ador
+|:A2 eA (3cBA eA|A2 eA BAGB| 
+
+
+
+
+
+
+X: 1
+T: The High Road To Linton
+R: reel
+M: 4/4
+L: 1/8
+K: Amix
+|:ceef a2 ae|fgfe a2 ae| 
+
+
+
+
+
+
+X: 7
+T: Cooley's
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+|:D|"Em"EB{=c}BA B2 EB|"Em"{=c}B2 AB dBAG| 
+
+
+
+
+
+X: 1
+T: Julia Delaney
+R:reel
+O:Reel
+G:reel
+M:4/4
+L:1/8
+Q:150
+K:Ddor
+|:"Dm"dcAG F2 DF|"C"E2CE "Dm"FDDD| 
+
+
+
+%%multicol new
+%%rightmargin 1.5cm
+%%leftmargin 11.5cm
+
+
+
+
+X: 1
+T: Master McDermott's
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+|:A,B, | DF~F2 DEFA | 
+
+
+
+
+
+
+X: 6
+T: The Merry Blacksmith
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+A | "D" d3 A BAFA | ABdA BAFA | 
+
+
+
+
+
+
+X: 2
+T: Miss Thompson's
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+|:(3ABc|d2df edcB| 
+
+
+
+
+
+
+X: 2
+T: The Mountain Road
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+F2 AF BFAF| F/A/F AF EFDE| F2 AF BFAF| 
+
+
+
+
+
+
+X: 1
+T: The Musical Priest
+R: reel
+M: 4/4
+L: 1/8
+K: Bmin
+|:BA|FBBA B2Bd|cBAf ecBA| 
+
+
+
+
+
+X: 1
+T: The Old Bush
+R: reel
+M: 4/4
+L: 1/8
+K: Dmix
+|:d^c|A2GA cA~A2| 
+
+
+
+
+
+
+X: 3
+T: The Otter's Holt
+R: reel
+M: 4/4
+L: 1/8
+K: Bmin
+e|:fBBA FEFB|(3ABA FB ABde| 
+
+
+
+
+
+
+X: 4
+T: Over The Moor To Maggie
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+BA|~G3A BABd|efge dBAG| 
+
+
+
+
+
+
+X: 1
+T: Paddy Fahey's
+R: reel
+M: 4/4
+L: 1/8
+K: G
+|:G,2 B,D GBdB|c2 ag fgdc| 
+
+
+
+
+
+
+X: 1
+T: Paddy's Trip to Scotland
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+|dA~A2 BAGF|GABd cABc| 
+
+
+
+
+
+%%multicol end
+%%newpage
+%%multicol start
+%%rightmargin 11.5cm
+%%leftmargin 1.5cm
+
+
+
+X: 1
+T: The Peeler's Jacket
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+G2BG DGBG|FGAB c2Bc|dggf d2eg| 
+
+
+
+
+
+
+X: 1
+T: the Reconciliation
+T: the Olive Branch Hornpipe
+T: Humphrey's Reel
+T: Crannciuil Umfrei
+O: Ryans 1883
+R: reel
+B: O'Neill's 1850 (hornpipe)
+B: Ryan’s "Mammoth Collection", 1883, titled “The Olive Branch”
+D: Matt Molloy & Sean Keane: Contentment is Wealth.
+Z: id:hn-reel-95
+M: C|
+L: 1/8
+K: A
+|: "A"A2 c{B}A eAfA | 
+
+
+
+
+
+
+X: 2
+T: The Red-haired Lass
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+|DGGF G2 BG|G2 BG AGEG| 
+
+
+
+
+
+
+X: 1
+T: Red Tom Of The Hills
+R: reel
+M: 4/4
+L: 1/8
+K: Gdor
+D~G3 DEFD|GABc defa|gfdc B/c/d BG| 
+
+
+
+
+
+
+X: 1
+T: Rolling in the Ryegrass
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+|:A2AF DFAF|G2BG dGBG| 
+
+
+
+
+
+
+X: 1
+T: The Sailor On The Rock
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+dfed BcdB|AD (3FED FAAB|defe B2dB| 
+
+
+
+
+
+
+X: 1
+T: The Sailor's Bonnet
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+A2 FA d~f3|dfef d~B3| A2 FA dfef| 
+
+
+
+
+
+
+X: 4
+T: The Salamanca
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+|dB|:AD(3FED AD(3FED|Adcd fdcd| 
+
+
+
+
+
+X: 2
+T: The Salvation
+R: reel
+M: 4/4
+S: Jackie Lamb
+L: 1/8
+K: Amaj
+EGAE GAEG | AecA BAFA | B3B- BAFA | 
+
+
+
+
+
+
+X: 5
+T: The Silver Spear
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+|:"D"FA~A2 BAFA|dfed "G"BcdA| 
+
+
+
+%%multicol new
+%%rightmargin 1.5cm
+%%leftmargin 11.5cm
+
+
+
+
+X: 1
+T: The Sligo Maid
+R: reel
+M: 4/4
+L: 1/8
+K: Ador
+|: A2BA (3B^cd ef | gedB AGEF | 
+
+
+
+
+
+
+X: 1
+T: Spootiskerry
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+DE | G2 DE GDEG | DEGA B2 AB | 
+
+
+
+
+
+
+X: 1
+T: Saint Anne's
+R: reel
+S: Isabelle Collins
+M: 4/4
+L: 1/8
+K: Dmaj
+|:fedf edcB|A2FA DAFA| 
+
+
+
+
+
+
+X: 1
+T: The Star Of Munster
+R: reel
+M: 4/4
+L: 1/8
+K: Ador
+|:ed|c2Ac B2GB|AGEF GEDG| 
+
+
+
+
+
+X: 1
+T: Swinging on the Gate
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+gedB G2AB|cABG AGEG|DGBd g2fg| 
+
+
+
+
+
+
+X: 1
+T: Tommy Peoples'
+R: reel
+M: 4/4
+L: 1/8
+K: Gmaj
+|:G2BG cGBG|ADDE FGAF| 
+
+
+
+
+
+
+X: 1
+T: Toss The Feathers
+R: reel
+M: 4/4
+L: 1/8
+K: Edor
+|:"Em"EBB2 dBB2|"Em"EBBA "D"FDFA| 
+
+
+
+
+
+
+X:1
+T:The Trip to Pakistan
+R:Reel
+L:1/8
+%Q:350
+M:C
+K:Em
+EGBE ~G3 B | A2 AG FGAF | EGBE ~G3 B | 
+
+
+
+
+
+
+X: 2
+T: 250 To Vigo
+R: reel
+M: 4/4
+L: 1/8
+K: Bmin
+fBBA BdFG-|GBdB Acec|fBBA BdFG-| 
+
+
+
+
+
+
+X: 1
+T: Willafjord
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+|:B2| A2F A2D FA | B2G B2D GB | 
+
+
+
+
+%%multicol end
+%%newpage
+%%multicol start
+%%rightmargin 11.5cm
+%%leftmargin 1.5cm
+
+
+
+X: 1
+T: The Wise Maid
+R: reel
+M: 4/4
+L: 1/8
+K: Dmaj
+|: DE|"D"~F2FG FEDE| 
+
+
+
+
+
+
+X:300
+T:Polkas 
+M:1/1
+K:C
+
+
+X: 1
+T: The Ballydesmond No. 1
+R: polka
+M: 2/4
+L: 1/8
+K: Ador
+|:AB|"C"c2 "G"B2|"Am"A2 "Em"GA| 
+
+
+
+
+
+X: 2
+T: The Ballydesmond No. 2
+R: polka
+M: 2/4
+L: 1/8
+K: Ador
+|:"Am"EA AB|cd e2| 
+
+
+
+
+
+
+X: 3
+T: The Ballydesmond No. 3
+R: polka
+M: 4/4
+L: 1/4
+K: Gmaj
+K:G
+|"G"G3/2A/2 Bd|"G"gf ed| 
+
+
+
+
+
+
+X: 1
+T: Bill Sullivan's
+R: polka
+M: 2/4
+L: 1/8
+K: Amaj
+|: a2 a>f | ec a>f | 
+
+
+
+
+
+
+X: 4
+T: The Britches Full Of Stitches
+R: polka
+M: 2/4
+L: 1/8
+K: Gmaj
+|: G>A BG | AG BG | 
+
+
+
+
+
+
+X: 1
+T: The Fourty Two Pound Cheque
+R: polka
+M: 2/4
+L: 1/8
+S: Richard Tait
+K: Dmaj
+|: Ad Bd/B/ | AD FA | 
+
+
+
+
+
+
+X: 3
+T: John Ryan's
+R: polka
+M: 2/4
+L: 1/8
+K: Dmaj
+|: dd B/c/d/B/ | AF AF | 
+
+
+
+
+
+
+X: 1
+T: The Little Diamond
+R: polka
+M: 2/4
+L: 1/8
+K: Dmaj
+|:B2 | A>B AF | 
+
+
+
+
+
+
+X: 1
+T: The Murroe
+R: polka
+M: 2/4
+L: 1/8
+K: Gmaj
+Bd G>A|Bd GB|A2 FA| 
+
+
+
+%%multicol new
+%%rightmargin 1.5cm
+%%leftmargin 11.5cm
+
+
+
+
+X:400
+T:Hornpipes 
+M:1/1
+K:C
+
+
+X: 1
+T: An Londubh
+T: The Blackbird
+S: Richard Tait 
+N: Recorded in Bb; transposed here to D “as played”
+R: hornpipe
+M: 4/4
+L: 1/8
+K:D
+B3d A2 A/B/c|d2 AG (3FGF D2|FGAF GBAG| 
+
+
+
+
+
+
+X:21333
+T:Beeswing Hornpipe (A)
+C:By James Hill
+R:hornpipe, reel
+B:Kohler's Violin Repository, v.2, 1885 p.133 #1
+F:http://www.archive.org/details/klersviolinrepos02rugg
+Z:2012 John Chambers jc:trillian.mit.edu
+M:4/4
+L:1/8
+K:Amaj
+(EG) |\
+AecA GdBG | EcAE CAEC | 
+
+
+
+
+
+
+X: 21331
+T: Beeswing Hornpipe Bb
+C: By James Hill
+R: hornpipe, reel
+B: Kohler's Violin Repository, v.2, 1885 p.133 #1
+F: http://www.archive.org/details/klersviolinrepos02rugg
+Z: 2012 John Chambers jc:trillian.mit.edu
+M: C|
+L: 1/8
+K: Bb
+u(FA) |\
+BfdB AecA | 
+
+
+
+
+
+
+X:46
+T:Belfast Hornpipe, The
+T:Sweep's Hornpipe
+R:hornpipe
+Z:id:hn-hornpipe-46
+M:C|
+K:D
+ag|(3faf df AdFA| 
+
+
+
+
+
+
+X:1
+T: Boys of Blue Hill
+C: R-21
+C: British Isles
+M: C|
+Z:
+R: hornpipe
+K: D
+dB| "D"BAFA DAFA| 
+
+
+
+
+
+
+X:24
+T:Derry Hornpipe, The
+R:hornpipe
+M:C|
+K:D
+AG|:F2Ad fdAF| 
+
+
+
+
+
+
+X: 9
+T: Fisher's Hornpipe
+R: hornpipe
+M: 4/4
+L: 1/8
+S: Richard Tait
+K: Dmaj
+|: (3ABc |"D" dAFD "G" GBAG | 
+
+
+
+
+
+
+X: 1
+T: The Galway
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Dmaj
+|:FE|D2 FA dAFD|CDEF G2 FE| 
+
+
+
+
+
+X: 1
+T: The Home Ruler
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Dmaj
+AF|D2FA DAFA|dfed B2dB| 
+
+
+
+
+
+
+X: 1
+T: Kitty's Wedding
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Dmaj
+|:fe|d2Bd A2FA|BAFA D2 ED| 
+
+
+
+
+%%multicol end
+%%newpage
+%%multicol start
+%%rightmargin 11.5cm
+%%leftmargin 1.5cm
+
+
+
+X: 1
+T: Liverpool Hornpipe
+Z: 1998 by John Chambers -jc:trillian.mit.edu-
+M: 4/4
+L: 1/8
+K: D
+|: AG | "D"FDFA dfaf | 
+
+
+
+
+
+
+X:52
+T:Murphy's Hornpipe
+R:hornpipe
+Z:id:hn-hornpipe-52
+M:C|
+K:G
+(3DEF|GABG EFGE| 
+
+
+
+
+
+
+X: 4
+T: Off To California
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Gmaj
+(3DEF|: "G"GFGB "D"AGED|"G"GBdg "C"e2 (3def| 
+
+
+
+
+
+
+X: 1
+T: The Plains Of Boyle
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Dmaj
+|: FG | AFDE FEDF | 
+
+
+
+
+
+
+X: 1
+T: Poll Ha'Penny
+R: hornpipe
+M: 4/4
+L: 1/8
+K: Amix
+(3GAB|=cAAG A2 (3AB=c|(3d=cB (3AGF G2 (3B^cd| 
+
+
+
+
+
+
+X: 5
+T: Rights of Man
+Z: id:dc-hornpipe-46
+M:C|
+L:1/8
+K:Em
+GA|(3BcB (3ABA (3GAG (3FGF| 
+
+
+
+
+
+
+X:500
+T:Barndances 
+M:1/1
+K:C
+
+
+X: 10
+T: If We Hadn't Any Women In The World
+R: barndance
+M: 4/4
+L: 1/8
+K: Amaj
+|: c>d |e>fe>c A2 c>A | 
+
+
+
+
+
+
+X: 1
+T: If We Hadn't Any Women In The World
+R: barndance
+M: 4/4
+L: 1/8
+K: Gmaj
+Bc |: de dB GA BG | EA GE D3 A | 
+
+
+
+
+
+
+X: 1
+T: The Seven Step
+R: barndance
+M: 4/4
+L: 1/8
+K: Gmaj
+|:DE/2F/2|G2 G2 G2 G2| 
+
+
+
+
+
+
+X:600
+T:Waltz 
+M:1/1
+K:C
+
+
+X: 2
+T: Bell Table
+R: waltz
+M: 3/4
+L: 1/8
+K: Dmaj
+|d3 e d2 | d2 c2 B2 | 
+
+
+
+%%multicol new
+%%rightmargin 1.5cm
+%%leftmargin 11.5cm
+
+
+
+
+X:6
+T:Crested Hens
+T:Les Poules Huppees
+M:3/4
+L:1/8
+R:waltz
+Q:110
+O:Gilles Chabenat 1983, France
+C:bourrée/waltz
+K:Edor
+|:"Em"E3 GFE|B4 Bc| 
+
+
+
+
+
+
+X:700
+T:March 
+M:1/1
+K:C
+
+
+X: 1
+T: Brian Boru's March (3-part)
+R:March
+M:6/4
+L:1/4
+Q:110
+K:Aaeol
+ed |:"Am"c3/2B/A Aed|cBA Adc| 
+
+
+
+
+
+%%multicol end

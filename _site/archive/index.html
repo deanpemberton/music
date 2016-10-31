@@ -1,0 +1,1990 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Archive</title>
+  <meta name="description" content="Website of the Irish session, Wellington, New Zealand.
+">
+
+  <link rel="stylesheet" href="/css/main.css">
+  
+  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" />
+  <link rel="icon" type="image/png" href="/favicon.png"  />
+
+  <link rel="apple-touch-icon" sizes="67x180" href="/images/harp.png" />
+  
+  <link rel="canonical" href="http://wellingtonsession.org/archive/">
+  <link rel="alternate" type="application/rss+xml" title="The Wellington Session" href="http://wellingtonsession.org/feed.xml">
+  <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.6.1/css/font-awesome.min.css">
+  
+  <!-- Load es5-shim first-->
+  <script type="text/javascript" src="/js/es5-shim.min.js"></script>
+  
+  <script src="/js/abcjs_basic_2.3-min.js" type="text/javascript"></script>
+  <script type="text/javascript" src="/js/jquery-3.1.0.min.js"></script> 
+  <script type="text/javascript" src="/js/jquery.tablesorter.min.js"></script>
+
+</head>
+
+  <body>
+
+    <header class="site-header">
+
+  <div class="wrapper">
+      
+    <p style="text-align:center;"><img alt="" src="/images/session.jpg"></p>
+    
+    <a class="site-title" href="/">The Wellington Session</a>
+
+    <nav class="site-nav">
+      <!-- Shrink menu to icon when window is small - good for mobiles -->
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           
+               <a class="page-link" href="/current_tunes/">Current</a>
+           
+           
+           
+               <a class="page-link" href="/archive/">Archive</a>
+           
+           
+           
+               <a class="page-link" href="/tunebooks/">Tunebooks</a>
+           
+           
+           
+               <a class="page-link" href="/edit_abc/">Edit ABC</a>
+           
+           
+           
+               <a class="page-link" href="/learning_by_ear/">Learning by Ear</a>
+           
+           
+           
+               <a class="page-link" href="/venue/">Venue</a>
+           
+           
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+
+
+    <div class="page-content">
+      <div class="wrapper">
+        <article class="post">
+
+  <header class="post-header">
+    <h1 class="post-title">Archive</h1>
+  </header>
+
+  <div class="post-content">
+    <p>
+We've collected a lot of tunes to learn in the slow session. You can find the tunes we've been working on since last October as well as those we worked on last year and tunes we think are good for beginners using the <strong>Tags</strong> filter option.
+</p>
+
+<fieldset>
+    <legend>Select from the Tunes Archive</legend>
+    
+    <form id="search-query"  method="get">
+        <br />
+       <span title="Filter the Tunes Archive for tunes by title or by type such as 'reel', 'jig', 'polka'. You can also look for 'tags' such as 'Wellington, 'Beginner'">        
+        Title:
+        <input type="text" id="title-box" name="title" value=''>
+        &emsp; 
+        Rhythm:
+        <select id="rhythm-box" name="rhythm">
+            <option value="">Any</option>
+            <option value="reel">Reel</option>
+            <option value="jig">Jig</option>
+            <option value="slip jig">Slip Jig</option>
+            <option value="polka">Polka</option>
+            <option value="hornpipe">Hornpipe</option>
+            <option value="slide">Slide</option>
+            <option value="waltz">Waltz</option>
+            <option value="barndance">Barndance</option>
+            <option value="planxty">Planxty</option>
+        </select>
+        &emsp;
+        Tags:
+        <select id="tags-box" name="tags">
+            <option value="">All Tunes</option>
+            <option value="wellington">Wellington</option>
+            <option value="beginner">Beginner</option>
+            <option value="2015-16">2015-16</option>
+            <option value="2016-17">2016-17</option>
+        </select>
+        </span>
+        
+        &emsp;
+        <span title="Run the filter with the default settings to see the whole list">
+        <input class="button" id="submit" type="submit" name="submit" value="Filter">
+        </span>
+        
+    </form>
+</fieldset>
+
+<br />
+
+<div id="tunes-table"></div>
+<div id="abc-textareas"></div>
+
+<script>
+  window.store = {
+      
+       
+          
+          
+          "4001": {
+          "title": "An Londubh",
+          "tuneID": "4001", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "",
+          "url": "/tunes/wellington-session/an-londubh.html",
+          "mp3": "/mp3/an-londubh.mp3",
+          "abc": ""
+      },
+        
+          
+          "4002": {
+          "title": "Anderson&#39;s Reel",
+          "tuneID": "4002", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/andersons-reel1.html",
+          "mp3": "/mp3/andersons-reel1.mp3",
+          "abc": ""
+      },
+        
+          
+          "4003": {
+          "title": "Austin Tierney&#39;s",
+          "tuneID": "4003", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/austin-tierneys.html",
+          "mp3": "/mp3/austin-tierneys.mp3",
+          "abc": ""
+      },
+        
+          
+          "4004": {
+          "title": "Ballydesmond No. 1",
+          "tuneID": "4004", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "polka",
+          "tags": "",
+          "url": "/tunes/comhaltas/ballydesmond-polka-1.html",
+          "mp3": "/mp3/ballydesmond-polka-1.mp3",
+          "abc": ""
+      },
+        
+          
+          "4005": {
+          "title": "Ballydesmond No. 2",
+          "tuneID": "4005", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "polka",
+          "tags": "",
+          "url": "/tunes/comhaltas/ballydesmond-polka-2.html",
+          "mp3": "/mp3/ballydesmond-polka-2.mp3",
+          "abc": ""
+      },
+        
+          
+          "4006": {
+          "title": "Ballydesmond No. 3",
+          "tuneID": "4006", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "polka",
+          "tags": "wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/ballydesmond-polka-3.html",
+          "mp3": "/mp3/ballydesmond-polka-3.mp3",
+          "abc": ""
+      },
+        
+          
+          "4007": {
+          "title": "Banish Misfortune",
+          "tuneID": "4007", 
+          "key": "Dmix",
+          "mode": "mixolydian",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/banish-misfortune.html",
+          "mp3": "/mp3/banish-misfortune.mp3",
+          "abc": ""
+      },
+        
+          
+          "4008": {
+          "title": "Bank of Ireland",
+          "tuneID": "4008", 
+          "key": "Dmix",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/bank-of-ireland.html",
+          "mp3": "/mp3/bank-of-ireland.mp3",
+          "abc": ""
+      },
+        
+          
+          "4009": {
+          "title": "Banshee",
+          "tuneID": "4009", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/banshee.html",
+          "mp3": "/mp3/banshee.mp3",
+          "abc": ""
+      },
+        
+          
+          "4010": {
+          "title": "Beeswing Hornpipe A",
+          "tuneID": "4010", 
+          "key": "A",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "",
+          "url": "/tunes/comhaltas/beeswing-hornpipe-a.html",
+          "mp3": "/mp3/beeswing-hornpipe-a.mp3",
+          "abc": ""
+      },
+        
+          
+          "4011": {
+          "title": "Beeswing Hornpipe Bb",
+          "tuneID": "4011", 
+          "key": "Bb",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "",
+          "url": "/tunes/comhaltas/beeswing-hornpipe-bb.html",
+          "mp3": "/mp3/beeswing-hornpipe-bb.mp3",
+          "abc": ""
+      },
+        
+          
+          "4012": {
+          "title": "Behind the Haystack",
+          "tuneID": "4012", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/behind-the-haystack.html",
+          "mp3": "/mp3/behind-the-haystack.mp3",
+          "abc": ""
+      },
+        
+          
+          "4013": {
+          "title": "Belfast Hornpipe",
+          "tuneID": "4013", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "",
+          "url": "/tunes/comhaltas/belfast-hornpipe.html",
+          "mp3": "/mp3/belfast-hornpipe.mp3",
+          "abc": ""
+      },
+        
+          
+          "4014": {
+          "title": "Belltable Waltz",
+          "tuneID": "4014", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "waltz",
+          "tags": "",
+          "url": "/tunes/comhaltas/belltable-waltz.html",
+          "mp3": "/mp3/belltable-waltz.mp3",
+          "abc": ""
+      },
+        
+          
+          "4015": {
+          "title": "Bill Collins&#39; Jig",
+          "tuneID": "4015", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/bill-collins-jig.html",
+          "mp3": "/mp3/bill-collins-jig.mp3",
+          "abc": ""
+      },
+        
+          
+          "4016": {
+          "title": "Bill Sullivan&#39;s Polka",
+          "tuneID": "4016", 
+          "key": "A",
+          "mode": "",
+          "rhythm": "polka",
+          "tags": "",
+          "url": "/tunes/comhaltas/billy-sullivan.html",
+          "mp3": "/mp3/billy-sullivan.mp3",
+          "abc": ""
+      },
+        
+          
+          "4017": {
+          "title": "Bird In the Bush",
+          "tuneID": "4017", 
+          "key": "G",
+          "mode": "maj",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/bird-in-the-bush.html",
+          "mp3": "/mp3/bird-in-the-bush.mp3",
+          "abc": ""
+      },
+        
+          
+          "4018": {
+          "title": "Blackberry Blossom",
+          "tuneID": "4018", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/blackberry-blossom.html",
+          "mp3": "/mp3/blackberry-blossom.mp3",
+          "abc": ""
+      },
+        
+          
+          "4019": {
+          "title": "Blackthorn Stick",
+          "tuneID": "4019", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/blackthorn-stick.html",
+          "mp3": "/mp3/blackthorn-stick.mp3",
+          "abc": ""
+      },
+        
+          
+          "4020": {
+          "title": "Blarney Pilgrim",
+          "tuneID": "4020", 
+          "key": "Dmix",
+          "mode": "mix",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/blarney-pilgrim.html",
+          "mp3": "/mp3/blarney-pilgrim.mp3",
+          "abc": ""
+      },
+        
+          
+          "4021": {
+          "title": "Boyne Hunt",
+          "tuneID": "4021", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/boyne-hunt1.html",
+          "mp3": "/mp3/boyne-hunt1.mp3",
+          "abc": ""
+      },
+        
+          
+          "4022": {
+          "title": "Boys of Ballysodare",
+          "tuneID": "4022", 
+          "key": "DMix",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/boys-of-ballisodare1.html",
+          "mp3": "/mp3/boys-of-ballisodare1.mp3",
+          "abc": ""
+      },
+        
+          
+          "4023": {
+          "title": "Boys of BlueHill",
+          "tuneID": "4023", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "",
+          "url": "/tunes/comhaltas/boys-of-blue-hill.html",
+          "mp3": "/mp3/boys-of-blue-hill.mp3",
+          "abc": ""
+      },
+        
+          
+          "4024": {
+          "title": "Brendan Tonra&#39;s",
+          "tuneID": "4024", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/brendan-tonras.html",
+          "mp3": "/mp3/brendan-tonras.mp3",
+          "abc": ""
+      },
+        
+          
+          "4025": {
+          "title": "Brian Boru&#39;s March",
+          "tuneID": "4025", 
+          "key": "Aaeol",
+          "mode": "",
+          "rhythm": "march",
+          "tags": "",
+          "url": "/tunes/comhaltas/brian-borus-march-3-part.html",
+          "mp3": "/mp3/brian-borus-march-3-part.mp3",
+          "abc": ""
+      },
+        
+          
+          "4026": {
+          "title": "Brid Harper&#39;s",
+          "tuneID": "4026", 
+          "key": "Emin",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/wellington-session/brid-harpers.html",
+          "mp3": "/mp3/brid-harpers.mp3",
+          "abc": ""
+      },
+        
+          
+          "4027": {
+          "title": "Bride&#39;s Favourite",
+          "tuneID": "4027", 
+          "key": "Gmaj",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/brides-favourite.html",
+          "mp3": "/mp3/brides-favourite.mp3",
+          "abc": ""
+      },
+        
+          
+          "4028": {
+          "title": "Britches Full of Stitches",
+          "tuneID": "4028", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "polka",
+          "tags": "wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/britches-full-of-stitches.html",
+          "mp3": "/mp3/britches-full-of-stitches.mp3",
+          "abc": ""
+      },
+        
+          
+          "4029": {
+          "title": "Brosna Slide",
+          "tuneID": "4029", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "slide",
+          "tags": "",
+          "url": "/tunes/comhaltas/brosna-slide.html",
+          "mp3": "/mp3/brosna-slide.mp3",
+          "abc": ""
+      },
+        
+          
+          "4030": {
+          "title": "Bucks of Oranmore",
+          "tuneID": "4030", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/bucks-of-oranmore.html",
+          "mp3": "/mp3/bucks-of-oranmore.mp3",
+          "abc": ""
+      },
+        
+          
+          "4031": {
+          "title": "Caileach an Airgid",
+          "tuneID": "4031", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/caileach-an-airgid.html",
+          "mp3": "/mp3/caileach-an-airgid.mp3",
+          "abc": ""
+      },
+        
+          
+          "4032": {
+          "title": "Cameronian",
+          "tuneID": "4032", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/cameronian.html",
+          "mp3": "/mp3/cameronian.mp3",
+          "abc": ""
+      },
+        
+          
+          "4033": {
+          "title": "Catharsis",
+          "tuneID": "4033", 
+          "key": "Gmin",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/wellington-session/catharsis.html",
+          "mp3": "/mp3/catharsis.mp3",
+          "abc": ""
+      },
+        
+          
+          "4034": {
+          "title": "Christy Barry&#39;s No 2",
+          "tuneID": "4034", 
+          "key": "G",
+          "mode": "Major",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/christy-barrys-no-2.html",
+          "mp3": "/mp3/christy-barrys-no-2.mp3",
+          "abc": ""
+      },
+        
+          
+          "4035": {
+          "title": "Cliffs of Moher",
+          "tuneID": "4035", 
+          "key": "Ador",
+          "mode": "dorian",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/cliffs-of-moher.html",
+          "mp3": "/mp3/cliffs-of-moher.mp3",
+          "abc": ""
+      },
+        
+          
+          "4036": {
+          "title": "Con Cassidy&#39;s",
+          "tuneID": "4036", 
+          "key": "G",
+          "mode": "Major",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/ballyscully/con-cassidys.html",
+          "mp3": "/mp3/con-cassidys.mp3",
+          "abc": ""
+      },
+        
+          
+          "4037": {
+          "title": "Concertina Reel",
+          "tuneID": "4037", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "reel",
+          "tags": "2015-16, wellington, and beginner",
+          "url": "/tunes/comhaltas/concertina-reel.html",
+          "mp3": "/mp3/concertina-reel.mp3",
+          "abc": ""
+      },
+        
+          
+          "4038": {
+          "title": "Connachtman&#39;s Rambles",
+          "tuneID": "4038", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/connachtmans-rambles.html",
+          "mp3": "/mp3/connachtmans-rambles.mp3",
+          "abc": ""
+      },
+        
+          
+          "4039": {
+          "title": "Creggs Pipes",
+          "tuneID": "4039", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/creggs-pipes.html",
+          "mp3": "/mp3/creggs-pipes.mp3",
+          "abc": ""
+      },
+        
+          
+          "4040": {
+          "title": "Crested Hens",
+          "tuneID": "4040", 
+          "key": "Edor",
+          "mode": "Edorian",
+          "rhythm": "waltz",
+          "tags": "",
+          "url": "/tunes/wellington-session/crested-hens.html",
+          "mp3": "",
+          "abc": "X:6\nT:Crested Hens\nT:Les Poules Huppees\nM:3/4\nL:1/8\nR:waltz\nQ:110\nO:Gilles Chabenat 1983, France\nC:bourrée/waltz\nK:Edor\n|:\"Em\"E3 GFE|B4 Bc|\"G\"dc Be dc|\"D\"dc BA GF|\"Em\"E3 GFE|B4 Bc|\"D\"dc BA GA|\"Em\"B3 G FD|\nE3 GFE|B4 Bc|\"G\"dc Be dc|\"D\"dc BA GF|\"Em\"E3 GFE|B4 Bc|\"D\"dc BA GA|\"Em\"B4 ef|\ngB Bg gB|\"C\"=c4 ef|\"D\"gf ag fe|\"B7\"^d2 e2 f2|\"Em\"gB Bg gB|\"C\"=c4 ef|\"D\"gf ag fd|\"Em\"e3 e ef|\ngB Bg gB|\"C\"=c4 ef|\"D\"gf ag fe|\"B7\"^d2 e2 f2| \"Em\"gB Bg gB|\"C\"=c4 ef|\"D\"gf ag fd|\"Em\"e3 G FA:|\n"
+      },
+        
+          
+          "4041": {
+          "title": "Cup of Tea",
+          "tuneID": "4041", 
+          "key": "E Dor",
+          "mode": "Dorian",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/cup-of-tea.html",
+          "mp3": "/mp3/cup-of-tea.mp3",
+          "abc": ""
+      },
+        
+          
+          "4042": {
+          "title": "Derry Hornpipe",
+          "tuneID": "4042", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/derry-hornpipe.html",
+          "mp3": "/mp3/derry-hornpipe.mp3",
+          "abc": ""
+      },
+        
+          
+          "4043": {
+          "title": "Derry Reel",
+          "tuneID": "4043", 
+          "key": "A",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/derry-reel.html",
+          "mp3": "",
+          "abc": "X:488\nT:Derry Reel\nR:reel\nZ:id:hn-reel-488\nM:C|\nK:A\n~c3B ABcA|BAcA BAFA|EA~A2 fcec|fcec BcAB|\n~c3B ABcA|BAcA BAFA|EA~A2 fcec|BAGB A3B:|\n|:fc~c2 fagf|eg~g2 agfe|cf~f2 cfaf|gfeg fefg|\nafec ABcA|BAcA BAFA|EA~A2 fcec|BAGB A3B:|\n\"variations of 1st part\"\n|:~c3B ABcA|BAcA BAFA|ABce acec|fcec BcAB|\n~c3B ABcA|BAcA BAFA|EA~A2 fcec|BAGB A3B:|\n"
+      },
+        
+          
+          "4044": {
+          "title": "Drunken Gauger",
+          "tuneID": "4044", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/drunken-gauger.html",
+          "mp3": "/mp3/drunken-gauger.mp3",
+          "abc": ""
+      },
+        
+          
+          "4045": {
+          "title": "Dunmore Lasses",
+          "tuneID": "4045", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/the-dunmore-lasses.html",
+          "mp3": "/mp3/the-dunmore-lasses.mp3",
+          "abc": ""
+      },
+        
+          
+          "4046": {
+          "title": "Earl&#39;s Chair",
+          "tuneID": "4046", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "reel",
+          "tags": "2015-16, 2016-17, and wellington",
+          "url": "/tunes/comhaltas/earls-chair.html",
+          "mp3": "/mp3/earls-chair.mp3",
+          "abc": ""
+      },
+        
+          
+          "4047": {
+          "title": "Father Kelly&#39;s",
+          "tuneID": "4047", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/father-kellys.html",
+          "mp3": "/mp3/father-kellys.mp3",
+          "abc": ""
+      },
+        
+          
+          "4048": {
+          "title": "Fisher&#39;s Hornpipe",
+          "tuneID": "4048", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "",
+          "url": "/tunes/wellington-session/fishers-hornpipe.html",
+          "mp3": "/mp3/fishers-hornpipe.mp3",
+          "abc": ""
+      },
+        
+          
+          "4049": {
+          "title": "Fourty Two Pound Cheque",
+          "tuneID": "4049", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "polka",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/four-pound-cheque.html",
+          "mp3": "/mp3/four-pound-cheque.mp3",
+          "abc": ""
+      },
+        
+          
+          "4050": {
+          "title": "Fox on the Town",
+          "tuneID": "4050", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/fox-on-the-town.html",
+          "mp3": "/mp3/fox-on-the-town.mp3",
+          "abc": ""
+      },
+        
+          
+          "4051": {
+          "title": "Foxhunter&#39;s",
+          "tuneID": "4051", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "slip jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/foxhunters.html",
+          "mp3": "/mp3/foxhunters.mp3",
+          "abc": ""
+      },
+        
+          
+          "4052": {
+          "title": "Frank&#39;s Reel",
+          "tuneID": "4052", 
+          "key": "A",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/wellington-session/franks-reel.html",
+          "mp3": "/mp3/franks-reel.mp3",
+          "abc": ""
+      },
+        
+          
+          "4053": {
+          "title": "Frost is All Over",
+          "tuneID": "4053", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/frost-is-all-over.html",
+          "mp3": "/mp3/frost-is-all-over.mp3",
+          "abc": ""
+      },
+        
+          
+          "4054": {
+          "title": "Galway Hornpipe",
+          "tuneID": "4054", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/galway-hornpipe.html",
+          "mp3": "/mp3/galway-hornpipe.mp3",
+          "abc": ""
+      },
+        
+          
+          "4055": {
+          "title": "Gander at the Pratie Hole",
+          "tuneID": "4055", 
+          "key": "Dmix",
+          "mode": "mixolydian",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/gander-at-the-pratie-hole.html",
+          "mp3": "/mp3/gander-at-the-pratie-hole.mp3",
+          "abc": ""
+      },
+        
+          
+          "4056": {
+          "title": "Garrett Barry&#39;s Jig",
+          "tuneID": "4056", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/garrett-barry-s.html",
+          "mp3": "/mp3/garrett-barry-s.mp3",
+          "abc": ""
+      },
+        
+          
+          "4057": {
+          "title": "Geese in the Bog",
+          "tuneID": "4057", 
+          "key": "Ador",
+          "mode": "dorian",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/geese-in-the-bog.html",
+          "mp3": "/mp3/geese-in-the-bog.mp3",
+          "abc": ""
+      },
+        
+          
+          "4058": {
+          "title": "Gravel Walk",
+          "tuneID": "4058", 
+          "key": "Ador",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/the-gravel-walks.html",
+          "mp3": "/mp3/the-gravel-walks.mp3",
+          "abc": ""
+      },
+        
+          
+          "4059": {
+          "title": "Hare in the Corn",
+          "tuneID": "4059", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/wellington-session/hare-in-the-corn.html",
+          "mp3": "/mp3/hare-in-the-corn.mp3",
+          "abc": ""
+      },
+        
+          
+          "4060": {
+          "title": "Haunted House",
+          "tuneID": "4060", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16, wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/haunted-house.html",
+          "mp3": "/mp3/haunted-house.mp3",
+          "abc": ""
+      },
+        
+          
+          "4061": {
+          "title": "Hewlett",
+          "tuneID": "4061", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "planxty",
+          "tags": "wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/hewlett.html",
+          "mp3": "",
+          "abc": "X: 1\nT: Hewlett\nT: Planxty Hewlett\nC: O'Carolan\nM: 6/8\nL: 1/8\nK: D\nA2| \"D\"D2 D2 FG | \"A7\"AB c2 A2 | \"D\"d2 f2 fg | fe d3 B \n| A2 F2 F2 | \"G\"G2 GB AG | \"D\"AF D2 \"G\"D2 | \"D\"D4 |\n| \"D\"D2 D2 FG | \"A7\"AB c2 A2 | \"D\"d2 f2 fg | fe d3 B |\n| A2 F2 F2 | \"G\"G2 GB AG | \"D\"AF D2 \"G\"D2 | \"D\"D4 |\n[| \"D\"A2 D2 AB | A2 D2 AB | A2 d2 d2 | dc BA GF \n| \"Em\"G2 E2 GA | G2 E2 GA | G2 GA BG | \"D\"AF D3 E ||\n|| \"D\"FE F2 G2 | \"A7\"AB c2 A2 | \"D\"fe fg ag | \"G\"fe d3 B \n| \"D\"A2 AB AF | \"G\"G3 A BG | \"D\"AF D2 \"G\"D2 | \"D\"D4 |]\n"
+      },
+        
+          
+          "4062": {
+          "title": "High Road to Linton",
+          "tuneID": "4062", 
+          "key": "Amix",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/high-road-to-linton.html",
+          "mp3": "/mp3/high-road-to-linton.mp3",
+          "abc": ""
+      },
+        
+          
+          "4063": {
+          "title": "Home Ruler",
+          "tuneID": "4063", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "hornpipe",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/home-ruler.html",
+          "mp3": "/mp3/home-ruler.mp3",
+          "abc": ""
+      },
+        
+          
+          "4064": {
+          "title": "Humours of Ballyloughlin",
+          "tuneID": "4064", 
+          "key": "Dmix",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/humours-of-ballyloughlin.html",
+          "mp3": "/mp3/humours-of-ballyloughlin.mp3",
+          "abc": ""
+      },
+        
+          
+          "4065": {
+          "title": "Humours of Ennistymon",
+          "tuneID": "4065", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/humours-of-ennistymon.html",
+          "mp3": "/mp3/humours-of-ennistymon.mp3",
+          "abc": ""
+      },
+        
+          
+          "4066": {
+          "title": "I Ne&#39;er Shall Wean Her",
+          "tuneID": "4066", 
+          "key": "Ador",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/i-neer-shall-wean-her.html",
+          "mp3": "/mp3/i-neer-shall-wean-her.mp3",
+          "abc": ""
+      },
+        
+          
+          "4067": {
+          "title": "If There Weren’t Any Women in the World-A",
+          "tuneID": "4067", 
+          "key": "A",
+          "mode": "",
+          "rhythm": "barndance",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/if-there-werent-any-women-in-the-world-a.html",
+          "mp3": "/mp3/if-there-werent-any-women-in-the-world-a.mp3",
+          "abc": ""
+      },
+        
+          
+          "4068": {
+          "title": "If There Weren’t Any Women in the World-G",
+          "tuneID": "4068", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "barndance",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/if-there-werent-any-women-in-the-world-g.html",
+          "mp3": "/mp3/if-there-werent-any-women-in-the-world-g.mp3",
+          "abc": ""
+      },
+        
+          
+          "4069": {
+          "title": "Jerry&#39;s Beaver Hat",
+          "tuneID": "4069", 
+          "key": "D",
+          "mode": "Major",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/jerrys-beaver-hat.html",
+          "mp3": "/mp3/jerrys-beaver-hat.mp3",
+          "abc": ""
+      },
+        
+          
+          "4070": {
+          "title": "Jim Ward&#39;s",
+          "tuneID": "4070", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "jig",
+          "tags": "2015-16, wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/jim-wards.html",
+          "mp3": "/mp3/jim-wards.mp3",
+          "abc": ""
+      },
+        
+          
+          "4071": {
+          "title": "Joe Cooley&#39;s",
+          "tuneID": "4071", 
+          "key": "Edor",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/joe-cooley-s.html",
+          "mp3": "/mp3/joe-cooley-s.mp3",
+          "abc": ""
+      },
+        
+          
+          "4072": {
+          "title": "John Ryans",
+          "tuneID": "4072", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "polka",
+          "tags": "wellington, beginner, and 2016-16",
+          "url": "/tunes/comhaltas/john-ryans.html",
+          "mp3": "/mp3/john-ryans.mp3",
+          "abc": ""
+      },
+        
+          
+          "4073": {
+          "title": "Julia Delaney",
+          "tuneID": "4073", 
+          "key": "Ddor",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/julia-delaney.html",
+          "mp3": "/mp3/julia-delaney.mp3",
+          "abc": ""
+      },
+        
+          
+          "4074": {
+          "title": "Kid on the Mountain",
+          "tuneID": "4074", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "slip jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/kid-on-the-mountain.html",
+          "mp3": "/mp3/kid-on-the-mountain.mp3",
+          "abc": ""
+      },
+        
+          
+          "4075": {
+          "title": "Kilglass Lakes",
+          "tuneID": "4075", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "jig",
+          "tags": "beginner and new",
+          "url": "/tunes/comhaltas/kilglass-lakes.html",
+          "mp3": "/mp3/kilglass-lakes.mp3",
+          "abc": ""
+      },
+        
+          
+          "4076": {
+          "title": "Kitty Lie Over",
+          "tuneID": "4076", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/wellington-session/kitty-lie-over.html",
+          "mp3": "/mp3/kitty-lie-over.mp3",
+          "abc": ""
+      },
+        
+          
+          "4077": {
+          "title": "Kitty&#39;s Wedding",
+          "tuneID": "4077", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "hornpipe",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/kittys-wedding.html",
+          "mp3": "/mp3/kittys-wedding.mp3",
+          "abc": ""
+      },
+        
+          
+          "4078": {
+          "title": "Leslie&#39;s March",
+          "tuneID": "4078", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/leslies-march.html",
+          "mp3": "/mp3/leslies-march.mp3",
+          "abc": ""
+      },
+        
+          
+          "4079": {
+          "title": "Little Diamond Polka",
+          "tuneID": "4079", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "polka",
+          "tags": "2015-16, wellington, and beginner",
+          "url": "/tunes/comhaltas/little-diamond-polka.html",
+          "mp3": "/mp3/little-diamond-polka.mp3",
+          "abc": ""
+      },
+        
+          
+          "4080": {
+          "title": "Liverpool Hornpipe",
+          "tuneID": "4080", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "",
+          "url": "/tunes/comhaltas/liverpool-hornpipe.html",
+          "mp3": "/mp3/liverpool-hornpipe.mp3",
+          "abc": ""
+      },
+        
+          
+          "4081": {
+          "title": "Lucy Farr&#39;s Barn Dance",
+          "tuneID": "4081", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "barndance",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/lucy-farr-s.html",
+          "mp3": "/mp3/lucy-farr-s.mp3",
+          "abc": ""
+      },
+        
+          
+          "4082": {
+          "title": "Master McDermott&#39;s",
+          "tuneID": "4082", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "reel",
+          "tags": "ceolaneas",
+          "url": "/tunes/ceol-aneas/master-mcdermotts.html",
+          "mp3": "/mp3/master-mcdermotts.mp3",
+          "abc": ""
+      },
+        
+          
+          "4083": {
+          "title": "McHugh&#39;s",
+          "tuneID": "4083", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "archive",
+          "url": "/tunes/comhaltas/mchughs.html",
+          "mp3": "/mp3/mchughs.mp3",
+          "abc": ""
+      },
+        
+          
+          "4084": {
+          "title": "Merry Blacksmith",
+          "tuneID": "4084", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16, wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/merry-blacksmith.html",
+          "mp3": "/mp3/merry-blacksmith.mp3",
+          "abc": ""
+      },
+        
+          
+          "4085": {
+          "title": "Mike McGoldrick&#39;s",
+          "tuneID": "4085", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/mike-mcgoldricks.html",
+          "mp3": "/mp3/mike-mcgoldricks.mp3",
+          "abc": ""
+      },
+        
+          
+          "4086": {
+          "title": "Miss Thompson&#39;s",
+          "tuneID": "4086", 
+          "key": "D",
+          "mode": "D",
+          "rhythm": "reel",
+          "tags": "2016-17",
+          "url": "/tunes/wellington-session/miss-thompsons.html",
+          "mp3": "",
+          "abc": "X: 2\nT: Miss Thompson's\nR: reel\nM: 4/4\nL: 1/8\nK: Dmaj\n|:(3ABc|d2df edcB|A2AB AGFE|DFAF DGBG|DFAF GFED|\nd2df edcB|A2AB AGFE|DFAd fedc|d2dc d2:|\n|:cd|ecec Acec|fdfd Adfd|gege fdfd|edcB A2DG|\nBGBG DGBd|AFAF DFAd|FAde fedc|d2dc d2:|\n"
+      },
+        
+          
+          "4087": {
+          "title": "Mist Covered Mountain",
+          "tuneID": "4087", 
+          "key": "Ador",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/mist-covered-mountain.html",
+          "mp3": "/mp3/mist-covered-mountain.mp3",
+          "abc": ""
+      },
+        
+          
+          "4088": {
+          "title": "Morrison&#39;s",
+          "tuneID": "4088", 
+          "key": "Edor",
+          "mode": "dorian",
+          "rhythm": "jig",
+          "tags": "wellington and 2016-17",
+          "url": "/tunes/comhaltas/morrisons.html",
+          "mp3": "/mp3/morrisons.mp3",
+          "abc": ""
+      },
+        
+          
+          "4089": {
+          "title": "Mountain Road",
+          "tuneID": "4089", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/mountain-road.html",
+          "mp3": "/mp3/mountain-road.mp3",
+          "abc": ""
+      },
+        
+          
+          "4090": {
+          "title": "Mouse In The Mug",
+          "tuneID": "4090", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/ballyscully/mouse-in-the-mug.html",
+          "mp3": "/mp3/mouse-in-the-mug.mp3",
+          "abc": ""
+      },
+        
+          
+          "4091": {
+          "title": "Munster Bacon",
+          "tuneID": "4091", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/munster-bacon.html",
+          "mp3": "/mp3/munster-bacon.mp3",
+          "abc": ""
+      },
+        
+          
+          "4092": {
+          "title": "Murphy&#39;s Hornpipe",
+          "tuneID": "4092", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/murphys-hornpipe.html",
+          "mp3": "/mp3/murphys.mp3",
+          "abc": ""
+      },
+        
+          
+          "4093": {
+          "title": "Murroe Polka",
+          "tuneID": "4093", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "polka",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/murroe-polka.html",
+          "mp3": "/mp3/murroe-polka.mp3",
+          "abc": ""
+      },
+        
+          
+          "4094": {
+          "title": "Musical Priest",
+          "tuneID": "4094", 
+          "key": "Bmin",
+          "mode": "minor",
+          "rhythm": "reel",
+          "tags": "2016-17 and wellington",
+          "url": "/tunes/comhaltas/musical-priest.html",
+          "mp3": "/mp3/musical-priest.mp3",
+          "abc": ""
+      },
+        
+          
+          "4095": {
+          "title": "My Darling Asleep",
+          "tuneID": "4095", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/my-darling-asleep.html",
+          "mp3": "/mp3/my-darling-asleep.mp3",
+          "abc": ""
+      },
+        
+          
+          "4096": {
+          "title": "My Former Wife",
+          "tuneID": "4096", 
+          "key": "Ador",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/my-former-wife.html",
+          "mp3": "/mp3/my-former-wife.mp3",
+          "abc": ""
+      },
+        
+          
+          "4097": {
+          "title": "Off to California",
+          "tuneID": "4097", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "hornpipe",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/off-to-california.html",
+          "mp3": "/mp3/off-to-california.mp3",
+          "abc": ""
+      },
+        
+          
+          "4098": {
+          "title": "Old Bush",
+          "tuneID": "4098", 
+          "key": "Dmix",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/the-old-bush.html",
+          "mp3": "/mp3/the-old-bush.mp3",
+          "abc": ""
+      },
+        
+          
+          "4099": {
+          "title": "Otter&#39;s Holt",
+          "tuneID": "4099", 
+          "key": "B",
+          "mode": "minor",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/otters-holt.html",
+          "mp3": "/mp3/otters-holt.mp3",
+          "abc": ""
+      },
+        
+          
+          "4100": {
+          "title": "Out On the Ocean",
+          "tuneID": "4100", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "jig",
+          "tags": "2015-16, wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/out-on-the-ocean.html",
+          "mp3": "/mp3/out-on-the-ocean.mp3",
+          "abc": ""
+      },
+        
+          
+          "4101": {
+          "title": "Over the Moor to Maggie",
+          "tuneID": "4101", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/over-the-moor-to-maggie.html",
+          "mp3": "/mp3/over-the-moor-to-maggie.mp3",
+          "abc": ""
+      },
+        
+          
+          "4102": {
+          "title": "Paddy Fahey&#39;s",
+          "tuneID": "4102", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/wellington-session/paddy-faheys-reel.html",
+          "mp3": "",
+          "abc": "X: 1\nT: Paddy Fahey's\nR: reel\nM: 4/4\nL: 1/8\nK: G\n|:G,2 B,D GBdB|c2 ag fgdc|BG (3GGG BcdB|cBAG FDCA,|\nG,2 B,D GBdB|c2 ag fgdc|BG (3GGG BcdB|1 cAFA G2 DB,:|2 cAFA G2 (3Bcd||\n|:g2fa gdBG|FGAB c2 Bc|Aaag a3g|fdad bdad|\n(3ggg fa gdBG|FGAB c2 Bc|d (3ggg defd|1 cAFA G2 Bc:|2 cAFA G2 DB,||\n"
+      },
+        
+          
+          "4103": {
+          "title": "Paddy Fahy&#39;s Jig",
+          "tuneID": "4103", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/paddy-fahys-jig.html",
+          "mp3": "/mp3/paddy-fahys-jig.mp3",
+          "abc": ""
+      },
+        
+          
+          "4104": {
+          "title": "Paddy&#39;s Trip to Scotland",
+          "tuneID": "4104", 
+          "key": "D",
+          "mode": "maj",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/paddys-trip-to-scotland.html",
+          "mp3": "/mp3/paddys-trip-to-scotland.mp3",
+          "abc": ""
+      },
+        
+          
+          "4105": {
+          "title": "Parnell&#39;s March",
+          "tuneID": "4105", 
+          "key": "G",
+          "mode": "Major",
+          "rhythm": "slide",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/ballyscully/parnells-march.html",
+          "mp3": "/mp3/parnells-march.mp3",
+          "abc": ""
+      },
+        
+          
+          "4106": {
+          "title": "Peeler&#39;s Jacket",
+          "tuneID": "4106", 
+          "key": "G",
+          "mode": "dorian",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/peelers-jacket.html",
+          "mp3": "/mp3/peelers-jacket.mp3",
+          "abc": ""
+      },
+        
+          
+          "4107": {
+          "title": "Plains of Boyle",
+          "tuneID": "4107", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "hornpipe",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/plains-of-boyle.html",
+          "mp3": "/mp3/plains-of-boyle.mp3",
+          "abc": ""
+      },
+        
+          
+          "4108": {
+          "title": "Poll Ha&#39;Penny",
+          "tuneID": "4108", 
+          "key": "Amix",
+          "mode": "mixolydian",
+          "rhythm": "hornpipe",
+          "tags": "ceolaneas",
+          "url": "/tunes/ceol-aneas/poll-hapenny.html",
+          "mp3": "/mp3/poll-hapenny.mp3",
+          "abc": ""
+      },
+        
+          
+          "4109": {
+          "title": "Reconciliation",
+          "tuneID": "4109", 
+          "key": "A",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/reconciliation.html",
+          "mp3": "/mp3/reconciliation.mp3",
+          "abc": ""
+      },
+        
+          
+          "4110": {
+          "title": "Red Haired Lass",
+          "tuneID": "4110", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/red-haired-lass.html",
+          "mp3": "/mp3/red-haired-lass.mp3",
+          "abc": ""
+      },
+        
+          
+          "4111": {
+          "title": "Red Tom of the Hills",
+          "tuneID": "4111", 
+          "key": "Gdor",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/red-tom-of-the-hills.html",
+          "mp3": "/mp3/red-tom-of-the-hills.mp3",
+          "abc": ""
+      },
+        
+          
+          "4112": {
+          "title": "Rights of Man",
+          "tuneID": "4112", 
+          "key": "G",
+          "mode": "major",
+          "rhythm": "hornpipe",
+          "tags": "2015-16, wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/rights-of-man.html",
+          "mp3": "/mp3/rights-of-man.mp3",
+          "abc": ""
+      },
+        
+          
+          "4113": {
+          "title": "Road to Lisdoonvarna",
+          "tuneID": "4113", 
+          "key": "Edor",
+          "mode": "",
+          "rhythm": "slide",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/ballyscully/road-to-lisdoonvarna.html",
+          "mp3": "/mp3/road-to-lisdoonvarna.mp3",
+          "abc": ""
+      },
+        
+          
+          "4114": {
+          "title": "Rolling in the Ryegrass",
+          "tuneID": "4114", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "wellington, beginner, and 2016-17",
+          "url": "/tunes/comhaltas/rolling-in-the-ryegrass.html",
+          "mp3": "/mp3/rolling-in-the-ryegrass.mp3",
+          "abc": ""
+      },
+        
+          
+          "4115": {
+          "title": "Rose in the Heather",
+          "tuneID": "4115", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/rose-in-the-heather.html",
+          "mp3": "/mp3/rose-in-the-heather.mp3",
+          "abc": ""
+      },
+        
+          
+          "4116": {
+          "title": "Sailor on the Rock",
+          "tuneID": "4116", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/sailor-on-the-rock.html",
+          "mp3": "/mp3/sailor-on-the-rock.mp3",
+          "abc": ""
+      },
+        
+          
+          "4117": {
+          "title": "Sailor&#39;s Bonnet",
+          "tuneID": "4117", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/sailors-bonnet.html",
+          "mp3": "/mp3/sailors-bonnet.mp3",
+          "abc": ""
+      },
+        
+          
+          "4118": {
+          "title": "Salamanca",
+          "tuneID": "4118", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/salamanca-reel.html",
+          "mp3": "/mp3/salamanca-reel.mp3",
+          "abc": ""
+      },
+        
+          
+          "4119": {
+          "title": "Salvation",
+          "tuneID": "4119", 
+          "key": "A",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/wellington-session/salvation.html",
+          "mp3": "/mp3/salvation.mp3",
+          "abc": ""
+      },
+        
+          
+          "4120": {
+          "title": "Silver Spear",
+          "tuneID": "4120", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/silver-spear.html",
+          "mp3": "/mp3/silver-spear.mp3",
+          "abc": ""
+      },
+        
+          
+          "4121": {
+          "title": "Sligo Maid",
+          "tuneID": "4121", 
+          "key": "Ador",
+          "mode": "dorian",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/sligo-maid.html",
+          "mp3": "/mp3/sligo-maid.mp3",
+          "abc": ""
+      },
+        
+          
+          "4122": {
+          "title": "Snowy Path",
+          "tuneID": "4122", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "slip jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/free-music-archive/snowy-path.html",
+          "mp3": "/mp3/snowy-path.mp3",
+          "abc": ""
+      },
+        
+          
+          "4123": {
+          "title": "Spootiskerry",
+          "tuneID": "4123", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/spootiskerry.html",
+          "mp3": "/mp3/spootiskerry.mp3",
+          "abc": ""
+      },
+        
+          
+          "4124": {
+          "title": "St Anne&#39;s Reel",
+          "tuneID": "4124", 
+          "key": "D",
+          "mode": "Major",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/st-annes-reel.html",
+          "mp3": "/mp3/st-annes-reel.mp3",
+          "abc": ""
+      },
+        
+          
+          "4125": {
+          "title": "Star of Munster",
+          "tuneID": "4125", 
+          "key": "Ador",
+          "mode": "dorian",
+          "rhythm": "reel",
+          "tags": "",
+          "url": "/tunes/comhaltas/star-of-munster.html",
+          "mp3": "/mp3/star-of-munster.mp3",
+          "abc": ""
+      },
+        
+          
+          "4126": {
+          "title": "Stool Of Repentance",
+          "tuneID": "4126", 
+          "key": "A",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/stool-of-repentance.html",
+          "mp3": "/mp3/stool-of-repentance.mp3",
+          "abc": ""
+      },
+        
+          
+          "4127": {
+          "title": "Swinging on the Gate",
+          "tuneID": "4127", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "archive",
+          "url": "/tunes/comhaltas/swinging-on-the-gate.html",
+          "mp3": "/mp3/swinging-on-the-gate.mp3",
+          "abc": ""
+      },
+        
+          
+          "4128": {
+          "title": "Tar Road to Sligo",
+          "tuneID": "4128", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/tar-road-to-sligo.html",
+          "mp3": "/mp3/tar-road-to-sligo.mp3",
+          "abc": ""
+      },
+        
+          
+          "4129": {
+          "title": "The Shannon Jig",
+          "tuneID": "4129", 
+          "key": "A",
+          "mode": "major",
+          "rhythm": "jig",
+          "tags": "ceolaneas",
+          "url": "/tunes/ceol-aneas/the-shannon-jig.html",
+          "mp3": "/mp3/the-shannon-jig.mp3",
+          "abc": ""
+      },
+        
+          
+          "4130": {
+          "title": "Tobin&#39;s Favourite",
+          "tuneID": "4130", 
+          "key": "D",
+          "mode": "",
+          "rhythm": "jig",
+          "tags": "",
+          "url": "/tunes/comhaltas/tobins-favourite.html",
+          "mp3": "/mp3/tobins-favourite.mp3",
+          "abc": ""
+      },
+        
+          
+          "4131": {
+          "title": "Tommy Peoples",
+          "tuneID": "4131", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/tommy-peoples.html",
+          "mp3": "/mp3/tommy-peoples.mp3",
+          "abc": ""
+      },
+        
+          
+          "4132": {
+          "title": "Toss the Feathers",
+          "tuneID": "4132", 
+          "key": "E",
+          "mode": "dorian",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/toss-the-feathers.html",
+          "mp3": "/mp3/toss-the-feathers.mp3",
+          "abc": ""
+      },
+        
+          
+          "4133": {
+          "title": "Trip To Pakistan",
+          "tuneID": "4133", 
+          "key": "Em",
+          "mode": "minor",
+          "rhythm": "reel",
+          "tags": "archive and 2016-17",
+          "url": "/tunes/comhaltas/trip-to-pakistan.html",
+          "mp3": "",
+          "abc": "X:1\nT:The Trip to Pakistan\nR:Reel\nL:1/8\n%Q:350\nM:C\nK:Em\nEGBE ~G3 B | A2 AG FGAF | EGBE ~G3 B | AGFG ~E3 B :||\nEGBE c3 A | B2 BA BAGB | EGBE c3 A | BAGB ~A3 B |\nEGBE c2 cA | B2 BA BAGB | EGBE cBAc | BAGB ~A3 B |]\n|:FGBF GBFB | EFGE FGEG | DFAD FADA | AGFG ~E3 B :|\n"
+      },
+        
+          
+          "4134": {
+          "title": "Two Fifty to Vigo",
+          "tuneID": "4134", 
+          "key": "Bmin",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/two-fifty-to-vigo.html",
+          "mp3": "/mp3/two-fifty-to-vigo.mp3",
+          "abc": ""
+      },
+        
+          
+          "4135": {
+          "title": "Willafjord",
+          "tuneID": "4135", 
+          "key": "G",
+          "mode": "",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/wellington-session/willafjord.html",
+          "mp3": "/mp3/willafjord.mp3",
+          "abc": ""
+      },
+        
+          
+          "4136": {
+          "title": "Wise Maid",
+          "tuneID": "4136", 
+          "key": "D",
+          "mode": "major",
+          "rhythm": "reel",
+          "tags": "2015-16 and wellington",
+          "url": "/tunes/comhaltas/wise-maid.html",
+          "mp3": "/mp3/wise-maid.mp3",
+          "abc": ""
+      }
+    };
+</script>
+
+<script type="text/javascript" src="/js/audio_controls.js"></script>
+<script type="text/javascript" src="/js/musical-ws.js"></script>
+<script type="text/javascript" src="/js/abc_controls.js"></script>
+<script type="text/javascript" src="/js/lunr.min.js"></script>
+<script type="text/javascript" src="/js/search.js"></script>
+
+<script>
+  $(document).ready(function() 
+    { 
+        // Set initial sort order
+        $.tablesorter.defaults.sortList = [[0,0]]; 
+        
+        $("#search-results").tablesorter({headers: { 3:{sorter: false}, 4: {sorter: false}}});         
+    } 
+  ); 
+</script>
+
+  </div>
+
+</article>
+
+      </div>
+    </div>
+
+    <footer class="site-footer">
+
+  <div class="wrapper">
+
+    <div class="footer-col-wrapper">
+      <p> For more information, follow us
+        on <a href="https://www.facebook.com/groups/WellingtonSession">Facebook</a>,
+        get in touch via email (<a href="mailto:admin@wellingtonsession.org">admin@wellingtonsession.org</a>),
+        or just <a href="/venue/">come along</a>.
+      </p>
+      <p> This website is built using <a href="https://jekyllrb.com">Jekyll</a>, and the source code
+      is available at <a href="https://github.com/slow-session/wellingtonsession.org">Github</a>. You are
+      welcome to grab the source and customise it for your own purposes. If they are any mistakes in the tunes, or
+      other problems, send us an email at (<a href="mailto:admin@wellingtonsession.org">admin@wellingtonsession.org</a>).
+      </p>
+    </div>
+
+  </div>
+<!--  Google Analytics -->
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-77351761-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+
+</footer>
+
+
+  </body>
+
+</html>
