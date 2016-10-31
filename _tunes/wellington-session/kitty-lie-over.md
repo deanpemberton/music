@@ -4,6 +4,7 @@ key: D
 rhythm: jig
 mode: 
 date: 2016-07-25
+location: Wellington
 tags:
 mp3_file: /mp3/kitty-lie-over.mp3
 mp3_url: 

@@ -4,6 +4,7 @@ key: D
 rhythm: hornpipe
 mode: major
 date: 2016-06-08
+location: Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/kittys-wedding.mp3
 mp3_url: https://comhaltas.ie/music/detail/kittys_wedding/

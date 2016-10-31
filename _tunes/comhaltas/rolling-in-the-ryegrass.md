@@ -4,6 +4,7 @@ key: D
 rhythm: reel
 mode: 
 date: 2016-01-01
+location: Wellington
 tags: wellington beginner 2016-17
 mp3_file: /mp3/rolling-in-the-ryegrass.mp3
 mp3_url: 

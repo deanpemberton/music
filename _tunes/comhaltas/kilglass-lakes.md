@@ -4,6 +4,7 @@ key: D
 rhythm: jig
 mode: major
 date: 2015-11-1
+location: Wellington
 tags: beginner new
 mp3_file: /mp3/kilglass-lakes.mp3
 mp3_url: https://comhaltas.ie/music/detail/kilglass_lakes/

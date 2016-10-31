@@ -4,6 +4,7 @@ key: D
 rhythm: jig
 mode: major
 date: 2015-11-1
+location: Wellington
 tags: 2015-16 wellington 
 mp3_file: /mp3/connachtmans-rambles.mp3
 mp3_url: https://comhaltas.ie/music/detail/connactmans_rambles/

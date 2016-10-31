@@ -4,6 +4,7 @@ key: D
 rhythm: jig
 mode: 
 date: 2016-07-19
+location: Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/mike-mcgoldricks.mp3
 mp3_url: 

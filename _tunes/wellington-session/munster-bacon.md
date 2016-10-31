@@ -4,6 +4,7 @@ key: D
 rhythm: jig
 mode: 
 date: 2016-05-25
+location: Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/munster-bacon.mp3
 mp3_url: https://www.facebook.com/groups/WellingtonSession

@@ -4,6 +4,7 @@ key: D
 rhythm: jig
 mode: 
 date: 2016-09-14
+location: Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/leslies-march.mp3
 mp3_url: http://media.comhaltas.ie/audio/cl225/cl225_4.mp3

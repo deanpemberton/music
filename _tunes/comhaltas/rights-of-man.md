@@ -4,6 +4,7 @@ key: G
 rhythm: hornpipe
 mode: major
 date: 2016-5-11
+location: Wellington
 tags: 2015-16 wellington beginner 2016-17
 mp3_file: /mp3/rights-of-man.mp3
 mp3_url: https://comhaltas.ie/music/detail/rights_of_man/

@@ -4,6 +4,7 @@ key: A
 rhythm: reel
 mode: 
 date: 2016-09-28
+location: Wellington
 tags: 
 mp3_url: 
 abc_url: 

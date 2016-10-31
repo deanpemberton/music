@@ -4,6 +4,7 @@ key: D
 rhythm: reel
 mode: major
 date: 2016-01-26
+location: Wellington
 tags: 2015-16 wellington 
 mp3_file: /mp3/wise-maid.mp3
 mp3_url: https://comhaltas.ie/music/detail/wise_maid/ 

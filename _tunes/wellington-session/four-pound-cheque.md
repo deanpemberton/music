@@ -4,6 +4,7 @@ key: D
 rhythm: polka
 mode: 
 date: 2016-06-23
+location: Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/four-pound-cheque.mp3
 mp3_url: Richard Tait 

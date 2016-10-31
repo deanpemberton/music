@@ -4,6 +4,7 @@ key: D
 rhythm: hornpipe
 mode: 
 date: 2016-01-01
+location: Wellington
 tags:
 mp3_file: /mp3/belfast-hornpipe.mp3
 mp3_url: https://comhaltas.ie/music/detail/

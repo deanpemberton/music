@@ -4,6 +4,7 @@ key: G
 rhythm: polka
 mode: 
 date: 2016-09-28
+location: Wellington
 tags: wellington beginner 2016-17
 mp3_file: /mp3/ballydesmond-polka-3.mp3
 mp3_url: https://comhaltas.ie/music/detail/ballydesmond_no_3/

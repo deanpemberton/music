@@ -4,6 +4,7 @@ key: A
 rhythm: reel
 mode: 
 date: 2016-01-01
+location: Wellington
 tags:
 mp3_file: /mp3/franks-reel.mp3
 mp3_url: https://www.facebook.com/groups/WellingtonSession

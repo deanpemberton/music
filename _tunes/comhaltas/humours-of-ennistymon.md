@@ -4,6 +4,7 @@ key: G
 rhythm: jig
 mode: major
 date: 2016-01-01
+location: Wellington
 tags:
 mp3_file: /mp3/humours-of-ennistymon.mp3
 mp3_url: https://comhaltas.ie/music/detail/humours_of_ennistymon/

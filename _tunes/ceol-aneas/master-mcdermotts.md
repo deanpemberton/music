@@ -4,6 +4,7 @@ key: D
 rhythm: reel
 mode: major
 date: 2016-01-01
+location: Wellington
 tags: ceolaneas
 mp3_file: /mp3/master-mcdermotts.mp3
 mp3_url: Ceol Aneas 2016 Cian Kissane

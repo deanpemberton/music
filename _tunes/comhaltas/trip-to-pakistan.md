@@ -4,6 +4,7 @@ key: Em
 rhythm: reel
 mode: minor
 date: 2016-10-26
+location: Wellington
 tags: archive  2016-17
 mp3_file: 
 mp3_url: 

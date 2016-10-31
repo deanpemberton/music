@@ -4,6 +4,7 @@ key: Dm
 rhythm: pols
 mode:
 date: 2016-10-27
+location: Dunedin
 tags: dunedin
 mp3_file:
 mp3_url: http://nefc.org.nz/

@@ -4,6 +4,7 @@ key: Ador
 rhythm: reel
 mode: 
 date: 2016-1-26
+location: Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/the-gravel-walks.mp3
 mp3_url: https://media.comhaltas.ie/audio/fs3/wip/GeorgeWhites.mp3

@@ -40,16 +40,15 @@
        
        // build the first three columns
        tableRow += '<tr>';
-       tableRow += '<td><a href="' + item.url + '">' + item.title + '</a></td>';
+       tableRow += '<td><span title="Tune played in: ' + item.location + '">';
+       tableRow += '<a href="' + item.url + '">' + item.title  + '</a></span></td>';
        tableRow += '<td>' + item.key + '</td>';
        tableRow += '<td>' + item.rhythm + '</td>';
 
       if(item.mp3){
           tableRow += '<td style="text-align:center">';
           // build the audio player for each tune
-          tableRow += '<span> title="Tune played in: " + item.tags';        
           tableRow += '<audio id="A' + item.tuneID + '" title="' + item.title + '" controls loop preload="none">';
-          tableRow += '<span>';
           tableRow += ' <source src="' + item.mp3 + '" type="audio/mpeg"></audio>';
           // build the loop mechanism for each tune
           tableRow += '<br /><span title="Play tune, select loop starting point, then select loop end point">';
@@ -122,12 +121,12 @@
           e.value = rhythm;
       }
   }
-  var tags = getQueryVariable('tags');
-  if (tags) {
-      searchTerm += tags;
-      var e = document.getElementById('tags-box');
+  var location = getQueryVariable('location');
+  if (location) {
+      searchTerm += location;
+      var e = document.getElementById('location-box');
       if(e) {
-          e.value = tags;
+          e.value = location;
       }
   }
   
@@ -136,7 +135,7 @@
       this.field('id');
       this.field('title', { boost: 10 });
       this.field('rhythm');
-      this.field('tags');
+      this.field('location');
   });
 
   // Add the search items to the search index
@@ -145,7 +144,7 @@
         'id': key,
         'title': window.store[key].title,
         'rhythm': window.store[key].rhythm,
-        'tags': window.store[key].tags
+        'location': window.store[key].location
       });
   }
     

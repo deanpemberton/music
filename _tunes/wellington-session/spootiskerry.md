@@ -4,6 +4,7 @@ key: G
 rhythm: reel
 mode: 
 date: 2015-12-21
+location: Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/spootiskerry.mp3
 mp3_url: https://www.facebook.com/groups/WellingtonSession

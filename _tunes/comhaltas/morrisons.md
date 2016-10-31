@@ -4,6 +4,7 @@ key: Edor
 rhythm: jig
 mode: dorian
 date: 2016-10-26
+location: Wellington
 tags: wellington  2016-17
 mp3_file: /mp3/morrisons.mp3
 mp3_url: https://media.comhaltas.ie/audio/fs1/2-40JigsP27JimMorrisons.mp3

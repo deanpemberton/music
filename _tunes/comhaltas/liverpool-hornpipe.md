@@ -4,6 +4,7 @@ key: D
 rhythm: hornpipe
 mode: 
 date: 2016-09-28
+location: Wellington
 tags: 
 mp3_file: /mp3/liverpool-hornpipe.mp3
 mp3_url: 

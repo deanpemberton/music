@@ -4,6 +4,7 @@ key: D
 rhythm: jig
 mode: major
 date: 2016-01-01
+location: Wellington
 tags:
 mp3_file: /mp3/rose-in-the-heather.mp3
 mp3_url: https://comhaltas.ie/music/detail/rose_in_the_heather/

@@ -4,6 +4,7 @@ key: G
 rhythm: reel
 mode: maj
 date: 2016-06-02
+location: Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/bird-in-the-bush.mp3
 mp3_url: https://comhaltas.ie/music/detail/bird_in_the_bush/

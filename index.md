@@ -21,7 +21,7 @@ We're happy to add tunes from other parts of NZ.
     
     <form id="search-query"  method="get">
         <br />
-       <span title="Filter the Tunes Archive for tunes by title or by type such as 'reel', 'jig', 'polka'. You can also look for 'tags' such as 'Wellington, 'Beginner'">        
+       <span title="Filter the Tunes Archive for tunes by title or by type such as 'reel', 'jig', 'polka'. You can also look for 'location' such as 'Wellington, 'Beginner'">        
         Title:
         <input type="text" id="title-box" name="title" value=''>
         &emsp; 
@@ -39,12 +39,11 @@ We're happy to add tunes from other parts of NZ.
             <option value="planxty">Planxty</option>
         </select>
         &emsp;
-        Tags:
-        <select id="tags-box" name="tags">
-            <option value="">All Tunes</option>
-            <option value="wellington">Wellington</option>
-            <option value="dunedin">Dunedin</option>
-            <option value="beginner">Beginner</option>
+        Location:
+        <select id="location-box" name="location">
+            <option value="">All Locations</option>
+            <option value="Wellington">Wellington</option>
+            <option value="Dunedin">Dunedin</option>
         </select>
         </span>
         
@@ -73,7 +72,7 @@ We're happy to add tunes from other parts of NZ.
           "key": "{{ tune.key | xml_escape }}",
           "mode": "{{ tune.mode | xml_escape }}",
           "rhythm": "{{ tune.rhythm | xml_escape }}",
-          "tags": "{{ tune.tags | array_to_sentence_string }}",
+          "location": "{{ tune.location | xml_escape }}",
           "url": "{{ tune.url | xml_escape }}",
           "mp3": "{{ tune.mp3_file | xml_escape }}",
           {% if tune.mp3_file %}"abc": ""{% else %}"abc": {{ tune.abc | jsonify }}{% endif %}

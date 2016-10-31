@@ -4,6 +4,7 @@ key: Edor
 rhythm: slide
 mode: 
 date: 2016-08-19
+location: Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/road-to-lisdoonvarna.mp3
 mp3_url: 
