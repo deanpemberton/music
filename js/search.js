@@ -46,8 +46,10 @@
 
       if(item.mp3){
           tableRow += '<td style="text-align:center">';
-          // build the audio player for each tune          
+          // build the audio player for each tune
+          tableRow += '<span> title="Tune played in: " + item.tags';        
           tableRow += '<audio id="A' + item.tuneID + '" title="' + item.title + '" controls loop preload="none">';
+          tableRow += '<span>';
           tableRow += ' <source src="' + item.mp3 + '" type="audio/mpeg"></audio>';
           // build the loop mechanism for each tune
           tableRow += '<br /><span title="Play tune, select loop starting point, then select loop end point">';
