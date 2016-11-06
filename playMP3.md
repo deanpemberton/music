@@ -7,7 +7,9 @@ navigation_weight: 15
 <div class="player">
 <div id="showPlayer">
     
-<p>You can use this page to slow down a number of audio and video formats and play parts of them in a loop.
+<p>If you come across audio files on the Internet that aren't on our
+site you can use this page to slow down a number of audio and video
+formats and play parts of them in a loop.
 These seem to work:
 </p>
 
