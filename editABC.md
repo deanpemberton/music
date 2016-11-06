@@ -2,7 +2,7 @@
 layout: default
 title: Edit ABC
 permalink: /edit_abc/
-navigation_weight: 20
+navigation_weight: 10
 ---
 <!-- Draw the dots -->
 <div class="output">
