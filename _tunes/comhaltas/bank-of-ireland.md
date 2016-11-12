@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: /mp3/bank-of-ireland.mp3
+mp3_file: http://session.nz/mp3/bank-of-ireland.mp3
 mp3_url: https://comhaltas.ie/music/detail/bank_of_ireland/
 abc_url: 
 source: unknown

@@ -6,7 +6,7 @@ mode:
 date: 2016-09-28
 location: Wellington
 tags: wellington beginner 2016-17
-mp3_file: /mp3/red-haired-lass.mp3
+mp3_file: http://session.nz/mp3/red-haired-lass.mp3
 mp3_url: 
 abc_url: https://thesession.org/tunes/1716
 source: 

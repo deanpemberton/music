@@ -6,7 +6,7 @@ mode:
 date: 2016-1-26
 location: Wellington
 tags: 2015-16 wellington beginner 2016-17
-mp3_file: /mp3/haunted-house.mp3
+mp3_file: http://session.nz/mp3/haunted-house.mp3
 mp3_url: https://comhaltas.ie/music/detail/haunted_house/
 abc_url: 
 source: unknown

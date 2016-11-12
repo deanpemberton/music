@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: /mp3/brosna-slide.mp3
+mp3_file: http://session.nz/mp3/brosna-slide.mp3
 mp3_url: https://comhaltas.ie/music/detail/brosna_slide/
 abc_url: https://comhaltas.ie/music/detail/
 source: unknown

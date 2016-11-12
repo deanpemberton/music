@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: /mp3/red-tom-of-the-hills.mp3
+mp3_file: http://session.nz/mp3/red-tom-of-the-hills.mp3
 mp3_url: https://media.comhaltas.ie/audio/cl398_mp3/cl398_2.mp3
 abc_url: https://thesession.org/tunes/5166
 source: unknown

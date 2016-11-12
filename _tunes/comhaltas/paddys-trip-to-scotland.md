@@ -6,7 +6,7 @@ mode: maj
 date: 2016-06-02
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: /mp3/paddys-trip-to-scotland.mp3
+mp3_file: http://session.nz/mp3/paddys-trip-to-scotland.mp3
 mp3_url: https://comhaltas.ie/music/detail/comhaltaslive_462_10a_selection_of_reels
 abc_url: https://thesession.org/tunes/1303
 source: unknown

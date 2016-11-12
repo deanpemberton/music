@@ -6,7 +6,7 @@ mode: Major
 date: 2016-07-25
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: /mp3/parnells-march.mp3
+mp3_file: http://session.nz/mp3/parnells-march.mp3
 mp3_url: Wellington Session
 abc_url: https://thesession.org/tunes/7512
 source: Tracey

@@ -6,7 +6,7 @@ mode: major
 date: 2016-5-11
 location: Wellington
 tags: 2015-16 wellington beginner 2016-17
-mp3_file: /mp3/rights-of-man.mp3
+mp3_file: http://session.nz/mp3/rights-of-man.mp3
 mp3_url: https://comhaltas.ie/music/detail/rights_of_man/
 abc_source: The Session
 abc_url: https://thesession.org/tunes/83

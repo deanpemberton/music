@@ -6,7 +6,7 @@ mode:
 date: 2016-06-23
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: /mp3/four-pound-cheque.mp3
+mp3_file: http://session.nz/mp3/four-pound-cheque.mp3
 mp3_url: Richard Tait 
 abc_url: https://thesession.org/tunes/786
 source: Richard Tait

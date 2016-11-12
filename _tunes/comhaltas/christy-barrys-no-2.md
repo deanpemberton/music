@@ -6,7 +6,7 @@ mode: Major
 date: 2016-03-29
 location: Wellington
 tags: 2015-16 wellington 
-mp3_file: /mp3/christy-barrys-no-2.mp3
+mp3_file: http://session.nz/mp3/christy-barrys-no-2.mp3
 mp3_url: https://comhaltas.ie/music/detail/christy_barrys_no_2/
 abc_source: The Session
 abc_url: http://abcnotation.com/tunePage?a=trillian.mit.edu/~jc/music/abc/mirror/kirby98.fsnet.co.uk/ch/Christy_Barrys_2_3/0000

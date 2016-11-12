@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: /mp3/mist-covered-mountain.mp3
+mp3_file: http://session.nz/mp3/mist-covered-mountain.mp3
 mp3_url: https://comhaltas.ie/music/detail/lurgadan_jig_mist_covered_mountain_eddie_moloneys_jig/
 abc_url: https://thesession.org/tunes/256
 source: 

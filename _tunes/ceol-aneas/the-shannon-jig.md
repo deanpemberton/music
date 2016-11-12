@@ -6,7 +6,7 @@ mode: major
 date: 2016-01-01
 location: Wellington
 tags: ceolaneas
-mp3_file: /mp3/the-shannon-jig.mp3
+mp3_file: http://session.nz/mp3/the-shannon-jig.mp3
 mp3_url: Ceol Aneas 2016 Cian Kissane
 abc_url: 
 source: Cian Kissane
