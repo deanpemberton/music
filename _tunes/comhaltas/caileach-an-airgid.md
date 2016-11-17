@@ -6,7 +6,7 @@ mode:
 date: 2016-09-14
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/caileach-an-airgid.mp3
+mp3_file: /mp3/caileach-an-airgid.mp3
 mp3_url: https://comhaltas.ie/music/detail/caileach_an_airgid/
 abc_url: 
 source: unknown

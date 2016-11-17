@@ -6,7 +6,7 @@ mode: major
 date: 2016-02-24
 location: Wellington
 tags: 2015-16 wellington beginner 2016-17
-mp3_file: http://session.nz/mp3/jim-wards.mp3
+mp3_file: /mp3/jim-wards.mp3
 mp3_url: https://comhaltas.ie/music/detail/jim_wards/
 abc_source: The Session
 abc_url: https://thesession.org/tunes/4754

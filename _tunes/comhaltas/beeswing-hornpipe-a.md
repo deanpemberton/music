@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: http://session.nz/mp3/beeswing-hornpipe-a.mp3
+mp3_file: /mp3/beeswing-hornpipe-a.mp3
 mp3_url: http://media.comhaltas.ie/audio/cl232/cl232_4.mp3
 abc_url: trillian.mit.edu
 source: Kohler's Violin Repository, v.2, 1885 p.133 #1

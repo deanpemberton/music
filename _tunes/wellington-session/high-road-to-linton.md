@@ -6,7 +6,7 @@ mode:
 date: 2016-09-20
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/high-road-to-linton.mp3
+mp3_file: /mp3/high-road-to-linton.mp3
 mp3_url: 
 abc_url: https://thesession.org/tunes/4161
 source: 

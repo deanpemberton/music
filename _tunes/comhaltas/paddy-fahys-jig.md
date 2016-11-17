@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: http://session.nz/mp3/paddy-fahys-jig.mp3
+mp3_file: /mp3/paddy-fahys-jig.mp3
 mp3_url: 
 abc_url: 
 source: printed MS of unknown origin

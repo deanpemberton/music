@@ -74,7 +74,7 @@ We're happy to add tunes from other parts of NZ.
           "rhythm": "{{ tune.rhythm | xml_escape }}",
           "location": "{{ tune.location | xml_escape }}",
           "url": "{{ tune.url | xml_escape }}",
-          "mp3": "{{ tune.mp3_file | xml_escape }}",
+          "mp3": "{{ site.mp3_host | append: tune.mp3_file | xml_escape }}",
           {% if tune.mp3_file %}"abc": ""{% else %}"abc": {{ tune.abc | jsonify }}{% endif %}
       }{% unless forloop.last %},{% endunless %}
     {% endfor %}};

@@ -6,7 +6,7 @@ mode:
 date: 2016-11-17
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/silver-spire.mp3
+mp3_file: /mp3/silver-spire.mp3
 mp3_url: Richard Tait 
 abc_url: 
 source: Richard Tait

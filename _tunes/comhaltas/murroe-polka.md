@@ -6,7 +6,7 @@ mode: major
 date: 2016-01-26
 location: Wellington
 tags: 2015-16 wellington 
-mp3_file: http://session.nz/mp3/murroe-polka.mp3
+mp3_file: /mp3/murroe-polka.mp3
 mp3_url: https://comhaltas.ie/music/detail/murrow_polka/ 
 abc_source: The Session
 abc_url: https://thesession.org/tunes/1508

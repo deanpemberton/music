@@ -7,7 +7,7 @@ date: 2016-01-01
 location: Wellington
 tags: wellington beginner 2016-17
 mp3_url: 
-mp3_file: http://session.nz/mp3/derry-hornpipe.mp3
+mp3_file: /mp3/derry-hornpipe.mp3
 abc_url: 
 source: unknown
 transcription: id:hn-hornpipe-24

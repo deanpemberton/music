@@ -6,7 +6,7 @@ mode: minor
 date: 2016-10-12
 location: Wellington
 tags: 2016-17 wellington 
-mp3_file: http://session.nz/mp3/musical-priest.mp3
+mp3_file: /mp3/musical-priest.mp3
 mp3_url: https://comhaltas.ie/audio/cl323/cl323_7_64K.mp3
 abc_source: https://thesession.org/tunes/73
 abc_url: https://thesession.org/tunes/221

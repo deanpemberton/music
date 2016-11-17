@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: http://session.nz/mp3/brian-borus-march-3-part.mp3
+mp3_file: /mp3/brian-borus-march-3-part.mp3
 mp3_url: https://comhaltas.ie/music/detail/brian_borus_march/
 abc_url: 
 source: unknown

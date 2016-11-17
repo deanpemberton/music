@@ -6,7 +6,7 @@ mode:
 date: 2016-1-27
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/joe-cooley-s.mp3
+mp3_file: /mp3/joe-cooley-s.mp3
 mp3_url: https://comhaltas.ie/music/detail/joe_cooleys/
 abc_url: https://thesession.org/tunes/1
 source: unknown

@@ -6,7 +6,7 @@ mode: major
 date: 2016-07-13
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/foxhunters.mp3
+mp3_file: /mp3/foxhunters.mp3
 mp3_url: https://comhaltas.ie/music/detail/foxhunt/
 abc_url: https://thesession.org/tunes/482
 source: 

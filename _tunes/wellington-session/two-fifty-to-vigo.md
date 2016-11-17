@@ -6,7 +6,7 @@ mode:
 date: 2015-11-10
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/two-fifty-to-vigo.mp3
+mp3_file: /mp3/two-fifty-to-vigo.mp3
 mp3_url: https://www.facebook.com/groups/WellingtonSession
 abc_url: 
 source: unknown

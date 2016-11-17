@@ -6,7 +6,7 @@ mode: dorian
 date: 2016-04-18
 location: Wellington
 tags: 2015-16 wellington 
-mp3_file: http://session.nz/mp3/toss-the-feathers.mp3
+mp3_file: /mp3/toss-the-feathers.mp3
 mp3_url: https://comhaltas.ie/music/detail/toss_the_feathers_em/
 abc_source: The Session
 abc_url: https://thesession.org/tunes/113

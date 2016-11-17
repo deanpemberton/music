@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: http://session.nz/mp3/boys-of-blue-hill.mp3
+mp3_file: /mp3/boys-of-blue-hill.mp3
 mp3_url: https://comhaltas.ie/music/detail/boys_of_bluehill/
 abc_url: 
 source: unknown

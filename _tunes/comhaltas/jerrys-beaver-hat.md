@@ -6,7 +6,7 @@ mode: Major
 date: 2016-03-29
 location: Wellington
 tags: 2015-16 wellington 
-mp3_file: http://session.nz/mp3/jerrys-beaver-hat.mp3
+mp3_file: /mp3/jerrys-beaver-hat.mp3
 mp3_url: https://comhaltas.ie/music/detail/jerrys_beaver_hat/
 abc_source: The Session
 abc_url: https://thesession.org/tunes/319

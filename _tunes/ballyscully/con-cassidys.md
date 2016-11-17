@@ -6,7 +6,7 @@ mode: Major
 date: 2016-07-25
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/con-cassidys.mp3
+mp3_file: /mp3/con-cassidys.mp3
 mp3_url: Wellington Session
 abc_url: https://thesession.org
 source: Tracey

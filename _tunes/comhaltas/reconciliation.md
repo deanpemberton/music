@@ -6,7 +6,7 @@ mode:
 date: 2016-08-11
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/reconciliation.mp3
+mp3_file: /mp3/reconciliation.mp3
 mp3_url: 
 abc_url: 
 source: unknown

@@ -15,6 +15,7 @@ url: "http://session.nz" # the base hostname & protocol for your site
 facebook: https://www.facebook.com/groups/WellingtonSession
 jekyll: https://jekyllrb.com
 github: https://github.com/slow-session/session.nz
+mp3_host: "" # leave blank if mp3 files are served from THIS SERVER
 
 # Build settings
 markdown: kramdown

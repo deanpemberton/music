@@ -6,7 +6,7 @@ mode:
 date: 2016-05-25
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/mouse-in-the-mug.mp3
+mp3_file: /mp3/mouse-in-the-mug.mp3
 mp3_url: https://www.facebook.com/groups/WellingtonSession
 abc_url: 
 source: Kevin Crawford

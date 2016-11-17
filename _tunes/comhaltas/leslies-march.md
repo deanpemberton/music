@@ -6,7 +6,7 @@ mode:
 date: 2016-09-14
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/leslies-march.mp3
+mp3_file: /mp3/leslies-march.mp3
 mp3_url: http://media.comhaltas.ie/audio/cl225/cl225_4.mp3
 abc_url: https://thesession.org/tunes/987
 source: unknown

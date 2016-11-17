@@ -6,7 +6,7 @@ mode:
 date: 2016-08-01
 location: Wellington
 tags: 2015-16 wellington
-mp3_file: http://session.nz/mp3/salamanca-reel.mp3
+mp3_file: /mp3/salamanca-reel.mp3
 mp3_url: https://comhaltas.ie/music/detail/salamanca/
 abc_url: https://thesession.org/tunes/99
 source: unknown
