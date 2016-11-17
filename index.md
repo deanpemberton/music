@@ -37,6 +37,7 @@ We're happy to add tunes from other parts of NZ.
             <option value="waltz">Waltz</option>
             <option value="barndance">Barndance</option>
             <option value="planxty">Planxty</option>
+            <option value="mazurka">Mazurka</option>
         </select>
         &emsp;
         Location:
