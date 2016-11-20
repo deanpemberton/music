@@ -2,11 +2,13 @@
 layout: null
 ---
 
-# Session tunes
+Session tunes
+=============
 
 A collection of tunes for the New Zealand Irish sessions.
 
-## A static website
+A static website
+----------------
 
 This is a static website that use Jekyll to process files and generate the
 website. Each tune is included as a markdown file in the `_tunes` collection.
@@ -19,26 +21,30 @@ to add new tunes to the collection. Put an MP3 file whose name is the same
 as the title (including capitalisation) in the `mp3` folder in order for the 
 audio to play.
 ```
----
 title: "Connachtman's Rambles"
 key: D
-rythym: jig
+rhythm: jig
 mode: major
 date: 2015-11-1
-tags: beginner
+location: Wellington
+tags: 2015-16 wellington
+mp3_file: /mp3/connachtmans-rambles.mp3
 mp3_url: https://comhaltas.ie/music/detail/connactmans_rambles/
 abc_source: The Session
 abc_url: https://thesession.org/tunes/19
 abc: |
     X: 1
+    T: The Connachtman's Rambles
+    R: jig
     M: 6/8
     L: 1/8
-    K: Dmaj
-    |:FAA dAA|BAA dAG|FAA dfe|dBB BAG|
-    FAA dAA|BAA def|gfe dfe|1dBB BAG:|2 dBB B3||
-    |:fbb faf|fed ede|fbb faf|fed e3|
-    fbb faf|fed def|gfe dfe|1 dBB B3:|2 dBB BAG||
-
+    K: D
+    K: Bm
+    AG|"D":FA(A d)AA|({B2d}"G"BAB) dA(G|"D"F)A(A d)fe|"G"ed(B{c}) BAG|
+    "D"FA(A d)AA|"G"BA(B "D"d)ef|"Em"gfe "D"(f2e)|1"G"dB(B{c} B)AG:|2 "G"dBB B3||
+    |:"Bm"fbb fa(a|f)ef "G"de(g|"Bm"f)bb fa(a|f)ed
+    "A7"(e2g| "Bm"f)bb fa(a|"D"f)ef "Bm"de(f|"Em"g)fe "D"dfe
+    |1 "G"dBB B2g:|2 "G"dBB ({c}B)AG|| "G"D"Tune end"BB{c}B3||
 ---
 ```
 
