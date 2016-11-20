@@ -1,9 +1,9 @@
 ---
 layout: default
 ---
+<script type="text/javascript" src="/js/iframeResizer.min.js"></script> 
 
-<div class="video-container">
-    <iframe src="/archive-raw.html?title=&rhythm=&location=&submit=Filter" width="100%" height="100%" frameborder="0" allowfullscreen>
-    </iframe> 
-</div>
-
+<iframe src="/archive-raw.html?title=&rhythm=&location=&submit=Filter" 
+        id="iframe" width="100%" scrolling="no" frameborder="0" allowfullscreen>
+</iframe> 
+<script>$('iframe').iFrameResize({log:true})</script>

@@ -82,13 +82,23 @@ We're happy to add tunes from other parts of NZ.
     {% endfor %}};
 </script>
 
+<script>
+	var iFrameResizer = {
+	    messageCallback: function(message){
+	        alert(message,parentIFrame.getId());
+	    }
+	}
+</script>
+
 <script type="text/javascript" src="/js/audio_controls.js"></script>
 <script type="text/javascript" src="/js/musical-ws.js"></script>
 <script type="text/javascript" src="/js/abc_controls.js"></script>
 <script type="text/javascript" src="/js/lunr.min.js"></script>
 <script type="text/javascript" src="/js/search.js"></script>
+<script type="text/javascript" src="/js/iframeResizer.contentWindow.min.js" defer></script>
 
 <script>
+
   $(document).ready(function() 
     { 
         // Set initial sort order
