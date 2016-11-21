@@ -1,5 +1,5 @@
 ---
-layout: raw
+layout: default
 ---
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
@@ -40,18 +40,9 @@ layout: raw
 {% endif %}
 </div>
 
-<script>
-	var iFrameResizer = {
-	    messageCallback: function(message){
-	        alert(message,parentIFrame.getId());
-	    }
-	}
-</script>
-
 <script type="text/javascript" src="/js/audio_controls.js"></script>  
 <script type="text/javascript" src="/js/musical-ws.js"></script>
 <script type="text/javascript" src="/js/abc_controls.js"></script>
-<script type="text/javascript" src="/js/iframeResizer.contentWindow.min.js" defer></script>
 
 <script type="text/javascript">
 var MyTune="%%staffwidth 540\n" + {{ page.abc | jsonify  }};
