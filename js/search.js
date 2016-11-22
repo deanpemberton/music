@@ -121,6 +121,14 @@
           e.value = rhythm;
       }
   }
+  var tags = getQueryVariable('tags');
+  if (tags) {
+      searchTerm += tags + ' ';
+      var e = document.getElementById('tags-box');
+      if(e) {
+          e.value = tags;
+      }
+  }
   var location = getQueryVariable('location');
   if (location) {
       searchTerm += location;
@@ -135,6 +143,7 @@
       this.field('id');
       this.field('title', { boost: 10 });
       this.field('rhythm');
+      this.field('tags');
       this.field('location');
   });
 
@@ -144,6 +153,7 @@
         'id': key,
         'title': window.store[key].title,
         'rhythm': window.store[key].rhythm,
+        'tags': window.store[key].tags,
         'location': window.store[key].location
       });
   }
