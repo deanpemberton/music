@@ -2,7 +2,7 @@
 layout: default
 ---
 There are a number of Irish Music sessions around New Zealand but the
-number of musicians is relatively small - it's a long, long way from
+number of musicians is relatively small. It's a long, long way from
 Clare to here.
 
 When musicians from different parts of the country get together at
