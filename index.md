@@ -35,6 +35,6 @@ This site has a number of tunes from various parts of the country and you can se
 
 We have tunes from these locations:
 
-  * <a href="/?title=&rhythm=&location=Wellington&submit=Filter">Wellington</a>
-  * <a href="/?title=&rhythm=&location=Dunedin&submit=Filter">Dunedin</a>
+  * <a href="/archive?title=&rhythm=&location=Wellington&submit=Filter">Wellington</a>
+  * <a href="/archive?title=&rhythm=&location=Dunedin&submit=Filter">Dunedin</a>
 
