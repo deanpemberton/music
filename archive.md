@@ -17,7 +17,7 @@ We're happy to add tunes from other parts of NZ.
         <br />
        <span title="Filter the Tunes Archive for tunes by title or by type such as 'reel', 'jig', 'polka'. You can also look for 'location' such as 'Wellington, 'Beginner'">        
         Title:
-        <input type="text" id="title-box" name="title" value='' onchange="enable_button()">
+        <input type="text" id="title-box" name="title" value='' onkeypress="enable_button()">
         &emsp; 
         Rhythm:
         <select id="rhythm-box" name="rhythm" onchange="enable_button()">
@@ -44,7 +44,7 @@ We're happy to add tunes from other parts of NZ.
         
         &emsp;
         <span title="Run the filter with the default settings to see the whole list">
-        <input class="filter_button filter_disabled" id="submit_button" type="submit" name="submit" value="Filter" disabled >
+        <input class="filter_button filter_disabled" id="submit_button" type="submit" name="submit" value="Select" disabled >
         </span>
         
     </form>
