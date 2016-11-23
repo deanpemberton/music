@@ -11,16 +11,16 @@ Dunedin etc.
 We're happy to add tunes from other parts of NZ.
 
 <fieldset>
-    <legend>Select from the Tunes Archive</legend>
+    <legend>Select from the NZ Tunes Archive</legend>
     
     <form id="search-query"  method="get">
         <br />
        <span title="Filter the Tunes Archive for tunes by title or by type such as 'reel', 'jig', 'polka'. You can also look for 'location' such as 'Wellington, 'Beginner'">        
         Title:
-        <input type="text" id="title-box" name="title" value=''>
+        <input type="text" id="title-box" name="title" value='' onchange="enable_button()">
         &emsp; 
         Rhythm:
-        <select id="rhythm-box" name="rhythm">
+        <select id="rhythm-box" name="rhythm" onchange="enable_button()">
             <option value="">Any</option>
             <option value="reel">Reel</option>
             <option value="jig">Jig</option>
@@ -35,7 +35,7 @@ We're happy to add tunes from other parts of NZ.
         </select>
         &emsp;
         Location:
-        <select id="location-box" name="location">
+        <select id="location-box" name="location" onchange="enable_button()">
             <option value="">All Locations</option>
             <option value="Wellington">Wellington</option>
             <option value="Dunedin">Dunedin</option>
@@ -44,7 +44,7 @@ We're happy to add tunes from other parts of NZ.
         
         &emsp;
         <span title="Run the filter with the default settings to see the whole list">
-        <input class="button" id="submit" type="submit" name="submit" value="Filter">
+        <input class="filter_button filter_disabled" id="submit_button" type="submit" name="submit" value="Filter" disabled >
         </span>
         
     </form>
@@ -91,4 +91,11 @@ We're happy to add tunes from other parts of NZ.
         $("#search-results").tablesorter({headers: { 3:{sorter: false}, 4: {sorter: false}}});         
     } 
   ); 
+</script>
+<script>
+function enable_button(){
+submit_button.disabled = false;
+submit_button.style.opacity=1.0;
+submit_button.style.cursor='pointer';
+}
 </script>
