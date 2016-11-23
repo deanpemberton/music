@@ -16,6 +16,7 @@ There are two files that need to be added to the system to add a new tune.
     rhythm: 
     mode: 
     date: 2016-5-11
+    location: 
     tags: new
     mp3_file: 
     mp3_url: https://comhaltas.ie/music/detail/XXXXX/ 
@@ -24,8 +25,8 @@ There are two files that need to be added to the system to add a new tune.
     abc: |
     
     ---
-  
-  We'll work through an example using a tune called **Silver Spear**.
+
+We'll work through an example using a tune called **Silver Spear** sourced from Wellington.
   
 Our first action is to load **silver-spear.mp3** to the **mp3** directory. You can test that using the URL:
 
@@ -39,6 +40,7 @@ Then we create a file called **\_tunes/comhaltas/silver-spear.md** and load the 
     rhythm: 
     mode: 
     date: 2016-5-12
+    location: Wellington
     tags: new
     mp3_file: /mp3/silver-spear.mp3
     mp3_url: https://comhaltas.ie/music/detail/XXXXX/ 
@@ -47,7 +49,7 @@ Then we create a file called **\_tunes/comhaltas/silver-spear.md** and load the 
     abc: |
     
     ---
-
+    
 The **mp3\_file:** tag should point to the **mp3** file - the **mp3** filename and the **md** filenames should **match**
 
 Set the **date:** field to today's date.
@@ -56,7 +58,9 @@ Next we'll add the **abc** data from The Session website. In your browser go to:
 
     https://thesession.org/tunes
 
-and use the Search box to find **Silver Spear**. In many cases there may be several variations of the ABC notation for the tune. Try to choose the one that matches the recording (or if you don't read ABC or the dots, pick the first one!). Cut and paste the ABC into the .md file - **be careful to use spaces and not tabs to indent the data**.
+and use the Search box to find **Silver Spear**. In many cases there may be several variations of the ABC notation for the tune. Try to choose the one that matches the recording - use the <a href="http://session.nz/edit_abc/">Edit ABC</a> page to check and change if needed. 
+
+Cut and paste the ABC into the .md file - **be careful to use spaces and not tabs to indent the data**.
 
 You can get several other bits of information from here as well. 
 
@@ -71,7 +75,30 @@ You can get several other bits of information from here as well.
   
 The .md file should now look like:
     
-![abc2.png missing](/images/abc1.png)
+    ---
+    title: Silver Spear
+    key: D
+    rhythm: reel
+    mode: major
+    date: 2016-03-02
+    location: Wellington
+    tags: 2015-16 wellington 
+    mp3_file: /mp3/silver-spear.mp3
+    mp3_url:  
+    abc_source: The Session
+    abc_url: https://thesession.org/tunes/182
+    abc: |
+        X: 5
+        T: The Silver Spear
+        R: reel
+        M: 4/4
+        L: 1/8
+        K: Dmaj
+        |:"D"FA~A2 BAFA|dfed "G"BcdA|"D"FA ~A2 BAFA|"G"dfed BcdA|
+        "D"FA ~A2 {A}BAFA|dfed Bd ef|"G"g2 fe f2 fe|dfed B2 A[Gd]:||
+        |:"D"fa af bfaf|"G"gfed Bcde|"D"fa af bfaf|"Em"gfed "G"B2 "A"A2|
+        "D"fa af bfaf|"G"gfed Bdef|"Em"g3e "D"f3e |dfed "G"B2 "A"A2:||
+    ---
 
 Finally we need to complete the **XXXXX** section of the **mp3\_url:** field. Go to the Comhaltas web site:
 
@@ -85,7 +112,30 @@ You may have to scroll down the results to find the reference you're looking for
     
 Finally, our .md file should look like:
 
-![abc2.png missing](/images/abc2.png)
+    ---
+    title: Silver Spear
+    key: D
+    rhythm: reel
+    mode: major
+    date: 2016-03-02
+    location: Wellington
+    tags: wellington 
+    mp3_file: /mp3/silver-spear.mp3
+    mp3_url: https://comhaltas.ie/music/detail/silver_spear/ 
+    abc_source: The Session
+    abc_url: https://thesession.org/tunes/182
+    abc: |
+        X: 5
+        T: The Silver Spear
+        R: reel
+        M: 4/4
+        L: 1/8
+        K: Dmaj
+        |:"D"FA~A2 BAFA|dfed "G"BcdA|"D"FA ~A2 BAFA|"G"dfed BcdA|
+        "D"FA ~A2 {A}BAFA|dfed Bd ef|"G"g2 fe f2 fe|dfed B2 A[Gd]:||
+        |:"D"fa af bfaf|"G"gfed Bcde|"D"fa af bfaf|"Em"gfed "G"B2 "A"A2|
+        "D"fa af bfaf|"G"gfed Bdef|"Em"g3e "D"f3e |dfed "G"B2 "A"A2:||
+    ---
 
 Save this file to the main site using git commit and git push and check the index page to look for the new tune.
 
