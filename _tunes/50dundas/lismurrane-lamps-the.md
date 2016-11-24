@@ -1,7 +1,7 @@
 ---
 title: Lismurrane Lamps, The
 key: Dmix
-rhythm: 
+rhythm: reel 
 mode:
 date: 2016-10-27
 location: Dunedin

@@ -1,7 +1,7 @@
 ---
 title: Jessica's Polka
 key: A
-rhythm: 
+rhythm: polka 
 mode:
 date: 2016-10-27
 location: Dunedin

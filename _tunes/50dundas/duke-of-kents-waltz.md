@@ -1,7 +1,7 @@
 ---
 title: Duke of Kent's Waltz
 key: G
-rhythm: 
+rhythm: waltz
 mode:
 date: 2016-10-27
 location: Dunedin

@@ -1,7 +1,7 @@
 ---
 title: O'Neill's March
 key: G
-rhythm: 
+rhythm: march 
 mode:
 date: 2016-10-27
 location: Dunedin

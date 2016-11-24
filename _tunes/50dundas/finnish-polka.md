@@ -1,7 +1,7 @@
 ---
 title: Finnish Polka
 key: D
-rhythm: 
+rhythm: polka 
 mode:
 date: 2016-10-27
 location: Dunedin

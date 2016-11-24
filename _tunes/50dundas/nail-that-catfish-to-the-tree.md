@@ -1,7 +1,7 @@
 ---
 title: Nail That Catfish to the Tree
 key: G
-rhythm: 
+rhythm: reel
 mode:
 date: 2016-10-27
 location: Dunedin

@@ -1,7 +1,7 @@
 ---
 title: Michael's Mazurka
 key: Gmaj
-rhythm: 
+rhythm: mazurka 
 mode:
 date: 2016-10-27
 location: Dunedin

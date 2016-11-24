@@ -1,7 +1,7 @@
 ---
 title: Humours of Castle Comer, The
 key: Em
-rhythm: 
+rhythm: jig
 mode:
 date: 2016-10-27
 location: Dunedin

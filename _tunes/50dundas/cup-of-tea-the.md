@@ -1,7 +1,7 @@
 ---
 title: Cup of Tea, The
 key: Dmaj
-rhythm: 
+rhythm: reel 
 mode:
 date: 2016-10-27
 location: Dunedin

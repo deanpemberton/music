@@ -1,7 +1,7 @@
 ---
 title: Seven Step Polka, The
 key: G
-rhythm: 
+rhythm: polka
 mode:
 date: 2016-10-27
 location: Dunedin

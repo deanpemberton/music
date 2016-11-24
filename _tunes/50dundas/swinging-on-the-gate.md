@@ -1,7 +1,7 @@
 ---
 title: Swinging on the Gate
 key: D
-rhythm: 
+rhythm: reel 
 mode:
 date: 2016-10-27
 location: Dunedin

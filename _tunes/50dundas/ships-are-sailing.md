@@ -1,7 +1,7 @@
 ---
 title: Ships are Sailing
 key: G
-rhythm: 
+rhythm: reel 
 mode:
 date: 2016-10-27
 location: Dunedin
