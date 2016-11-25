@@ -9,6 +9,7 @@ Sessions
 You can find out more about the sessions in these and other NZ cities at:
 
   * <a href="https://www.facebook.com/groups/1461764424153462/">Auckland Irish Sessions - The Claddagh</a>
+  * <a href="https://www.facebook.com/Tuesday-at-Biddys-Hamilton-134702863269582/">Hamilton</a>
   * <a href="http://wellington.session.nz">Wellington</a>
   * <a href="https://www.facebook.com/events/156779861168508/">Arrowtown</a>
   
