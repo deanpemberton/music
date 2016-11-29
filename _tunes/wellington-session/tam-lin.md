@@ -4,7 +4,7 @@ key: Dmin
 rhythm: reel
 mode: minor
 date: 2016-11-10
-location: Wellington
+location: Arrowtown Wellington
 tags: 2016-17  
 mp3_file: 
 mp3_url: 

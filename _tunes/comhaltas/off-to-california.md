@@ -4,7 +4,7 @@ key: G
 rhythm: hornpipe
 mode: major
 date: 2016-5-11
-location: Wellington
+location: Arrowtown Wellington
 tags: 2015-16 wellington 
 mp3_file: /mp3/off-to-california.mp3
 mp3_url: https://comhaltas.ie/music/detail/off_to_california/ 

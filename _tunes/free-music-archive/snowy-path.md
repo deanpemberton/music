@@ -4,7 +4,7 @@ key: D
 rhythm: slip jig
 mode: 
 date: 2016-08-19
-location: Wellington
+location: Arrowtown Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/snowy-path.mp3
 mp3_url: http://freemusicarchive.org/music/Slinte/Slinte/slinte_-_11_-_si_beag_si_mor_snowy_path
