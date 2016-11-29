@@ -4,7 +4,7 @@ key: G
 rhythm: waltz 
 mode:
 date: 2016-10-27
-location: Dunedin
+location: Arrowtown Dunedin
 tags: dunedin
 mp3_file:
 mp3_url: http://nefc.org.nz/
