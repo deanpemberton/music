@@ -4,7 +4,7 @@ key: D
 rhythm: reel
 mode: 
 date: 2016-1-26
-location: Wellington
+location: Arrowtown Wellington
 tags: 2015-16 wellington
 mp3_file: /mp3/mountain-road.mp3
 mp3_url: https://comhaltas.ie/music/detail/mountain_road/

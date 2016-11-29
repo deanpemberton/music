@@ -4,7 +4,7 @@ key: G
 rhythm: reel
 mode: major
 date: 2016-01-26
-location: Wellington
+location: Arrowtown Wellington
 tags: 2015-16 wellington 
 mp3_file: /mp3/banshee.mp3
 mp3_url: https://comhaltas.ie/music/detail/banshee/

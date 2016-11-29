@@ -5,7 +5,7 @@ permalink: /archive/
 navigation_weight: 5
 ---
 This site has a number of tunes from various parts of the country. You
-can look at them all or you can select by area such as Wellington,
+can look at them all or you can select by area such as Wellington, Arrowtown,
 Dunedin etc.
 
 We're happy to add tunes from other parts of NZ.
@@ -15,7 +15,7 @@ We're happy to add tunes from other parts of NZ.
     
     <form id="search-query"  method="get">
         <br />
-       <span title="Filter the Tunes Archive for tunes by title or by type such as 'reel', 'jig', 'polka'. You can also look for 'location' such as 'Wellington, 'Beginner'">        
+       <span title="Filter the Tunes Archive for tunes by title or by type such as 'reel', 'jig', 'polka'. You can also look for 'location' such as 'Wellington', 'Dunedin'">        
         Title:
         <input type="text" id="title-box" name="title" value='' onkeypress="enable_button()">
         &emsp; 
@@ -38,6 +38,7 @@ We're happy to add tunes from other parts of NZ.
         <select id="location-box" name="location" onchange="enable_button()">
             <option value="">All Locations</option>
             <option value="Wellington">Wellington</option>
+            <option value="Arrowtown">Arrowtown</option>
             <option value="Dunedin">Dunedin</option>
         </select>
         </span>

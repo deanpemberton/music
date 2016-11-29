@@ -4,7 +4,7 @@ key: Ador
 rhythm: jig
 mode: dorian
 date: 2015-11-01
-location: Wellington
+location: Arrowtown Wellington
 tags: 2015-16 wellington 
 mp3_file: /mp3/geese-in-the-bog.mp3
 mp3_url: https://comhaltas.ie/music/detail/geese_in_the_bog/

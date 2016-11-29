@@ -4,7 +4,7 @@ key: G
 rhythm: reel
 mode: 
 date: 2016-09-28
-location: Wellington
+location: Arrowtown Wellington
 tags: wellington beginner 2016-17
 mp3_file: /mp3/red-haired-lass.mp3
 mp3_url: 
