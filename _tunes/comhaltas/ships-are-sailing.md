@@ -9,7 +9,7 @@ tags: arrowtown
 mp3_file: /mp3/ships-are-sailing.mp3
 mp3_url: https://media.comhaltas.ie/audio/fs1/1-53ReelsP16ShipAreSailing.mp3
 abc_url: http://nefc.org.nz/
-source: 50Dundas
+source: Wellington
 transcription:
 chords: 
 abc: |

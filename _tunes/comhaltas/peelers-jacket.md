@@ -8,7 +8,7 @@ location: Wellington
 tags:
 mp3_file: /mp3/peelers-jacket.mp3
 mp3_url: https://comhaltas.ie/music/detail/comhaltaslive_204_6_dennis_alexander/
-abc_source: The Session
+abc_source: Wellington
 abc_url: https://thesession.org/tunes/1343
 abc: |
     X: 1

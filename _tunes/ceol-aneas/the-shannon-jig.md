@@ -9,7 +9,7 @@ tags: ceolaneas
 mp3_file: /mp3/the-shannon-jig.mp3
 mp3_url: Ceol Aneas 2016 Cian Kissane
 abc_url: 
-source: Cian Kissane
+source: Wellington
 transcription: Ted Cizadlo
 chords: false
 abc: |

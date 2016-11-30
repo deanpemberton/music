@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/humours-of-ennistymon.mp3
 mp3_url: https://comhaltas.ie/music/detail/humours_of_ennistymon/
 abc_url: https://thesession.org/tunes/228
-source: Ceol Aneas
+source: Wellington
 transcription: 
 chords: false
 abc: |

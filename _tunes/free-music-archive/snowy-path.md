@@ -9,7 +9,7 @@ tags: 2015-16 wellington
 mp3_file: /mp3/snowy-path.mp3
 mp3_url: http://freemusicarchive.org/music/Slinte/Slinte/slinte_-_11_-_si_beag_si_mor_snowy_path
 abc_url: https://thesession.org/tunes/104
-source: unknown
+source: Wellington
 transcription: unknown
 chords: false
 abc: |

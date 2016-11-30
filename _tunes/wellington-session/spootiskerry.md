@@ -9,7 +9,7 @@ tags: 2015-16 wellington
 mp3_file: /mp3/spootiskerry.mp3
 mp3_url: https://www.facebook.com/groups/WellingtonSession
 abc_url: https://thesession.org/tunes/857
-source: unknown
+source: Wellington
 transcription: unknown
 chords: false
 abc: |

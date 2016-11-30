@@ -9,7 +9,7 @@ tags: wellington beginner 2016-17
 mp3_file: /mp3/galway-hornpipe.mp3
 mp3_url: 
 abc_url: 
-source: Maritime Fiddler  June 1996
+source: Wellington
 transcription: unknown
 chords: true
 abc: |

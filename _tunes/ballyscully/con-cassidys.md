@@ -9,7 +9,7 @@ tags: 2015-16 wellington
 mp3_file: /mp3/con-cassidys.mp3
 mp3_url: Wellington Session
 abc_url: https://thesession.org
-source: Tracey
+source: Wellington
 transcription: 
 abc: |
     X: 2

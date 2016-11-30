@@ -8,7 +8,7 @@ location: Wellington
 tags: beginner new
 mp3_file: /mp3/kilglass-lakes.mp3
 mp3_url: https://comhaltas.ie/music/detail/kilglass_lakes/
-abc_source: The Session
+abc_source: Wellington
 abc_url: https://thesession.org/tunes/8162
 abc: |
     X: 1

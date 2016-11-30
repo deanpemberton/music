@@ -8,7 +8,7 @@ location: Arrowtown Wellington
 tags: 2015-16 wellington 
 mp3_file: /mp3/cup-of-tea.mp3
 mp3_url: https://comhaltas.ie/music/detail/cup_of_tea/
-abc_source: The Session
+abc_source: Wellington
 abc_url: https://thesession.org/tunes/20
 abc: |
     X: 5

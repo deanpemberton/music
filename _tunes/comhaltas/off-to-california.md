@@ -8,7 +8,7 @@ location: Arrowtown Wellington
 tags: 2015-16 wellington 
 mp3_file: /mp3/off-to-california.mp3
 mp3_url: https://comhaltas.ie/music/detail/off_to_california/ 
-abc_source: The Session
+abc_source: Wellington
 abc_url: https://thesession.org/tunes/30
 abc: |
     X: 4

@@ -8,7 +8,7 @@ location: Arrowtown Wellington
 tags: 2016-17  
 mp3_file: 
 mp3_url: 
-abc_source: 
+abc_source: Wellington
 abc_url: 
 abc: |
     X:394

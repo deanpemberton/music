@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/beeswing-hornpipe-a.mp3
 mp3_url: http://media.comhaltas.ie/audio/cl232/cl232_4.mp3
 abc_url: trillian.mit.edu
-source: Kohler's Violin Repository, v.2, 1885 p.133 #1
+source: Wellington
 transcription: 2012 John Chambers jc:trillian.mit.edu
 abc: |
     X:21333

@@ -9,7 +9,7 @@ tags: wellington beginner 2016-17
 mp3_file: /mp3/red-haired-lass.mp3
 mp3_url: 
 abc_url: https://thesession.org/tunes/1716
-source: 
+source: Wellington
 transcription:
 chords: false
 abc: |

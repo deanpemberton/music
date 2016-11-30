@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/paddy-fahys-jig.mp3
 mp3_url: 
 abc_url: 
-source: printed MS of unknown origin
+source: Wellington
 transcription: 2011 John Chambers <jc:trillian.mit.edu>
 chords: true
 abc: |

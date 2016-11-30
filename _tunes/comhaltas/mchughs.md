@@ -9,7 +9,7 @@ tags: archive
 mp3_file: /mp3/mchughs.mp3
 mp3_url: 
 abc_url: https://thesession.org/tunes/2664
-source: 
+source: Wellington
 transcription: 
 chords: false
 abc: |
