@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/liverpool-hornpipe.mp3
 mp3_url: 
 abc_url: 
-source: unknown
+source: Wellington
 transcription: 1998 by John Chambers <jc:trillian.mit.edu>
 chords: true
 abc: |

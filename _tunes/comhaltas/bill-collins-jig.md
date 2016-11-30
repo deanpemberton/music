@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/bill-collins-jig.mp3
 mp3_url: 
 abc_url: https://comhaltas.ie/music/detail/
-source: unknown
+source: Wellington
 transcription: unknown
 chords: false
 abc: |

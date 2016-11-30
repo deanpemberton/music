@@ -9,7 +9,7 @@ tags: 2015-16 wellington
 mp3_file: /mp3/garrett-barry-s.mp3
 mp3_url: https://comhaltas.ie/music/detail/garrett_barrys_jig/
 abc_url: https://thesession.org/tunes/544
-source: unknown
+source: Wellington
 transcription: unknown
 chords: false
 abc: |

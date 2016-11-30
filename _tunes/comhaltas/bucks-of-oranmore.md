@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/bucks-of-oranmore.mp3
 mp3_url: https://comhaltas.ie/music/detail/bucks_of_oranmore/
 abc_url: 
-source: unknown
+source: Wellington
 transcription: id:hn-reel-148
 chords: false
 abc: |

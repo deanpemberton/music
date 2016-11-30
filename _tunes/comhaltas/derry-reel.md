@@ -8,7 +8,7 @@ location: Wellington
 tags: 
 mp3_url: 
 abc_url: 
-source: unknown
+source: Wellington
 transcription: id:hn-reel-488
 abc: |
     X:488

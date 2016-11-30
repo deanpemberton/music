@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/sailor-on-the-rock.mp3
 mp3_url: https://comhaltas.ie/music/detail/comhaltaslive_481_5st_rochs_ceili_band/
 abc_url: https://thesession.org/tunes/765
-source: unknown
+source: Wellington
 transcription: 
 chords: false
 abc: |

@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/tobins-favourite.mp3
 mp3_url: https://comhaltas.ie/music/detail/tobins_favourite/
 abc_url: https://thesession.org/tunes/308
-source: unknown
+source: Wellington
 transcription: id:hn-jig-232
 abc: |
     X: 1

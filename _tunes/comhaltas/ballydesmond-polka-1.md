@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/ballydesmond-polka-1.mp3
 mp3_url: https://comhaltas.ie/music/detail/ballydesmond_no_1/
 abc_url: 
-source: unknown
+source: Wellington
 transcription: All three of the Ballydesmond polkas are from playing of Denis Murphy and
 chords: false
 abc: |

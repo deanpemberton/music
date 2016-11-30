@@ -9,7 +9,7 @@ tags: 2015-16 wellington
 mp3_file: /mp3/sligo-maid.mp3
 mp3_url: https://comhaltas.ie/music/detail/sligo_maid/
 abc_url: https://thesession.org/tunes/399
-source: unknown
+source: Wellington
 transcription: 
 chords: false
 abc: |

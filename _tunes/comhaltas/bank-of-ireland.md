@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/bank-of-ireland.mp3
 mp3_url: https://comhaltas.ie/music/detail/bank_of_ireland/
 abc_url: 
-source: unknown
+source: Wellington
 transcription: id:hn-reel-26
 chords: false
 abc: |

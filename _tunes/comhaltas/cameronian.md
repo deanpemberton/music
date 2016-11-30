@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/cameronian.mp3
 mp3_url: https://comhaltas.ie/music/detail/cameronian/
 abc_url: 
-source: unknown
+source: Wellington
 transcription: unknown
 chords: false
 abc: |

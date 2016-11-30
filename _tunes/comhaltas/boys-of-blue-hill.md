@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/boys-of-blue-hill.mp3
 mp3_url: https://comhaltas.ie/music/detail/boys_of_bluehill/
 abc_url: 
-source: unknown
+source: Wellington
 transcription: 
 chords: true
 abc: |

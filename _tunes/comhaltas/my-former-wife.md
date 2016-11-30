@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/my-former-wife.mp3
 mp3_url: 
 abc_url: https://thesession.org/tunes/3418
-source: unknown
+source: Wellington
 transcription: 
 abc: |
     X: 2

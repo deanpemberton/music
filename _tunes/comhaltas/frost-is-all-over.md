@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/frost-is-all-over.mp3
 mp3_url: https://comhaltas.ie/music/detail/frost_is_all_over
 abc_url: trillian.mit.edu
-source: unknown
+source: Wellington
 transcription: John Chambers jc:trillian.mit.edu
 chords: true
 abc: |

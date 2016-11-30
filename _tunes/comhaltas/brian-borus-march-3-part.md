@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/brian-borus-march-3-part.mp3
 mp3_url: https://comhaltas.ie/music/detail/brian_borus_march/
 abc_url: 
-source: unknown
+source: Wellington
 transcription: unknown
 chords: true
 abc: |

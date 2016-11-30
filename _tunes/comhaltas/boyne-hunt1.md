@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/boyne-hunt1.mp3
 mp3_url: https://comhaltas.ie/music/detail/boyne_hunt/
 abc_url: 
-source: unknown
+source: Wellington
 transcription: Paul G Hardy
 chords: true
 abc: |

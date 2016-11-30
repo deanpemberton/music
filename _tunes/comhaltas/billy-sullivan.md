@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/billy-sullivan.mp3
 mp3_url: https://comhaltas.ie/music/detail/
 abc_url: 
-source: unknown
+source: Wellington
 transcription: As played by the Ceili band
 abc: |
     X: 1

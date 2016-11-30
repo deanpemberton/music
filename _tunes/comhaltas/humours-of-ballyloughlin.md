@@ -9,7 +9,7 @@ tags:
 mp3_file: /mp3/humours-of-ballyloughlin.mp3
 mp3_url: https://comhaltas.ie/music/detail/comhaltaslive_424_4_lydia_warnock
 abc_url: https://thesession.org/tunes/210
-source: unknown
+source: Wellington
 transcription: unknown
 chords: true
 abc: |

@@ -9,7 +9,7 @@ tags: 2015-16 wellington
 mp3_file: /mp3/plains-of-boyle.mp3
 mp3_url: https://comhaltas.ie/music/detail/plains_of_boyle/
 abc_url: https://thesession.org/tunes/652
-source: unknown
+source: Wellington
 transcription: unknown
 chords: false
 abc: |
