@@ -4,7 +4,7 @@ key: G
 rhythm: jig
 mode: 
 date: 2016-01-01
-location: Arrowtown Wellington
+location: Arrowtown
 tags:
 mp3_file: /mp3/paddy-fahys-jig.mp3
 mp3_url: 

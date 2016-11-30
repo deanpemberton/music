@@ -4,7 +4,7 @@ key: Edor
 rhythm: waltz
 mode: Edorian
 date: 2016-01-01
-location: Wellington
+location:
 tags:
 mp3_url: 
 abc_url: http://slowplayers.org/wp-content/uploads/Crested-Hens.txt

@@ -4,7 +4,7 @@ key: G
 rhythm: reel
 mode: 
 date: 2016-01-01
-location: Wellington
+location:
 tags:
 mp3_file: /mp3/fox-on-the-town.mp3
 mp3_url: https://comhaltas.ie/music/detail/comhaltaslive_481_5st_rochs_ceili_band/

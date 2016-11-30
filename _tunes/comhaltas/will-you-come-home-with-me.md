@@ -4,7 +4,7 @@ key: G
 rhythm: jig
 mode: 
 date: 2016-11-09
-location: Wellington
+location:
 tags: 2016-17 
 mp3_file: /mp3/will-you-come-home-with-me.mp3
 mp3_url: https://archive.comhaltas.ie/tracks/14265

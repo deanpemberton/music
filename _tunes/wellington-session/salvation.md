@@ -4,7 +4,7 @@ key: A
 rhythm: reel
 mode: 
 date: 2016-01-01
-location: Wellington
+location:
 tags:
 mp3_file: /mp3/salvation.mp3
 mp3_url: 

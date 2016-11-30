@@ -4,7 +4,7 @@ key: Emin
 rhythm: jig
 mode: 
 date: 2016-01-01
-location: Wellington
+location:
 tags:
 mp3_file: /mp3/brid-harpers.mp3
 mp3_url: Wellington Session

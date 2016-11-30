@@ -4,7 +4,7 @@ key: D
 rhythm: reel
 mode: 
 date: 2016-01-01
-location: Wellington
+location:
 tags:
 mp3_file: /mp3/sailors-bonnet.mp3
 mp3_url: https://comhaltas.ie/music/detail/sailors_bonnet/

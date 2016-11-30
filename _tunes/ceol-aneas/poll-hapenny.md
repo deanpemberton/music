@@ -4,7 +4,7 @@ key: Amix
 rhythm: hornpipe
 mode: mixolydian
 date: 2016-01-01
-location: Wellington
+location:
 tags: ceolaneas
 mp3_file: /mp3/poll-hapenny.mp3
 mp3_url: Ceol Aneas 2016 Cian Kissane

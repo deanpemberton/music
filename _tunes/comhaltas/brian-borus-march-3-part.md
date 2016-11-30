@@ -4,7 +4,7 @@ key: Aaeol
 rhythm: march
 mode: 
 date: 2016-01-01
-location: Wellington
+location:
 tags:
 mp3_file: /mp3/brian-borus-march-3-part.mp3
 mp3_url: https://comhaltas.ie/music/detail/brian_borus_march/
