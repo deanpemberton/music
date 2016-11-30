@@ -6,7 +6,7 @@ mode:
 date: 2016-10-27
 location: Arrowtown Dunedin
 tags: dunedin
-mp3_file:
+mp3_file: /mp3/ships-are-sailing.mp3
 mp3_url: http://nefc.org.nz/
 abc_url: http://nefc.org.nz/
 source: 50Dundas
