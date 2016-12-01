@@ -13,6 +13,8 @@ You can find out more about the sessions in these and other NZ cities at:
   * <a href="http://wellington.session.nz">Wellington</a>
   * <a href="https://www.facebook.com/events/156779861168508/">Arrowtown</a>
   
+Please let us know at <a href="mailto:{{ site.email }}">{{ site.email }}</a> about other sessions or incorrect information on this page.
+  
 There's a list of sessions at this site which **may** be current:
 
   * <a href="http://www.kiwifolk.org.nz/sessions.html">Kiwifolk</a>
@@ -27,8 +29,8 @@ There's a list of sessions at this site which **may** be current:
       * <a href="http://www.kiwifolk.org.nz/sessions.html#raglan">Raglan</a>
       * <a href="http://www.kiwifolk.org.nz/sessions.html#tauranga">Tauranga</a>
   
-Archive
--------
+Archives
+--------
 
 When musicians from different parts of the country get together at events like <a href="http://www.irishmusic.org.nz/">Ceol Aneas</a>, the various folk festivals or simply visiting a session in another city, there’s often a mismatch between the tunes people know.
 

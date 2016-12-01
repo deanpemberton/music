@@ -8,7 +8,7 @@ This site has a number of tunes from various parts of the country. You
 can look at them all or you can select by area such as Wellington, Arrowtown,
 Dunedin etc.
 
-We're happy to add tunes from other parts of NZ.
+**We're happy to add tunes from other parts of NZ.**
 
 <fieldset>
     <legend>Select from the NZ Tunes Archive</legend>

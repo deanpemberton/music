@@ -8,6 +8,7 @@ var EndLoopTime = 0;
 var PreviousAudio=null;
 var PreviousB1=null;
 var PreviousB2=null;
+
 function SetPlayRange(audio,BE,button1,button2) {
     if(audio.readyState == 0) return;
     if(PreviousAudio != audio) {
