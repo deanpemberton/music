@@ -18,9 +18,8 @@ abc: |
     M: 4/4
     L: 1/8
     K: Dmaj
-    E|:F3A d2 ed|cAAB cdec|FEFA d2 ed|cAGE EDDE|
-    FEFA d2 ed|cAAB cdec|dcde f2 ed|cAGE EDD2:|
-    |:FAdf a2 ab|g2 gf gfed|cAA2 cdef|gfed cAGE|
-    FAdf a2 ab|g2 gf gfef|gaba gfed|cAGE EDD2:|
-    |"B Variation"FAdf a2 af|g2 gf gfef|gfed cdef|gfed cAGE|
+    |:F2FA d2 ed|cAAB B/2c/2d eA|FEFA dfed|cAGE ED D2|
+    F2FA dfed|cAAB B/2c/2d ec|d2 de fded|cAGE EDD2:|
+    |:FAdf a2 af|g2 ga gfed|cAAA B/2c/2d ef|gfed cAGE|
+    FAdf a2 af|g2 ga gfef|gaba gfed|cAGE EDD2:|
 ---

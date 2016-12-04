@@ -59,3 +59,8 @@ defaults:
     values:
         mp3_licence: CC-BY-NC-4.0
         mp3_source: 50Dundas
+  - scope:
+        path: "_tunes/connieoconnell"
+    values:
+        mp3_licence: Connie_O_Connell
+        mp3_source: <a href="http://epu.ucc.ie/connieoconnell/">Connie O'Connell</a>
