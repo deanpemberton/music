@@ -29,7 +29,6 @@ There's a list of sessions at this site which **may** be current:
       * <a href="http://www.kiwifolk.org.nz/sessions.html#hastings">Hastings</a>
       * <a href="http://www.kiwifolk.org.nz/sessions.html#nelson">Nelson</a>
       * <a href="http://www.kiwifolk.org.nz/sessions.html#palmerstonnorth">Palmerston North</a>
-      * <a href="http://www.kiwifolk.org.nz/sessions.html#raglan">Raglan</a>
       * <a href="http://www.kiwifolk.org.nz/sessions.html#tauranga">Tauranga</a>
   
 Archives
