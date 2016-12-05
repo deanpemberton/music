@@ -14,7 +14,7 @@ You can find out more about the sessions in these and other NZ cities at:
       * The Eatery - fortnightly on Thursdays at 7:30 pm
       * Contact <a href="mailto:wilkiemac.raglan@gmail.com">wilkiemac.raglan@gmail.com</a> to confirm
   * <a href="http://wellington.session.nz">Wellington</a>
-  * <a href="https://www.facebook.com/events/156779861168508/">Arrowtown</a>
+  <!--* <a href="https://www.facebook.com/events/156779861168508/">Arrowtown</a>-->
   
 Please let us know at <a href="mailto:{{ site.email }}">{{ site.email }}</a> about other sessions or incorrect information on this page.
   
