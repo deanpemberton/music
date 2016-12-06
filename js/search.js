@@ -62,7 +62,7 @@
           tableRow += '<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
           tableRow += '<input name="flevel" id="RS' + item.tuneID + '"';
           tableRow += ' type="range" min="50" max="120" value="100"';
-          tableRow += ' onchange="setPlaySpeed(value/100, A' + item.tuneID + ')">';
+          tableRow += ' onchange="setPlaySpeed(A' + item.tuneID + ', value/100)">';
           tableRow += '<output name="level">100</output>%';
           tableRow += '</form></td></tr>';
       } else {

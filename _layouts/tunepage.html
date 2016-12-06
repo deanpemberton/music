@@ -17,7 +17,7 @@ layout: default
     <audio id="{{ titleTag }}A" title="{{ page.title }}" controls loop>
         <source src="{{ page.mp3_file }}" type="audio/mpeg"> 
     </audio>
-    <input name="flevel" id="{{ titleTag }}RS" type="range" min="50" max="120" value="100" onchange="setPlaySpeed(value/100, {{ titleTag }}A)">
+    <input name="flevel" id="{{ titleTag }}RS" type="range" min="50" max="120" value="100" onchange="setPlaySpeed({{ titleTag }}A, value/100)">
     <output name="level">100</output>%
     <br />
     <!--build the loop mechanism for each tune--> 

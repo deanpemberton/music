@@ -1,15 +1,15 @@
 /*
  * Audio controls for the browser audio player
+ *
+ * Version: 1.0
+ * Date: 7 Dec 2016
+ *
  * Developed as part of websites for http://session.nz and http://wellington.session.nz
  * by Ted Cizadlo and Andy Linton
  * Code available at:
  * https://github.com/slow-session/session.nz/blob/master/js/audioID_controls.js
  * Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) Licence.
  */
-
-function setPlaySpeed(speed, audioID) {
-    audioID.playbackRate = speed;
-}
 
 var BeginLoopTime = 0;
 var EndLoopTime = 0;
@@ -70,3 +70,6 @@ function SetPlayRange(audioID, ButtonEvent, button1ID, button2ID) {
     return;
 }
 
+function setPlaySpeed(audioID, speed) {
+    audioID.playbackRate = speed;
+}
