@@ -37,9 +37,10 @@ DED DFA|BAF d2e|faf ede|1 fdd d2 e :|2 fdd d2 D ||
 <!-- Controls for ABC -->
 <form onsubmit="return false" oninput="level.value = Math.round(flevel.valueAsNumber/3.2)">
     <span title="Play the ABC you've entered. You can slow down the playback using the Slider.">      
-        <input type="button" value="Play ABC" id="play" onclick="processedABC.value=preProcessABC(abc.value);abcSliderChanged(RSM102.value,processedABC);">
+        <input type="button" value="Play ABC" id="play" 
+        onclick="processedABC.value=preProcessABC(abc.value);abcSliderChanged(processedABC, RSM102.value);">
         <input type="button" value="Stop" id="stop" onclick="stopABC(processedABC)">
-        <input name="flevel" id="RSM102" type="range" min="160" max="384" value="320"       onchange="processedABC.value=preProcessABC(abc.value);abcSliderChanged(value,processedABC)">
+        <input name="flevel" id="RSM102" type="range" min="160" max="384" value="320"       onchange="processedABC.value=preProcessABC(abc.value);abcSliderChanged(processedABC, value)">
         <output name="level">100</output>%
     </span>
     <br />    

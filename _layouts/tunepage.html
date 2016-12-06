@@ -32,9 +32,9 @@ layout: default
 {% else %}
 <!-- build the abc player for each tune-->
 <form onsubmit="return false" oninput="level.value = Math.round(flevel.valueAsNumber/3.2)">
-    <input type="button" value="Play ABC" id="play" onclick="abcSliderChanged({{ titleTag }}RSM.value,ABC)">
+    <input type="button" value="Play ABC" id="play" onclick="abcSliderChanged(ABC, {{ titleTag }}RSM.value)">
     <input type="button" value="Stop" id="stop" onclick="stopABC(ABC)">
-    <input name="flevel" id="{{ titleTag }}RSM" type="range" min="160" max="384" value="320" onchange="abcSliderChanged(value, ABC)">
+    <input name="flevel" id="{{ titleTag }}RSM" type="range" min="160" max="384" value="320" onchange="abcSliderChanged(ABC, value)">
     <output name="level">100</output>%
 </form>
 {% endif %}
@@ -72,10 +72,10 @@ function toggle(button)
     
     <div id="abcButtons">
         <form  onsubmit="return false"  oninput="level.value =  Math.round(flevel.valueAsNumber/3.2)">
-            <input   type="button"   value="Play ABC"   id="play" onclick="abcSliderChanged({{ titleTag }}RSM.value, ABC)">
+            <input   type="button"   value="Play ABC"   id="play" onclick="abcSliderChanged(ABC, {{ titleTag }}RSM.value)">
             <input type="button" value="Stop"  id="stop" onclick="stopABC(ABC)">  
             <input  name="flevel" id="{{  titleTag }}RSM" type="range" min="160"  max="384" value="320"            
-                         onchange="abcSliderChanged(value,ABC)">
+                         onchange="abcSliderChanged(ABC, value)">
             <output name="level">100</output>% 
         </form> 
         <br /> 
