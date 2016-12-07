@@ -5,7 +5,7 @@ rhythm: jig
 mode: 
 date: 2016-01-01
 location:
-tags: 
+tags:
 mp3_file: /mp3/my-former-wife.mp3
 mp3_url: 
 abc_url: https://thesession.org/tunes/3418

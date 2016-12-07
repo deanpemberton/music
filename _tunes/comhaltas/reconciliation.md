@@ -5,7 +5,7 @@ rhythm: reel
 mode: 
 date: 2016-08-11
 location: Wellington
-tags: 
+tags:
 mp3_file: /mp3/reconciliation.mp3
 mp3_url: 
 abc_url: 

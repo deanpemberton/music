@@ -5,7 +5,7 @@ rhythm: strathspey
 mode:
 date: 2016-10-27
 location: Dunedin
-tags: dunedin
+tags:
 mp3_file:
 mp3_url: http://nefc.org.nz/
 abc_url: http://nefc.org.nz/

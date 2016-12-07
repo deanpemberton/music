@@ -5,7 +5,7 @@ rhythm: reel
 mode: maj
 date: 2016-06-02
 location: Wellington
-tags: 
+tags:
 mp3_file: /mp3/paddys-trip-to-scotland.mp3
 mp3_url: https://comhaltas.ie/music/detail/comhaltaslive_462_10a_selection_of_reels
 abc_url: https://thesession.org/tunes/1303

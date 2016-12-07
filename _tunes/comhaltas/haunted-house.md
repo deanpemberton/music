@@ -5,7 +5,7 @@ rhythm: jig
 mode: 
 date: 2016-1-26
 location: Wellington
-tags: 
+tags:
 mp3_file: /mp3/haunted-house.mp3
 mp3_url: https://comhaltas.ie/music/detail/haunted_house/
 abc_url: 

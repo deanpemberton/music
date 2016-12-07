@@ -5,7 +5,7 @@ rhythm: jig
 mode: 
 date: 2016-01-01
 location: Arrowtown
-tags: 
+tags:
 mp3_file: /mp3/mist-covered-mountain.mp3
 mp3_url: https://comhaltas.ie/music/detail/lurgadan_jig_mist_covered_mountain_eddie_moloneys_jig/
 abc_url: https://thesession.org/tunes/256

@@ -5,7 +5,7 @@ rhythm: reel
 mode: minor
 date: 2016-11-10
 location: Arrowtown
-tags: 2016-17  
+tags:
 mp3_file: 
 mp3_url: 
 source: Wellington

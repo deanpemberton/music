@@ -5,7 +5,7 @@ rhythm: barndance
 mode: major
 date: 2016-4-06
 location: Arrowtown Wellington
-tags: 
+tags:
 mp3_file: /mp3/lucy-farr-s.mp3
 mp3_url: https://comhaltas.ie/music/detail/lucy_farrs_barndance/ 
 source: Wellington

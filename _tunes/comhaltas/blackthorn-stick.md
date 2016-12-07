@@ -5,7 +5,7 @@ rhythm: jig
 mode: major
 date: 2016-01-01
 location: Arrowtown
-tags: 
+tags:
 mp3_file: /mp3/blackthorn-stick.mp3
 mp3_url: https://comhaltas.ie/music/detail/kinnegad_slashers_blackthorn_stick_scotsman_over_the_border/
 abc_url: https://thesession.org/tunes/702

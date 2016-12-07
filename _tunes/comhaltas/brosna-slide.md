@@ -5,7 +5,7 @@ rhythm: slide
 mode: 
 date: 2016-01-01
 location:
-tags: 
+tags:
 mp3_file: /mp3/brosna-slide.mp3
 mp3_url: https://comhaltas.ie/music/detail/brosna_slide/
 abc_url: https://comhaltas.ie/music/detail/

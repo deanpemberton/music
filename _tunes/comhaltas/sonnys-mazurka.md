@@ -5,7 +5,7 @@ rhythm: mazurka
 mode: 
 date: 2016-11-17
 location:
-tags: 
+tags:
 mp3_file: /mp3/sonnys-mazurka.mp3
 mp3_url: 
 abc_url: https://thesession.org/tunes/5476

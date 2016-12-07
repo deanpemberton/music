@@ -5,7 +5,7 @@ rhythm: reel
 mode:
 date: 2016-10-27
 location: Arrowtown Wellington
-tags: 
+tags:
 mp3_file: /mp3/ships-are-sailing.mp3
 mp3_url: https://media.comhaltas.ie/audio/fs1/1-53ReelsP16ShipAreSailing.mp3
 abc_url: http://nefc.org.nz/

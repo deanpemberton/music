@@ -5,7 +5,7 @@ rhythm: jig
 mode: 
 date: 2016-01-01
 location:
-tags: 
+tags:
 mp3_file: /mp3/behind-the-haystack.mp3
 mp3_url: https://comhaltas.ie/music/detail/behind_the_haystack/
 abc_url: 

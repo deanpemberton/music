@@ -5,7 +5,7 @@ rhythm: hornpipe
 mode: major
 date: 2016-06-08
 location: Wellington
-tags: 
+tags:
 mp3_file: /mp3/kittys-wedding.mp3
 mp3_url: https://comhaltas.ie/music/detail/kittys_wedding/
 abc_url: https://thesession.org/tunes/869

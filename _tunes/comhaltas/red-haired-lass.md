@@ -5,7 +5,7 @@ rhythm: reel
 mode: 
 date: 2016-09-28
 location: Arrowtown Wellington
-tags: 
+tags:
 mp3_file: /mp3/red-haired-lass.mp3
 mp3_url: 
 abc_url: https://thesession.org/tunes/1716

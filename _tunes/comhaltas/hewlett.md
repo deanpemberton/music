@@ -5,7 +5,7 @@ rhythm: planxty
 mode: 
 date: 2016-09-28
 location: Arrowtown Wellington
-tags: 
+tags:
 mp3_file:
 mp3_url: 
 abc_url: 
