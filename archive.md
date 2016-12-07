@@ -17,7 +17,7 @@ Dunedin etc.
         <br />
        <span title="Filter the Tunes Archive for tunes by title or by type such as 'reel', 'jig', 'polka'. You can also look for 'location' such as 'Wellington', 'Dunedin'">        
         Title:
-        <input type="text" id="title-box" name="title" value='' onkeypress="enable_button()">
+        <input type="text" id="title-box" name="title" value='' onkeydown="enable_button()">
         &emsp; 
         Rhythm:
         <select id="rhythm-box" name="rhythm" onchange="enable_button()">
