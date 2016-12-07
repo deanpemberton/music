@@ -4,7 +4,7 @@ key: D
 rhythm: jig
 mode: 
 date: 2016-01-01
-location: Arrowtown
+location: Arrowtown Wellington
 tags:
 mp3_file: /mp3/tobins-favourite.mp3
 mp3_url: https://comhaltas.ie/music/detail/tobins_favourite/

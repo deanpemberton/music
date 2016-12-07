@@ -4,7 +4,7 @@ key: G
 rhythm: jig
 mode: 
 date: 2016-01-01
-location:
+location: Wellington
 tags:
 mp3_file: /mp3/mchughs.mp3
 mp3_url: 

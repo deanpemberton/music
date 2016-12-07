@@ -4,7 +4,7 @@ key: G
 rhythm: reel
 mode: 
 date: 2016-01-01
-location:
+location: Wellington
 tags:
 mp3_file: /mp3/swinging-on-the-gate.mp3
 mp3_url: 

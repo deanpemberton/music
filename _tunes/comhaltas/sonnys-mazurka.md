@@ -4,7 +4,7 @@ key: D
 rhythm: mazurka
 mode: 
 date: 2016-11-17
-location:
+location: Wellington
 tags:
 mp3_file: /mp3/sonnys-mazurka.mp3
 mp3_url: 
