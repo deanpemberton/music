@@ -5,7 +5,7 @@ rhythm: reel
 mode: 
 date: 2016-12-5
 location:
-tags: 2016-17 wellington 
+tags: 
 mp3_file: /mp3/meitheal-reel.mp3
 mp3_url: http://epu.ucc.ie/connieoconnell/wp-content/uploads/2014/05/63-Meitheal-Reel.mp3
 source: Wellington

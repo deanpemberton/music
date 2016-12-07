@@ -5,7 +5,7 @@ rhythm: jig
 mode: 
 date: 2016-01-01
 location:
-tags:
+tags: 
 mp3_file: /mp3/brendan-tonras.mp3
 mp3_url: https://comhaltas.ie/music/detail/brendan_tonras/
 abc_url: https://comhaltas.ie/music/detail/

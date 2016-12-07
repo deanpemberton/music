@@ -5,7 +5,7 @@ rhythm: reel
 mode: minor
 date: 2016-10-26
 location:
-tags: archive  2016-17
+tags: 
 mp3_file: 
 mp3_url: 
 abc_url: 

@@ -5,7 +5,7 @@ rhythm: hornpipe
 mode: 
 date: 2016-01-01
 location:
-tags:
+tags: 
 mp3_file: /mp3/beeswing-hornpipe-a.mp3
 mp3_url: http://media.comhaltas.ie/audio/cl232/cl232_4.mp3
 abc_url: trillian.mit.edu

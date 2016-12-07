@@ -5,7 +5,7 @@ rhythm: jig
 mode: major
 date: 2015-11-1
 location:
-tags: beginner new
+tags: 
 mp3_file: /mp3/kilglass-lakes.mp3
 mp3_url: https://comhaltas.ie/music/detail/kilglass_lakes/
 source: Wellington

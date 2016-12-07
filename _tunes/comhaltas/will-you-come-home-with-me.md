@@ -5,7 +5,7 @@ rhythm: jig
 mode: 
 date: 2016-11-09
 location:
-tags: 2016-17 
+tags: 
 mp3_file: /mp3/will-you-come-home-with-me.mp3
 mp3_url: https://archive.comhaltas.ie/tracks/14265
 abc_url: 
