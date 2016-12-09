@@ -1,5 +1,5 @@
 ---
-title: "Kilglass Lakes"
+title: Kilglass Lakes
 key: D
 rhythm: jig
 mode: major

@@ -1,5 +1,5 @@
 ---
-title: "Toss the Feathers"
+title: Toss the Feathers
 key: E
 rhythm: reel
 mode: dorian

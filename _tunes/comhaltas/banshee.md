@@ -1,5 +1,5 @@
 ---
-title: "Banshee"
+title: Banshee
 key: G
 rhythm: reel
 mode: major

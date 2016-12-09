@@ -1,5 +1,5 @@
 ---
-title: "Wise Maid"
+title: Wise Maid
 key: D
 rhythm: reel
 mode: major

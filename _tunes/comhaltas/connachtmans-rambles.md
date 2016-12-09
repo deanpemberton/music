@@ -1,5 +1,5 @@
 ---
-title: "Connachtman's Rambles"
+title: Connachtman's Rambles
 key: D
 rhythm: jig
 mode: major
