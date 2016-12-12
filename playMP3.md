@@ -2,6 +2,7 @@
 layout: page
 title: Play MP3
 permalink: /playMP3/
+navigation_weight: 15
 ---
 <div class="player">
 <div id="showPlayer">
