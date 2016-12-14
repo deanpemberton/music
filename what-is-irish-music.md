@@ -28,12 +28,13 @@ Irish music is very specific: specific tunes in specific rhythms, played in spec
 * Country and Western, Bluegrass, Jazz, Blues...
 * U2, The Pogues, Thin Lizzie, nor is it Daniel O'Donnell or songs like "I'll take you home again, Kathleen" or "Danny Boy".
 
-The occasional song is sung but if you're in doubt, ask someone if they reckon would your version of "Whiskey in the Jar" accompanied on the Stylophone be OK. By the way, the answer is probably no.
-
+The occasional song is sung but if you're in doubt, ask someone who looks as if they're an experienced player if they reckon would your version of "When Irish Eyes are Smiling" accompanied on the Stylophone be OK. By the way, the answer is probably no.
 
 Tunes
 -----
-You can find lots of examples of the tunes we're talking about on these site - see our <a href="/current_tunes/">Current Tunes</a> page.
+You can find lots of examples of the tunes we're talking about on this site - see our <a href="/current_tunes/">Current Tunes</a> page.
+
+
 
 Rhythms
 -------
@@ -50,7 +51,7 @@ But there are also tunes like Slow Airs which are for listening - they're reflec
 Instruments
 -----------
 
-Melody:
+These melody instruments are the backbone of the music - this is where the pulse of the music happens. They dictate the rhythm and speed of the tunes:
 
 * Fiddle
 * Flute
@@ -66,13 +67,13 @@ You'll probably see some or all of these at a session depending on where you are
 
 If you have an instrument that you want to play melody on that isn't listed above then perhaps you might want to reconsider. Again ask someone!
 
-Accompaniment:
+Unlike lots of other music we're familiar with where e.g drums, bass and rhythm guitar set the rhythm, Irish traditional music uses instruments like these in a different way:
 
 * Guitar
 * Bouzouki
 * Bodhran
 
-If there's one melody player and several of these instruments then almost all of them should probably just sit and listen.
+First of all, they aren't necessary for the music to work. If there's several of these instruments then almost all of them should probably just sit and listen. Or take it in turns.
 
 If you have an instrument that you want to play accompaniment on that isn’t listed above then perhaps you might want to reconsider. Again ask someone!
 
