@@ -1,13 +1,16 @@
 ---
 layout: default
-title: What is Irish Traditional Music?
+title: What is traditional Irish Music?
 permalink: /what_is_irish_music/
 ---
 
 DRAFT! DRAFT!
 =============
+{:.no_toc style="text-align: center;"}
 
-What is Irish Traditional Music?
+---
+
+What is traditional Irish Music?
 ================================
 {:.no_toc}
 
@@ -38,7 +41,7 @@ You can find lots of examples of the tunes we're talking about on this site - se
 
 Rhythms
 -------
-The music is primarily tunes for Irish traditional dancing:
+The music is primarily tunes for traditional Irish dancing:
 
 * Reels
 * Jigs
@@ -67,7 +70,7 @@ You'll probably see some or all of these at a session depending on where you are
 
 If you have an instrument that you want to play melody on that isn't listed above then perhaps you might want to reconsider. Again ask someone!
 
-Unlike lots of other music we're familiar with where e.g drums, bass and rhythm guitar set the rhythm, Irish traditional music uses instruments like these in a different way:
+Unlike lots of other music we're familiar with where e.g. drums, bass and rhythm guitar set the rhythm, traditional Irish music uses instruments like these in a different way:
 
 * Guitar
 * Bouzouki
@@ -76,4 +79,13 @@ Unlike lots of other music we're familiar with where e.g drums, bass and rhythm 
 First of all, they aren't necessary for the music to work. If there's several of these instruments then almost all of them should probably just sit and listen. Or take it in turns.
 
 If you have an instrument that you want to play accompaniment on that isn’t listed above then perhaps you might want to reconsider. Again ask someone!
+
+
+---
+
+DRAFT! DRAFT!
+=============
+{:.no_toc style="text-align: center;"}
+
+
 
