@@ -24,3 +24,5 @@ abc: |
     |: G Bd |"G" g3 a"D" f3 g |[M:5/4]"C" e3 "G"c dB G2 Bc |1 [M:4/4]"D" A2 AB c2 cB |[M:3/4]"G" B3 :|2[M:4/4]"D" A2 D3D cB |[M:3/4]"G" G3||
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

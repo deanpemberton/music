@@ -33,3 +33,5 @@ abc: |
     DE/F/ G/z/G/z/ GD|GA/B/ c/z/B/z/A2|DE/F/ G/E/B/G/F2|DE/F/ GFD2:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

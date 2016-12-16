@@ -24,3 +24,5 @@ abc: |
     |:fe|"G"d2B2 BcdB|"D"A2F2 F3A|"A"G2E2 EFGE|"D"F2D2 D2:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

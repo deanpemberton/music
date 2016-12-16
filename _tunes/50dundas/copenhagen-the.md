@@ -30,3 +30,5 @@ abc: |
     cBA FGA |"Am" fed cAd |[1 "D7"cAF "G"G2 E :|[2"D7" cAF "G"G3 ||
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

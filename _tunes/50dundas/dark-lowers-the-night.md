@@ -26,3 +26,5 @@ abc: |
     "Bm"B2 B>c de|f2 f2 g>a|"Em"f2 fe"A"dc|1"Bm"B4 a>g:|2"Bm"B4 d>c|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

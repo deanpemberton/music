@@ -26,3 +26,5 @@ abc: |
     B,3- B,EF | G3- GFE | F3 A2d | F3- FD2 | E3 B2 A | A3 F2 D | E6 | E6 :|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

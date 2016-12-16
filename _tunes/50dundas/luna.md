@@ -54,3 +54,5 @@ abc: |
     B2 z2 D2 z F|E z z2 F4|C4 DEFG|A2E2 A,4||
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

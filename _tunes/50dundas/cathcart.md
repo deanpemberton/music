@@ -33,3 +33,5 @@ abc: |
     A2e2a2|g2D2G2|1A3zc2:|2A3|]
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

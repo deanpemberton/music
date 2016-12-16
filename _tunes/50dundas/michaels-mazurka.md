@@ -38,3 +38,5 @@ abc: |
     !accent!B,2CDB,2|!accent!C2DEC2|!accent!D2EFD2|!accent!E2FGE2|F2GB Ac |Bd ce df|g4B/c/B/A/|1B4z2:|2B4||
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

@@ -25,3 +25,5 @@ abc: |
     "Am"a>g ec d<e g<a|"Em"g2g>B"G"G2GA|"Am"A<E A>B c>d e<g|"Em"e>d c<B"Am"{/B}A2A2:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

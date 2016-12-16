@@ -30,3 +30,5 @@ abc: |
     |:A,|D2DD3|A,2DD3|F2DD3|EB,B, B,CD|A,2DD3|F2DD3|F3EDE|GFF F2:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

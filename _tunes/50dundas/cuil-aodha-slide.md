@@ -27,3 +27,5 @@ abc: |
     d3c3d3A3|B3c3d3G3|d3A3A2Bc3|defa3d3A3:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

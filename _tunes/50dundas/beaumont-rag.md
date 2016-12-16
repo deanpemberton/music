@@ -43,3 +43,5 @@ abc: |
     f3 c3 A2|F3 G3 A2|B2c2d2e2|f2c2A2F2|c2d2^d2e2|f3/2 c/ A F- F4 :|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

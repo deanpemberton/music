@@ -54,3 +54,5 @@ abc: |
     C2D2E2F2|e^deg- ge=d2|c4C4|]
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

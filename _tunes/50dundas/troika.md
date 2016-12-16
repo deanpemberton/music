@@ -49,3 +49,5 @@ abc: |
     c2A2G2FG|.A2 z A, FED^C|[1DD2 ^C !accent!D!accent!D!accent!D2:|[2.d2zD"E7" cBA^G!D.C.!||
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

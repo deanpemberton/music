@@ -27,3 +27,5 @@ abc: |
     "C"!slide![ee]2!slide![ee]2 "G"d3g-|gedB "D"AGED|"G"G,B,DG [GA]-[GB] [GB][GB] |"D" AGED"G"G4||
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

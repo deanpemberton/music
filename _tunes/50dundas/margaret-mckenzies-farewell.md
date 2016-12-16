@@ -26,3 +26,5 @@ abc: |
     "A"{g}a3-a/g/ f>e|{e}a4A>B|"D"{c}a3-a/f/a2|"A"e4f2|"F#m"c4B>A|"E"{A}f3-f/e/B2|"A"{d}c4-cA|A6:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

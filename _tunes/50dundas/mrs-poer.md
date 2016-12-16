@@ -28,3 +28,5 @@ abc: |
     "D/F#"FAdc BAGF|"G"EFGA Bcde|"D/A"A2d2 "A7"fedc|"D"d2 G2 F4:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

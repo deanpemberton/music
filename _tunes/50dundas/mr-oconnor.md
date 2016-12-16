@@ -65,3 +65,5 @@ abc: |
     z2 G,B, G,B,|z2 D,4|z2 G,,E, G,,E,|z2 B,,4|E,D, E,F, G,2|z2 D,4|z2 E,2 F,2|1E,6:|2E,6|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

@@ -22,3 +22,5 @@ abc: |
     "Em"[Be]g "D"fa|"Em"eg "D"g/f/"4 times"e/d/::][:[P:B]"Em"ee/d/ "D"f/e/d/B/|"Em"ed/e/ "D"f/e/d/B/:][::[P:C]"Am"A>B "G"G>B|"Am"Ae "G"e/d/"4 times"B/G/::|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

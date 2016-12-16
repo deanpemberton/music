@@ -28,3 +28,5 @@ abc: |
     |:A,C|D2DDD2DD|D2DDD2DD|DA, F,A,G,2A,2|C2G,2C2:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

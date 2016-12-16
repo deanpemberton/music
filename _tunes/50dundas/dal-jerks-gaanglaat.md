@@ -36,3 +36,5 @@ abc: |
     G,4B,2C2|D4A,2C2|D4A,2C2|D2A,2 F,2G,2|A,4A,2C2|D4G,2B,2|E6C2|D4A,2F,2|D,4A,2G,2|F,4G,2A,2|F,6:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

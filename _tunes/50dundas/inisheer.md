@@ -44,3 +44,5 @@ abc: |
     B2d4|e4B2|e2d2B2|c4G2|c4d2|e2E2F2|G2B2d2|d4D2|G6|]
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

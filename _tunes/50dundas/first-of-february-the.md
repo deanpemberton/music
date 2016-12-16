@@ -33,3 +33,5 @@ abc: |
     [1D2B,G,3|D3G,3|C3G,3|D3A,3:|[2C3G,3|D3A,3|E3CB,G,|E3B,G,F,|]
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

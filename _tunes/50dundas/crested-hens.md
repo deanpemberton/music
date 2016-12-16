@@ -57,3 +57,5 @@ abc: |
     EBf2g2|=cB cd ef|Aeb2a2|=c6:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

@@ -37,3 +37,5 @@ abc: |
     |:D,E,F,|G,3D3B,3G,3|C3D3C2B, A,G,F,|G,3D3B,3G,3|CDED2F,G,3:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

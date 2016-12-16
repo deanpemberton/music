@@ -30,3 +30,5 @@ abc: |
     |:E|A3G3|E3A,3|D3C3|E3B,2E|A3G3|E3A,3|D3C3|A,3A,2:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

@@ -23,3 +23,5 @@ abc: |
     |:cd|"A"e2e2cA|"D"d2"Em"e2"D/F#"f2|"G"g3/2a/ ge fd|"Em"fg/f/"A"e2ag|"D"f2fd e>c|d2A2Ac|"G"B2Be "A"cA|"D"d4:|
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

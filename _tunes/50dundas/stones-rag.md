@@ -31,3 +31,5 @@ abc: |
     D4 A,4|D4 A,4|C2^D2 ^F2A2|c4 G4|D4 G,4|C8|]
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />

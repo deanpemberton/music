@@ -33,3 +33,5 @@ abc: |
     f/z/f/d/A2e/c/e/f/|g/z/g/e/B2DF|-FE -ED CD/E/|[1G/z/F/F/F2AG:|[2F4|]
 
 ---
+<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
+Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />
