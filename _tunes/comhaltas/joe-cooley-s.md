@@ -4,7 +4,7 @@ key: Edor
 rhythm: reel
 mode: 
 date: 2016-1-27
-location: Arrowtown Wellington Dunedin
+location: Hamilton Arrowtown Wellington Dunedin
 tags:
 mp3_file: /mp3/joe-cooley-s.mp3
 mp3_url: https://comhaltas.ie/music/detail/joe_cooleys/

@@ -4,7 +4,7 @@ key: G
 rhythm: reel
 mode: dorian
 date: 2016-01-01
-location: Wellington
+location: Hamilton Wellington
 tags:
 mp3_file: /mp3/peelers-jacket.mp3
 mp3_url: https://comhaltas.ie/music/detail/comhaltaslive_204_6_dennis_alexander/

@@ -5,7 +5,7 @@ permalink: /archive/
 navigation_weight: 5
 ---
 This site has a number of tunes from various parts of the country. You
-can look at them all or you can select by area such as Wellington, Arrowtown,
+can look at them all or you can select by area such as Hamilton, Wellington, Arrowtown,
 Dunedin etc.
 
 **We're happy to add tunes from other parts of NZ.**
@@ -37,6 +37,7 @@ Dunedin etc.
         Location:
         <select id="location-box" name="location" onchange="enable_button()">
             <option value="">All Locations</option>
+            <option value="Hamilton">Hamilton</option>
             <option value="Wellington">Wellington</option>
             <option value="Arrowtown">Arrowtown</option>
             <option value="Dunedin">Dunedin</option>

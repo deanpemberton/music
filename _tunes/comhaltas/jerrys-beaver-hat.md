@@ -4,7 +4,7 @@ key: D
 rhythm: jig
 mode: Major
 date: 2016-03-29
-location: Wellington
+location: Hamilton Wellington
 tags:
 mp3_file: /mp3/jerrys-beaver-hat.mp3
 mp3_url: https://comhaltas.ie/music/detail/jerrys_beaver_hat/

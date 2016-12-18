@@ -4,7 +4,7 @@ key: G
 rhythm: polka
 mode: 
 date: 2016-01-01
-location: Arrowtown Wellington
+location: Hamilton Arrowtown Wellington
 tags:
 mp3_file: /mp3/ballydesmond-polka-2.mp3
 mp3_url: https://comhaltas.ie/music/detail/ballydesmond_no_2/

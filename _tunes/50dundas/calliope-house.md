@@ -4,7 +4,7 @@ key: Dmaj
 rhythm: jig 
 mode:
 date: 2016-10-27
-location: Arrowtown Dunedin
+location: Hamilton Arrowtown Dunedin
 tags:
 mp3_file:
 mp3_url: http://nefc.org.nz/

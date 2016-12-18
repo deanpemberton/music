@@ -4,7 +4,7 @@ key: D
 rhythm: reel
 mode: 
 date: 2016-11-17
-location: Wellington
+location: Hamilton Wellington
 tags:
 mp3_file: /mp3/silver-spire.mp3
 mp3_url: Richard Tait 

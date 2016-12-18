@@ -4,7 +4,7 @@ key: Ador
 rhythm: jig
 mode: dorian
 date: 2016-02-17
-location: Arrowtown Wellington
+location: Hamilton Arrowtown Wellington
 tags:
 mp3_file: /mp3/cliffs-of-moher.mp3
 mp3_url: https://comhaltas.ie/music/detail/cliffs_of_moher/

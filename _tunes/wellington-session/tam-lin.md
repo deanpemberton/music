@@ -4,7 +4,7 @@ key: Dmin
 rhythm: reel
 mode: minor
 date: 2016-11-10
-location: Arrowtown
+location: Hamilton Arrowtown Wellington
 tags:
 mp3_file: 
 mp3_url: 

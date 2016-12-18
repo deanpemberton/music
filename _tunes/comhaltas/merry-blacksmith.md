@@ -4,7 +4,7 @@ key: D
 rhythm: reel
 mode: 
 date: 2016-3-2
-location: Arrowtown Wellington
+location: Hamilton Arrowtown Wellington
 tags:
 mp3_file: /mp3/merry-blacksmith.mp3
 mp3_url: https://comhaltas.ie/music/detail/merry_blacksmith/

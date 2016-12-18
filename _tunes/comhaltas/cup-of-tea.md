@@ -4,7 +4,7 @@ key: E Dor
 rhythm: reel
 mode: Dorian
 date: 2016-5-4
-location: Arrowtown Wellington
+location: Hamilton Arrowtown Wellington
 tags:
 mp3_file: /mp3/cup-of-tea.mp3
 mp3_url: https://comhaltas.ie/music/detail/cup_of_tea/

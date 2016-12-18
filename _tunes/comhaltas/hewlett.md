@@ -4,7 +4,7 @@ key: D
 rhythm: planxty
 mode: 
 date: 2016-09-28
-location: Arrowtown Wellington
+location: Hamilton Arrowtown Wellington
 tags:
 mp3_file:
 mp3_url: 

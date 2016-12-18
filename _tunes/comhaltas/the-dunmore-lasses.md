@@ -4,7 +4,7 @@ key: D
 rhythm: reel
 mode: 
 date: 2016-1-26
-location: Arrowtown Wellington
+location: Hamilton Arrowtown Wellington
 tags:
 mp3_file: /mp3/the-dunmore-lasses.mp3
 mp3_url: https://media.comhaltas.ie/audio/cl454_mp3/cl454_4.mp3

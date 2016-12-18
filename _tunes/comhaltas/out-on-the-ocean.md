@@ -4,7 +4,7 @@ key: G
 rhythm: jig
 mode: major
 date: 2016-1-26
-location: Arrowtown Wellington
+location: Hamilton Arrowtown Wellington
 tags:
 mp3_file: /mp3/out-on-the-ocean.mp3
 mp3_url: https://comhaltas.ie/music/detail/out_on_the_ocean/ 

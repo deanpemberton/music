@@ -4,7 +4,7 @@ key: Amix
 rhythm: reel
 mode: 
 date: 2016-09-20
-location: Wellington
+location: Hamilton Wellington
 tags:
 mp3_file: /mp3/high-road-to-linton.mp3
 mp3_url: 
