@@ -22,7 +22,6 @@ There's a list of sessions at this site which **may** be current:
 
   * <a href="http://www.kiwifolk.org.nz/sessions.html">Kiwifolk</a>
       * <a href="http://www.kiwifolk.org.nz/sessions.html#auckland">Auckland</a>
-      * <a href="http://www.kiwifolk.org.nz/sessions.html#arrowtown">Arrowtown</a>
       * <a href="http://www.kiwifolk.org.nz/sessions.html#christchurch">Christchurch</a>
       * <a href="http://www.kiwifolk.org.nz/sessions.html#dunedin">Dunedin</a>
       * <a href="http://www.kiwifolk.org.nz/sessions.html#hamilton">Hamilton</a>
@@ -40,6 +39,7 @@ This site has a number of tunes from various parts of the country and you can se
 
 We have tunes from these locations:
 
+  * <a href="/archive?title=&rhythm=&location=Hamilton&submit=Select">Hamilton</a>
   * <a href="/archive?title=&rhythm=&location=Wellington&submit=Select">Wellington</a>
   * <a href="/archive?title=&rhythm=&location=Arrowtown&submit=Select">Arrowtown</a>
   * <a href="/archive?title=&rhythm=&location=Dunedin&submit=Select">Dunedin</a>
