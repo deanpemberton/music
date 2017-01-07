@@ -74,8 +74,3 @@ function SetPlayRange(audioID, ButtonEvent, button1ID, button2ID) {
 function setPlaySpeed(audioID, speed) {
     audioID.playbackRate = speed;
 }
-
-function setDefaultPlaySpeed(audioID, speed) {
-    audioID.defaultPlaybackRate = speed;
-    audioID.load();
-}
