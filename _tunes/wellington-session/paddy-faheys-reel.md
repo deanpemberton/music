@@ -2,13 +2,15 @@
 title: Paddy Fahey's
 key: G
 rhythm: reel
-mode: 
+mode:
 date: 2016-01-01
-location:
+location: Wellington
 tags:
-mp3_file: 
-mp3_url: https://www.facebook.com/groups/WellingtonSession
-abc_url: 
+mp3_file: /mp3/padey-faheys-reel.mp3
+mp3_licence: <a href="https://www.youtube.com/yt/copyright/fair-use.html">YouTube Fair Use</a>
+mp3_source: YouTube video posted by Robert Singer
+mp3_url: https://youtu.be/x6qxqDdq4-c
+abc_url:
 source: Wellington
 transcription: Ted Cizadlo
 abc: |
@@ -22,7 +24,7 @@ abc: |
     G,2 B,D GBdB|c2 ag fgdc|BG (3GGG BcdB|1 cAFA G2 DB,:|2 cAFA G2 (3Bcd||
     |:g2fa gdBG|FGAB c2 Bc|Aaag a3g|fdad bdad|
     (3ggg fa gdBG|FGAB c2 Bc|d (3ggg defd|1 cAFA G2 Bc:|2 cAFA G2 DB,||
-    
+
 ---
 
 <fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
