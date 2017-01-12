@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: /mp3/paddy-faheys-reel.mp3
+mp3_file: /mp3/paddy-faheys-reel-14.mp3
 mp3_licence: <a href="https://www.youtube.com/yt/copyright/fair-use.html">YouTube Fair Use</a>
 mp3_source: YouTube video posted by Robert Singer
 mp3_url: https://youtu.be/x6qxqDdq4-c
@@ -16,6 +16,7 @@ transcription: Ted Cizadlo
 abc: |
     X: 1
     T: Paddy Fahey's
+    T: Paddy Fahey’s No. 14
     R: reel
     M: 4/4
     L: 1/8
@@ -26,6 +27,3 @@ abc: |
     (3ggg fa gdBG|FGAB c2 Bc|d (3ggg defd|1 cAFA G2 Bc:|2 cAFA G2 DB,||
 
 ---
-
-<fieldset><strong>A recording for this tune is not available yet. Qualify for glory by providing one!
-Make a recording of yourself or your session playing this tune and send it to us at admin@session.nz</strong></fieldset><br />
