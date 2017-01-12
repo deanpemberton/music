@@ -9,8 +9,7 @@ tags:
 mp3_file: /mp3/dowds-no-9.mp3
 mp3_licence: <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC-BY-NC-2.5</a>
 mp3_source: Comhaltas Ceoltóirí Éireann
-mp3_url:
-https://archive.comhaltas.ie/assets/tracks/HQ/SMM/T010/wm-SMM.T010.21.mp3/ea7c8576ddbb086bae1367a9b638b12f/58770062
+mp3_url: https://archive.comhaltas.ie/assets/tracks/HQ/SMM/T010/wm-SMM.T010.21.mp3/ea7c8576ddbb086bae1367a9b638b12f/58770062
 abc_url:
 source: Wellington
 transcription:
