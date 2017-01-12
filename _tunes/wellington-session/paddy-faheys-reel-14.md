@@ -1,5 +1,5 @@
 ---
-title: Paddy Fahey's
+title: Paddy Fahey's No. 14
 key: G
 rhythm: reel
 mode:
@@ -15,7 +15,6 @@ source: Wellington
 transcription: Ted Cizadlo
 abc: |
     X: 1
-    T: Paddy Fahey's
     T: Paddy Fahey’s No. 14
     R: reel
     M: 4/4

@@ -1,5 +1,5 @@
 ---
-title: Paddy Fahey's
+title: Paddy Fahey's No. 6
 key: Dmix
 rhythm: reel
 mode:
@@ -14,8 +14,7 @@ abc_url: https://thesession.org/tunes/859
 source: Wellington
 abc: |
    X: 1
-   T: Paddy Fahey's
-   T: Paddy Fahey’s No.6
+   T: Paddy Fahey's No. 6
    R: reel
    M: 4/4
    L: 1/8
