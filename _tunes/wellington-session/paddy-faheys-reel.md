@@ -6,7 +6,7 @@ mode:
 date: 2016-01-01
 location: Wellington
 tags:
-mp3_file: /mp3/padey-faheys-reel.mp3
+mp3_file: /mp3/paddy-faheys-reel.mp3
 mp3_licence: <a href="https://www.youtube.com/yt/copyright/fair-use.html">YouTube Fair Use</a>
 mp3_source: YouTube video posted by Robert Singer
 mp3_url: https://youtu.be/x6qxqDdq4-c
