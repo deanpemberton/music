@@ -1,6 +1,6 @@
  /*
   * Code for building index of tunes and searching it
-  * 
+  *
   * Version: 1.0
   * Date: 7 Dec 2016
   *
@@ -13,175 +13,200 @@
   * Derived from: http://jekyll.tips/jekyll-casts/jekyll-search-using-lunr-js/
   */
 
-(function() {
-    function displayTunesTable(results, store) {
+ (function() {
+     function displayTunesTable(results, store) {
+         var tunesTable = document.getElementById('tunes-table');
+         var tunesCount = document.getElementById('tunes-count');
+         var tunesCounter = 0;
 
-        var tunesTable = document.getElementById('tunes-table');
+         // create table headers
+         var appendString = '<table style="width:100%"  align="center" id="search-results" class="tablesorter"> \
+        <thead> \
+        <tr> \
+           <th style="width:20%;">Tune Name &#x25B2;&#x25BC;</th> \
+           <th style="width:4%;">Key<br />&#x25B2;&#x25BC;</th> \
+           <th style="width:6%;">Rhythm<br />&#x25B2;&#x25BC;</th> \
+           <th style="width:70%;">Audio Player</th> \
+        </tr> \
+        </thead> \
+        <tbody>';
 
-        // create table headers
-        var appendString = '<table style="width:100%"  align="center" id="search-results" class="tablesorter"> \
-    <thead><tr> \
-    <th style="width:25%;">Tune Name &#x25B2;&#x25BC;</th> \
-    <th style="width:4%;">Key<br />&#x25B2;&#x25BC;</th> \
-    <th style="width:6%;">Rhythm<br />&#x25B2;&#x25BC;</th> \
-    <th style="width:40%;">Audio Control</th> \
-    <th style="width:25%;">Speed Adjustment</th> \
-    </tr></thead><tbody>';
+         if (results.length) { // Are there any results?
+             for (var i = 0; i < results.length; i++) { // Iterate over the results
+                 var item = store[results[i].ref];
+                 appendString += createTableRow(item);
+                 addTextArea(item);
+                 tunesCounter++;
+             }
+         } else {
+             for (var key in store) { // Iterate over the original data
+                 var item = store[key];
+                 appendString += createTableRow(item);
+                 addTextArea(item);
+                 tunesCounter++;
+             }
+         }
+         appendString += '</tbody></table>';
+         tunesTable.innerHTML = appendString;
+         tunesCount.innerHTML = 'Displaying ' + tunesCounter + ' tunes';
+     }
 
-        if (results.length) { // Are there any results?        
-            for (var i = 0; i < results.length; i++) { // Iterate over the results
-                var item = store[results[i].ref];
-                appendString += createTableRow(item);
-                addTextArea(item);
-            }
-        } else {
-            for (var key in store) { // Iterate over the original data
-                var item = store[key];
-                appendString += createTableRow(item);
-                addTextArea(item);
-            }
-        }
-        appendString += '</tbody></table>';
+     function createTableRow(item) {
+         var tableRow = '';
 
-        tunesTable.innerHTML = appendString;
-    }
+         // build the first three columns
+         tableRow += '<tr>';
+         tableRow += '<td><span title="Tune played in: ' + item.location + '">';
+         tableRow += '<a href="' + item.url + '">' + item.title + '</a></span></td>';
+         tableRow += '<td>' + item.key + '</td>';
+         tableRow += '<td>' + item.rhythm + '</td>';
 
-    function createTableRow(item) {
-        var tableRow = '';
+         if (item.mp3) {
+             // build the audio player for each tune
+             tableRow += '<td>';
+             tableRow += '   <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
+             tableRow += '      <div id="audioplayer' + item.tuneID + '" title="' + item.title + '" class="audioplayer">';
+             tableRow += '         <button id="pButton' + item.tuneID + '" class="playButton"';
+             tableRow += '            onclick="playAudio(audioplayer' + item.tuneID + ', pButton' + item.tuneID + ', playPosition' + item.tuneID + ', \'' + item.mp3 + '\', APos' + item.tuneID + ')">';
+             tableRow += '            <div id="APos' + item.tuneID + '" class="audioPos">0.0</div>';
+             tableRow += '         </button>';
+             tableRow += '         <input name="playPosition' + item.tuneID + '" id="playPosition' + item.tuneID + '" type="range" class="audio_control" min="0" max=400" value="0"';
+             tableRow += '            oninput="adjustAudioPosition(value/400)" onchange="setAudioPosition(value/400, B1' + item.tuneID + ', B2' + item.tuneID + ')"/>';
+             tableRow += '         <div id="speed_control' + item.tuneID + '" class="speed_control">';
+             tableRow += '            <span title="Adjust playback speed with slider">';
+             tableRow += '               <input name="flevel" id="RS' + item.tuneID + '" type="range" min="50" max="120" value="100"';
+             tableRow += '                  onchange="setPlaySpeed(audioplayer' + item.tuneID + ', value/100)" />';
+             tableRow += '               <output name="level">100</output>%';
+             tableRow += '            </span>';
+             tableRow += '         </div>';
+             tableRow += '         <div class="loop_control">';
+             tableRow += '            <span title="Play tune, select loop starting point, then select loop end point">';
+             tableRow += '               <input type="button" id="B1' + item.tuneID + '" value="Loop Start"';
+             tableRow += '                  onclick="SetPlayRange(audioplayer' + item.tuneID + ',0,B1' + item.tuneID + ', B2' + item.tuneID + ')" />';
+             tableRow += '               <input type="button" id="B2' + item.tuneID + '" value=" Loop End "';
+             tableRow += '                  onclick="SetPlayRange(audioplayer' + item.tuneID + ',1,B1' + item.tuneID + ', B2' + item.tuneID + ')" />';
+             tableRow += '               <input type="button" value="Reset"';
+             tableRow += '                  onclick="SetPlayRange(audioplayer' + item.tuneID + ',2,B1' + item.tuneID + ', B2' + item.tuneID + ')" />';
+             tableRow += '            </span>';
+             tableRow += '         </div>';
+             tableRow += '      </div>';
+             tableRow += '   </form>';
+             tableRow += '</td></tr>';
+         } else {
+             // build the abc player for each tune
+             tableRow += '<td>';
+             tableRow += '    <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
+             tableRow += '       <div class="audioplayer">';
 
-        // build the first three columns
-        tableRow += '<tr>';
-        tableRow += '<td><span title="Tune played in: ' + item.location + '">';
-        tableRow += '<a href="' + item.url + '">' + item.title + '</a></span></td>';
-        tableRow += '<td>' + item.key + '</td>';
-        tableRow += '<td>' + item.rhythm + '</td>';
+             tableRow += '          <button id="pButton' + item.tuneID + '" class="playButton"';
+             tableRow += '               onclick="playABC(ABC' + item.tuneID + ', pButton' + item.tuneID + ', playPosition' + item.tuneID + ', RS' + item.tuneID + '.value, APos' + item.tuneID + ')">';
+             tableRow += '               <div id="APos' + item.tuneID + '" class="audioPos">0.0</div>';
+             tableRow += '          </button>';
 
-        if (item.mp3) {
-            tableRow += '<td style="text-align:center">';
-            // build the audio player for each tune
-            tableRow += '<audio id="A' + item.tuneID + '" title="' + item.title + '" controls loop preload="none">';
-            tableRow += ' <source src="' + item.mp3 + '" type="audio/mpeg"></audio>';
-            // build the loop mechanism for each tune
-            tableRow += '<br /><span title="Play tune, select loop starting point, then select loop end point">';
-            tableRow += '<input type="button" id="B1' + item.tuneID + '" value="Loop Start" onclick="SetPlayRange(A' + item.tuneID + ',0,B1' + item.tuneID + ', B2' + item.tuneID + ')">';
-            tableRow += '<input type="button" id="B2' + item.tuneID + '" value=" Loop End " onclick="SetPlayRange(A' + item.tuneID + ',1,B1' + item.tuneID + ', B2' + item.tuneID + ')">';
-            tableRow += '<input type="button" value="Reset" onclick="SetPlayRange(A' + item.tuneID + ',2,B1' + item.tuneID + ',B2' + item.tuneID + ')">';
-            tableRow += '</span></td>';
+             tableRow += '          <input name="playPosition' + item.tuneID + '" id="playPosition' + item.tuneID + '" type="range" class="audio_control" min="0" max="500" value="0"';
+             tableRow += '               oninput="setABCPosition(value/100)" />';
+             tableRow += '          <div class="speed_control">';
+             tableRow += '             <input name="flevel" id="RS' + item.tuneID + '" type="range" min="50" max="120" value="100"';
+             tableRow += '                    onchange="changeABCspeed(ABC' + item.tuneID + ', pButton' + item.tuneID + ', value)">';
+             tableRow += '             <output name="level">100</output>%';
+             tableRow += '          </div>';
+             tableRow += '       </div>';
+             tableRow += '       <div class="loop_control">';
+             tableRow += '          <p><small>No recording - playing the <i>dots</i>!</small></p>';
+             tableRow += '       </div>';
+             tableRow += '    </form>';
+             tableRow += '</td></tr>';
+         };
+         return tableRow;
+     }
 
-            // build the slow down slider for each tune
-            tableRow += '<td style="text-align:center">';
-            tableRow += '<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
-            tableRow += '<input name="flevel" id="RS' + item.tuneID + '"';
-            tableRow += ' type="range" min="50" max="120" value="100"';
-            tableRow += ' onchange="setPlaySpeed(A' + item.tuneID + ', value/100)">';
-            tableRow += '<output name="level">100</output>%';
-            tableRow += '</form></td></tr>';
-        } else {
-            tableRow += '<td style="text-align:center">';
-            // build the abc player for each tune 
-            tableRow += '<span title="No MP3 available. Play and stop tune from ABC source">';
-            tableRow += '<input type="button" value="Play ABC" id="play" onclick="abcSliderChanged(ABC' + item.tuneID + ', 320)"><br />';
-            tableRow += '<input type="button" value="Stop" id="stop" onclick="stopABC(ABC' + item.tuneID + ')">';
-            tableRow += '</span></td>';
+     function addTextArea(item) {
+         var textAreas = document.getElementById("abc-textareas");
 
-            // build the slow down slider for each tune
-            tableRow += '<td style="text-align:center">';
-            tableRow += '<form onsubmit="return false" oninput="level.value = Math.round(flevel.valueAsNumber/3.2)">';
-            tableRow += '<input name="flevel" id="RSM' + item.tuneID + '" type="range" min="160" max="384" value="320" ';
-            tableRow += 'placeholder="' + item.tuneID + '" paired="A' + item.tuneID + '" onchange="abcSliderChanged(ABC' + item.tuneID + ', value)">';
-            tableRow += '<output name="level">100</output>%';
-            tableRow += '</form></td></tr>';
-        };
-        return tableRow;
-    }
+         if (!item.mp3) {
+             // unroll ABC to handle repeats and different endings for parts
+             textAreas.innerHTML += '<textarea id="ABC' + item.tuneID + '" style="display:none;">' + preProcessABC(item.abc) + '</textarea>';
+         }
+     }
 
-    function addTextArea(item) {
-        var textAreas = document.getElementById("abc-textareas");
+     function getQueryVariable(variable) {
+         var query = window.location.search.substring(1);
+         var vars = query.split('&');
 
-        if (!item.mp3) {
-            // unroll ABC to handle repeats and different endings for parts
-            textAreas.innerHTML += '<textarea id="ABC' + item.tuneID + '" style="display:none;">' + preProcessABC(item.abc) + '</textarea>';
-        }
-    }
+         for (var i = 0; i < vars.length; i++) {
+             var pair = vars[i].split('=');
 
-    function getQueryVariable(variable) {
-        var query = window.location.search.substring(1);
-        var vars = query.split('&');
+             if (pair[0] === variable) {
+                 return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
+             }
+         }
+     }
 
-        for (var i = 0; i < vars.length; i++) {
-            var pair = vars[i].split('=');
+     // create the searchTerm from the form data and reflect the values chosen in the form
+     var searchTerm = '';
+     var title = getQueryVariable('title');
+     if (title) {
+         searchTerm = title + ' ';
+         document.getElementById('title-box').setAttribute("value", title);
+     }
+     var rhythm = getQueryVariable('rhythm');
+     if (rhythm) {
+         searchTerm += rhythm + ' ';
+         var e = document.getElementById('rhythm-box');
+         if (e) {
+             e.value = rhythm;
+         }
+     }
+     var tags = getQueryVariable('tags');
+     if (tags) {
+         searchTerm += tags + ' ';
+         var e = document.getElementById('tags-box');
+         if (e) {
+             e.value = tags;
+         }
+     }
+     var location = getQueryVariable('location');
+     if (location) {
+         searchTerm += location;
+         var e = document.getElementById('location-box');
+         if (e) {
+             e.value = location;
+         }
+     }
 
-            if (pair[0] === variable) {
-                return decodeURIComponent(pair[1].replace(/\+/g, '%20'));
-            }
-        }
-    }
+     // Define the index terms for lunr search
+     var tuneIndex = lunr(function() {
+         this.field('id');
+         this.field('title', {
+             boost: 10
+         });
+         this.field('rhythm');
+         this.field('tags');
+         this.field('location');
+     });
 
-    // create the searchTerm from the form data and reflect the values chosen in the form
-    var searchTerm = '';
-    var title = getQueryVariable('title');
-    if (title) {
-        searchTerm = title + ' ';
-        document.getElementById('title-box').setAttribute("value", title);
-    }
-    var rhythm = getQueryVariable('rhythm');
-    if (rhythm) {
-        searchTerm += rhythm + ' ';
-        var e = document.getElementById('rhythm-box');
-        if (e) {
-            e.value = rhythm;
-        }
-    }
-    var tags = getQueryVariable('tags');
-    if (tags) {
-        searchTerm += tags + ' ';
-        var e = document.getElementById('tags-box');
-        if (e) {
-            e.value = tags;
-        }
-    }
-    var location = getQueryVariable('location');
-    if (location) {
-        searchTerm += location;
-        var e = document.getElementById('location-box');
-        if (e) {
-            e.value = location;
-        }
-    }
+     // Add the search items to the search index
+     for (var key in window.store) { // Add the data to lunr
+         tuneIndex.add({
+             'id': key,
+             'title': window.store[key].title,
+             'rhythm': window.store[key].rhythm,
+             'tags': window.store[key].tags,
+             'location': window.store[key].location
+         });
+     }
 
-    // Define the index terms for lunr search
-    var tuneIndex = lunr(function() {
-        this.field('id');
-        this.field('title', {
-            boost: 10
-        });
-        this.field('rhythm');
-        this.field('tags');
-        this.field('location');
-    });
+     // Get results
+     if (searchTerm) {
+         var results = tuneIndex.search(searchTerm); // Get lunr to perform a search
 
-    // Add the search items to the search index
-    for (var key in window.store) { // Add the data to lunr
-        tuneIndex.add({
-            'id': key,
-            'title': window.store[key].title,
-            'rhythm': window.store[key].rhythm,
-            'tags': window.store[key].tags,
-            'location': window.store[key].location
-        });
-    }
-
-    // Get results
-    if (searchTerm) {
-        var results = tuneIndex.search(searchTerm); // Get lunr to perform a search
-
-        if (results.length) {
-            displayTunesTable(results, window.store);
-        } else {
-            document.getElementById('tunes-table').innerHTML = '<strong>No results found!</strong>';
-        }
-    } else {
-        displayTunesTable('', window.store);
-    }
-    return false;
-})();
+         if (results.length) {
+             displayTunesTable(results, window.store);
+         } else {
+             document.getElementById('tunes-table').innerHTML = '<strong>No results found!</strong>';
+         }
+     } else {
+         displayTunesTable('', window.store);
+     }
+     return false;
+ })();

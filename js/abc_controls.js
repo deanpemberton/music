@@ -11,50 +11,165 @@
  * Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) Licence.
  */
 
+
 var playingNow = 0;
 var abcStopped = 0;
 var mp3Available = 1;
 var ABCTuneName = "tune";
 var ABCheader = /^([A-Za-z]):\s*(.*)$/;
+var ABCPosition = {
+    Ptr: 0
+};
+var lastpButton;
+var ABCCurrentTime = 0;
+var ABCduration = 0;
+var IntervalHandle;
+var ABCLocation;
 
 // Select a timbre that sounds like an electric piano.
 var inst = new Instrument('string');
 
-function stopABC(tune) {
-    abcStopped = 1
-    inst.silence();
-};
+function playABC(tune, pButton, playPosition, bpm, audioposition) {
+    CalculateTuneDuration(tune, bpm);
 
-function abcSliderChanged(tune, value) {
-    stopABC(tune);
-    setABCSpeed(tune, value);
-};
+    var ticks;
+    // The ABC L: value scales the ticks value!
+    var noteLen = eval(getABCHeaderValue("L:", tune.value));
+    ticks = bpm / (2 * noteLen);
 
-function setABCSpeed(tune, value) {
+    // If we have multiple ABC tunes on a page and we start a second one,
+    // close the previous one cleanly
+    if (lastpButton && lastpButton != pButton) {
+        lastpButton.className = "";
+        lastpButton.className = "playButton";
+        setABCPosition(0);
+    }
+    lastpButton = pButton;
+    ABCLocation=audioposition; //initialise global variable
+    ABCPosition.Ptr = playPosition;
+
+    if (pButton.className == "playButton") {
+        stopABC(tune);
+        startABC(tune, ticks);
+        pButton.className = "";
+        pButton.className = "stopButton";
+    } else {
+        stopABC(tune);
+        audioposition.innerHTML="0.0";
+        pButton.className = "";
+        pButton.className = "playButton";
+    }
+}
+
+function changeABCspeed(tune, pButton, bpm) {
+    CalculateTuneDuration(tune, bpm);
+
+    // The ABC L: value scales the bpm value!
+    var ticks;
+    var noteLen = eval(getABCHeaderValue("L:", tune.value));
+    ticks = bpm / (2 * noteLen);
+
+    CalculateTuneDuration(tune, bpm);
+
+    if (pButton.className == "stopButton") {
+        stopABC(tune);
+        pButton.className = "";
+        pButton.className = "stopButton";
+        setABCPosition(0);
+        ABCCurrentTime = 0;
+        startABC(tune, ticks);
+    } else {
+        stopABC(tune);
+        pButton.className = "";
+        pButton.className = "playButton";
+    }
+}
+
+function CalculateTuneDuration(tune, bpm) {
+    // Clean up the ABC bar markers
+
+    var tempTune = tune.value.replace(/:\|/g, "|");
+    tempTune = tempTune.replace(/\|:/g, "|");
+    tempTune.replace(/::/g, "|");
+    tempTune = tempTune.replace(/\|+/g, "|");
+
+    // Calculate number of bars
+    var bars;
+    bars = tempTune.split("|").length;
+    bars = Math.round(bars / 8) * 8;
+
+    // Get the meter from the ABC
+    var meterStr = getABCHeaderValue("M:", tune.value);
+    if (meterStr == "C") {
+        meterStr = "4/4";
+    }
+    if (meterStr == "C|") {
+        meterStr = "2/2";
+    }
+    var meter = eval(meterStr);
+    var noteLen = eval(getABCHeaderValue("L:", tune.value));
+
+    // Calculate the length of the tune
+    ABCduration = bars * meter * 16 * noteLen * 60 / bpm;
+}
+
+function getABCHeaderValue(key, tuneStr) {
+    var value = tuneStr.substr(tuneStr.search(key) + 2, 8);
+
+    value = value.trim();
+    value = value.slice(0, value.search(":") - 1);
+
+    return value.trim();
+}
+
+function startABC(tune, ticks) {
     playingNow = 1;
     abcStopped = 0;
     inst.silence();
     inst.play({
-        tempo: value
+        tempo: ticks
     }, tune.value, function() {
         playingNow = 0;
-        loopABCTune(tune, value);
+        loopABCTune(tune, ticks);
     });
-};
+    setABCPosition(0);
+    ABCCurrentTime = 0;
+    ABCtimer();
+}
 
-function loopABCTune(tune, value) {
+function stopABC(tune) {
+    clearInterval(IntervalHandle);
+    abcStopped = 1;
     inst.silence();
-    if ((playingNow == 0) && (abcStopped == 0)) {
-        setABCSpeed(tune, value);
-    }
-};
+    setABCPosition(0);
+}
 
-function noMP3(audio_id) {
-    audio_id.hidden = "true";
-    mp3Available = 0;
-    mp3Yes.hidden = "true";
-    mp3No.display = "true";
-};
+function loopABCTune(tune, ticks) {
+    inst.silence();
+    clearInterval(IntervalHandle);
+    if ((playingNow == 0) && (abcStopped == 0)) {
+        startABC(tune, ticks);
+        setABCPosition(0);
+        ABCCurrentTime = 0;
+    }
+}
+
+function ABCtimer() {
+    IntervalHandle = setInterval(nudgeABCSlider, 100);
+}
+
+function nudgeABCSlider() {
+    ABCCurrentTime += .1;
+    var floatTime = (ABCCurrentTime / ABCduration) * 500;;
+    ABCPosition.Ptr.value = floatTime;
+    ABCLocation.innerHTML=ABCCurrentTime.toFixed(1);
+
+}
+
+function setABCPosition(ticks) {
+    // move position of ABC tune via the slider
+    ABCPosition.Ptr.value = ticks;
+}
 
 function preProcessABC(str) {
     var lines = str.split('\n'),
@@ -84,16 +199,16 @@ function preProcessABC(str) {
 
     ABCString = (?:\[[A-Za-z]:[^\]]*\])|\s+|%[^\n]*|![^\s!:|\[\]]*!|\+[^+|!]*\+|[_<>@^]?"[^"]*"|\[|\]|>+|<+|(?:(?:\^+|_+|=|)[A-Ga-g](?:,+|'+|))|\(\d+(?::\d+){0,2}|\d*\/\d+|\d+\/?|\/+|[xzXZ]|\[?\|:\]?|:?\|:?|::|.
 
-    (?:\[[A-Za-z]:[^\]]*\]) matches nothing 
+    (?:\[[A-Za-z]:[^\]]*\]) matches nothing
     \s+|%[^\n]* matches spaces
-    ![^\s!:|\[\]]*! no matches 
-    \+[^+|!]*\+ no matches 
+    ![^\s!:|\[\]]*! no matches
+    \+[^+|!]*\+ no matches
     [_<>@^]?"[^"]*" matches chords
     \[|\] matches [ or ]
     [_<>@^]?{[^"]*} matches grace note phrases {...}
     :?\|:? matches :| or |:
     (?:(?:\^+|_+|=|)[A-Ga-g](?:,+|'+|)) matches letters A-Ga-g in or out of chords and other words
-    \(\d+(?::\d+){0,2} matches triplet, or quad symbol (3 
+    \(\d+(?::\d+){0,2} matches triplet, or quad symbol (3
     \d*\/\d+ matches fractions i.e. 4/4 1/8 etc
     \d+\/? matches all single digits
     \[\d+|\|\d+ matches first and second endings
@@ -219,7 +334,7 @@ function preProcessABC(str) {
                     } //for j
                     break;
                 } //if
-            } //for k   
+            } //for k
         } //if
     } //for i
 
@@ -231,7 +346,7 @@ function preProcessABC(str) {
         if (bigABCNotes[j] == "\"") {
             newBigABCNotes = [bigABCNotes.slice(0, j), "\\\"", bigABCNotes.slice(j)].join('');
         }
-        newBigABCNotes = newBigABCNotes.substring(0, newBigABCNotes.length - 3); //undo hack 
+        newBigABCNotes = newBigABCNotes.substring(0, newBigABCNotes.length - 3); //undo hack
     }
     return (newABCHeader + newBigABCNotes);
-};
+}

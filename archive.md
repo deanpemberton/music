@@ -10,15 +10,20 @@ Dunedin etc.
 
 **We're happy to add tunes from other parts of NZ.**
 
+<audio id="OneAudioPlayer">
+    <source id="mp3Source" type="audio/mp3"></source>
+    Your browser does not support the audio format.
+</audio>
+
 <fieldset>
     <legend>Select from the NZ Tunes Archive</legend>
-    
+
     <form id="search-query"  method="get">
         <br />
        <span title="Filter the Tunes Archive for tunes by title or by type such as 'reel', 'jig', 'polka'. You can also look for 'location' such as 'Wellington', 'Dunedin'">        
         Title:
         <input type="text" id="title-box" name="title" value='' onkeydown="enable_button()">
-        &emsp; 
+        &emsp;
         Rhythm:
         <select id="rhythm-box" name="rhythm" onchange="enable_button()">
             <option value="">Any</option>
@@ -43,13 +48,14 @@ Dunedin etc.
             <option value="Dunedin">Dunedin</option>
         </select>
         </span>
-        
+
         &emsp;
         <span title="Run the filter with the default settings to see the whole list">
         <input class="filter_button filter_disabled" id="submit_button" type="submit" name="submit" value="Select" disabled >
         </span>
-        
     </form>
+    <p></p>
+    <div id="tunes-count"></div>
 </fieldset>
 
 <br />
@@ -60,12 +66,12 @@ Dunedin etc.
 <script>
   window.store = {
       {% assign tuneID = 4000 %}
-      {% assign tunes =  site.tunes | sort: 'title' %} 
+      {% assign tunes =  site.tunes | sort: 'title' %}
       {% for tune in tunes %}    
           {% assign tuneID = tuneID | plus: 1 %}
           "{{ tuneID  }}": {
           "title": "{{ tune.title | xml_escape }}",
-          "tuneID": "{{ tuneID }}", 
+          "tuneID": "{{ tuneID }}",
           "key": "{{ tune.key | xml_escape }}",
           "mode": "{{ tune.mode | xml_escape }}",
           "rhythm": "{{ tune.rhythm | xml_escape }}",
@@ -78,21 +84,21 @@ Dunedin etc.
     {% endfor %}};
 </script>
 
-<script type="text/javascript" src="/js/audio_controls.js"></script>
+<script type="text/javascript" src="/js/audioplayer.js"></script>
 <script type="text/javascript" src="/js/musical-ws.js"></script>
 <script type="text/javascript" src="/js/abc_controls.js"></script>
 <script type="text/javascript" src="/js/lunr.min.js"></script>
 <script type="text/javascript" src="/js/search.js"></script>
 
 <script>
-  $(document).ready(function() 
-    { 
+  $(document).ready(function()
+    {
         // Set initial sort order
-        $.tablesorter.defaults.sortList = [[0,0]]; 
-        
+        $.tablesorter.defaults.sortList = [[0,0]];
+
         $("#search-results").tablesorter({headers: { 3:{sorter: false}, 4: {sorter: false}}});         
-    } 
-  ); 
+    }
+  );
 </script>
 <script>
 function enable_button(){

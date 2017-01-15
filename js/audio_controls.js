@@ -10,67 +10,66 @@
  * https://github.com/slow-session/session.nz/blob/master/js/audioID_controls.js
  * Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0) Licence.
  */
-
-var BeginLoopTime = 0;
-var EndLoopTime = 0;
-var PreviousAudioID = null;
-var PreviousButton1ID = null;
-var PreviousButton2ID = null;
-
 function SetPlayRange(audioID, ButtonEvent, button1ID, button2ID) {
     // this only works for the currently selected audio player
-    if (audioID.readyState == 0) {
+    if (PreviousAudioID != audioID) { //different player controls selected
         return;
     }
-    if (PreviousAudioID != audioID) { //different player selected
+    if (PreviousAudioID != audioID) { //different player controls selected
+        return;
         BeginLoopTime = 0;
         EndLoopTime = 0;
         if (PreviousButton1ID != null) {
-            var zero = 0;
-            PreviousButton1ID.value = zero.toFixed(1);
-            PreviousButton2ID.value = PreviousAudioID.duration.toFixed(1);
+            PreviousButton1ID.value = "Loop Start";
+            PreviousButton2ID.value = " Loop End ";
             // Consider deregistering the function here
         }
-        PreviousAudioID = audioID;
-        PreviousButton1ID = button1ID;
-        PreviousButton2ID = button2ID;
+        /*
+        PreviousButton1ID.value = "Loop Start";
+        PreviousButton2ID.value = " Loop End ";
+        */
+
     }
-    if (EndLoopTime == 0) {
-        EndLoopTime = audioID.duration - .25; // sampling rate is ~ every 250 ms (overshoot the end)
-    }
+    //if (EndLoopTime == 0) {
+        EndLoopTime = OneAudioPlayer.duration - .25; // sampling rate is ~ every 250 ms (overshoot the end)
+    //}
     /*
      * Set the start and end of loop markers depending on which button was pressed
      */
     switch (ButtonEvent) {
         // Loop Start button
         case 0:
-            BeginLoopTime = audioID.currentTime;
+            BeginLoopTime = OneAudioPlayer.currentTime;
             button1ID.value = BeginLoopTime.toFixed(1);
             button2ID.value = EndLoopTime.toFixed(1);
             break;
             // Loop End button
         case 1:
-            EndLoopTime = audioID.currentTime;
+            EndLoopTime = OneAudioPlayer.currentTime;
             button1ID.value = BeginLoopTime.toFixed(1);
             button2ID.value = EndLoopTime.toFixed(1);
             break;
             // Reset button
         case 2:
             BeginLoopTime = 0;
-            EndLoopTime = audioID.duration - .25; // sampling rate is ~ every 250 ms (overshoot the end)
+            EndLoopTime = OneAudioPlayer.duration - .25; // sampling rate is ~ every 250 ms (overshoot the end)
             button1ID.value = BeginLoopTime.toFixed(1);
             button2ID.value = EndLoopTime.toFixed(1);
             break;
     }
+    PreviousAudioID = audioID;
+    PreviousButton1ID = button1ID;
+    PreviousButton2ID = button2ID;
 
-    audioID.addEventListener("timeupdate", function() {
-        if (audioID.currentTime >= EndLoopTime) {
-            audioID.currentTime = BeginLoopTime;
-        }
-    }, false);
+    OneAudioPlayer.addEventListener("timeupdate", setAudioLoops);
     return;
+}
+function setAudioLoops(){
+  if (OneAudioPlayer.currentTime >= EndLoopTime) {
+      OneAudioPlayer.currentTime = BeginLoopTime;
+  }
 }
 
 function setPlaySpeed(audioID, speed) {
-    audioID.playbackRate = speed;
+    OneAudioPlayer.playbackRate = speed;
 }
