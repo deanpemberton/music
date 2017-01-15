@@ -1,27 +1,30 @@
 ---
 title: Paddy's Trip to Scotland
-key: Dmaj
-rhythm: 
-mode:
-date: 2016-10-27
-location: Dunedin
-tags:
-mp3_file:
-abc_source: Dunedin Fiddle Orchestra
-abc_url: http://nefc.org.nz/
-source: 50Dundas
-transcription:
-chords: 
+key: D
+rhythm: reel
+mode: maj
+date: 2016-06-02
+location: Wellington
+tags: slowsession
+mp3_file: /mp3/paddys-trip-to-scotland.mp3
+mp3_licence: <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC-BY-NC-2.5</a>
+mp3_source: Comhaltas Ceoltóirí Éireann
+mp3_url: https://comhaltas.ie/music/detail/comhaltaslive_462_10a_selection_of_reels
+abc_url: https://thesession.org/tunes/1303
+source: Wellington
+transcription: unknown
+chords: false
 abc: |
-    X:96
-    T:Paddy's Trip to Scotland
-    M:6/8
-    K:Dmaj
-    dA (3AAA BA GF|GA Bd cA Bc|d2 ed cA Bc|df ed cA Bc|
-    dA (3AAA BA GF|GA Bd cA Bc|d2 ed cA Bc|df ec d4:|
-    |:Ad fd Ad fd|fg gf ed cB|Ac ec Ac ec|ef fe dc BA|
-    Ad fd Ad fd|fg gf ef g^g|aA AA ^GA Bc|df ec d4:|
-
+    X: 1
+    T: Paddy's Trip to Scotland
+    R: reel
+    M: 4/4
+    L: 1/8
+    K: Dmaj
+    |dA~A2 BAGF|GABd cABc|d2ed cABc|dfed cABc|
+    dA~A2 BAGF|GABd cABc|d2ed cABc|1 dfec d2dc:|2 dfec d2dB||
+    |:Adfd Adfd|~g3f edcB|Acec Acec|~f3e dcBc|
+    Adfd Adfd|~g3f efge|aA~A2 BABc|1 dfec d2dB:|2 dfec dABc||
+    
 ---
-
 

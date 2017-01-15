@@ -4,12 +4,14 @@ key: G
 rhythm: reel 
 mode:
 date: 2016-10-27
-location: Dunedin
-tags:
-mp3_file: 
-mp3_url: 
+location: Arrowtown Wellington
+tags: 
+mp3_file: /mp3/ships-are-sailing.mp3
+mp3_licence: <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC-BY-NC-2.5</a>
+mp3_source: Comhaltas Ceoltóirí Éireann
+mp3_url: https://media.comhaltas.ie/audio/fs1/1-53ReelsP16ShipAreSailing.mp3
 abc_url: http://nefc.org.nz/
-source: 50Dundas
+source: Arrowtown
 transcription:
 chords: 
 abc: |
@@ -19,17 +21,9 @@ abc: |
     L:1/8
     M:4/4
     K:G
-    V:1
     "Em"Beed B^cdB|"D"AD (3FED AD (3FED|"Em"~E3 F "G"GFGA|"Em"Beef "D"gfed|
     "Em"Beed B^cdB|"D"AD (3FED AD (3FED|"Em"~E3 F "G"GFGA|[1"Em"Beed e2ed:|[2"Em"Beed e2ef|
     |:"Em"gfga bgeg|"D"fefg afdf|"Em"~g3a bgeg|"D"~f3g "Em"e2ef|
     "Em"gfga bgeg|"D"fefg afdf|"Em"~g2bg "D"~f2"^To Coda"af|"Em"edef gfed:|
-    V:C clef=bass middle=D octave=-1
-    E2B2B4|A2D2A2D2|E2F2G2A2|B2G2F2D2|
-    E2B2B4|A2D2A2D2|E2F2G2A2|[1B2G2E2D2:|[2B2G2E2D2|
-    |:e2d2c2B2|A2F2D2^D2|E2G2B2c2|dAFDE2B2|
-    e2d2c2B2|A2F2D2^D2|E2F2D2"^To Coda"A2|G2B2e2B2:|
 
 ---
-
-

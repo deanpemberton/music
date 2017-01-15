@@ -1,34 +1,30 @@
 ---
 title: Swinging on the Gate
-key: D
-rhythm: reel 
-mode:
-date: 2016-10-27
-location: Dunedin
-tags:
-mp3_file:
-abc_source: Dunedin Fiddle Orchestra
-abc_url: http://nefc.org.nz/
-source: 50Dundas
-transcription:
-chords: 
+key: G
+rhythm: reel
+mode: 
+date: 2016-01-01
+location: Wellington
+tags: 
+mp3_file: /mp3/swinging-on-the-gate.mp3
+mp3_licence: <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC-BY-NC-2.5</a>
+mp3_source: Comhaltas Ceoltóirí Éireann
+mp3_url: 
+abc_url: https://thesession.org/tunes/236
+source: Wellington
+transcription: unknown
+chords: false
 abc: |
-    X:20
-    T:Swinging on the Gate
-    Z:Mike Moroney
-    L:1/8
-    M:4/4
-    K:D
-    "D"d2AF D2EF|"Em"G2FG "G"FDB,D|"D"A,DFA d2 cA|"Em"(3Bcd ed"A" cABc|
-    "D"dBAF ~D2EF|"Em"GEFD "G"EDB,D|GE "D/F"(3FED "Em"EDB,G,|"A7"A,B,DE "D"D2 FA:|
-    |:"D"~d2 de faef|dcBA F2ED|"Em"B,E~E2 GFED|B,DEF"A7" GABc|
-    "D"dcde (3fga ef|dcBA F2EF|"Em"(3GFE FD EDB,G,|"A7"A,B,DE "D"D2 FA:|
-    V:C clef=bass middle=D octave=-1
-    D2 DA F2GA|G2B2 _B2G2|D2F2A2c2|B2G2c2A2|
-    D2 DA F2GA|G2B2 _B2G2|c2=c2B2 _B2|ABded2A2:|
-    |:d2z2d2f2|d2z2d2c2|e2z2e2B2|e2z2e2B2|
-    d2z2d2f2|d2z2d2c2|c2=c2B2 _B2|ABded2A2:|
-
+    X: 1
+    T: Swinging on the Gate
+    R: reel
+    M: 4/4
+    L: 1/8
+    K: Gmaj
+    gedB G2AB|cABG AGEG|DGBd g2fg|eaag fdef|
+    gedB G2AB|cABG AGEG|cABG AGEG|DGGF GABd:|
+    |:~g3a bgaf|gfed cBAG|EAAB cBAG|(3EFG AB cdef|
+    ~g3a bgaf|gfed cBAB|cABG AGEG|DGGF GABd:|
+    
 ---
-
 

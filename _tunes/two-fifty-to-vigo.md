@@ -1,52 +1,38 @@
 ---
-title: Two-Fifty To Vigo
+title: Two Fifty to Vigo
 key: Bmin
-rhythm:  reel
-mode:
-date: 2016-10-27
-location: Dunedin
-tags:
-mp3_file:
-abc_source: Dunedin Fiddle Orchestra
-abc_url: http://nefc.org.nz/
-source: 50Dundas
-transcription:
-chords: 
+rhythm: reel
+mode: 
+date: 2015-11-10
+location: Wellington
+tags: slowsession
+mp3_file: /mp3/two-fifty-to-vigo.mp3
+mp3_licence: <a href="https://creativecommons.org/licenses/by-nc/4.0/">CC-BY-NC-4.0</a>
+mp3_source: Wellington Session
+mp3_url: https://www.facebook.com/groups/WellingtonSession
+abc_url: 
+source: Wellington
+transcription: unknown
+chords: false
 abc: |
-    X:53
-    T: Two-Fifty To Vigo
-    C:Angus Grant
-    O:Shooglenifty
-    Z:Mike Moroney
+    X: 2
+    T: 250 To Vigo
+    R: reel
     M: 4/4
     L: 1/8
-    R: reel
-    K:Bmin
-    V:1 name=Violin sname=V
-    "Bm"fBBA BdFG-|"G"GBdB "A"Acec|"Bm"fBBA BdFG-|"G"GABd "Bm"cBB2|
-    "Bm"fBBA BdFG-|"G"GBdB "A"cdeg|"Bm"fBBA BdFG-|"G"Gffe "A"ed (3efg||
-    "D"affe decd-|"G"decd "A"ed (3cBA|"D"affe decd-|dfaf "A"fee2|
-    "D"affe decd-|"G"decd "A"ed (3cBA|"Bm"fBBA Bfcd-|"D"dfec "A"dcBA||
-    |:"F#m"cFFc "G"dGGd|"F#m"cFFe "Bm"dB (3Bcd|"F#m"cFFc "G"dGGd|1"A"cfec "Bm"dcBd:|2"Bm"dfec "A"defg||
-    "D"affd "A"caBc-|caBc dcBA|"D"affd "A"caBc-|caaf fee2|
-    "D"affd "A"caBc-|caBc dcBA|"Bm"fBBA Bfcd-|"G"dfec "A"dcBA||
-    V:2
-    B,CDEF2D2|B,3DC2A,2|B,CDEF2D2|B,2D2FDD2|
-    B,CDEF2D2|B,3DC2A,2|B,CDEF2D2|B,DDG AB (3cde||
-    fddA FGAB-|BGAB cB (3ABc|fddA FGAB-|Bdfd Acc2|
-    fddA FGAB-|BGAB cB (3EDC|B,CDF D2F2|A4E4||
-    |:.[FA]z z.[FA] .[GB]z z.[GB]|.[FA]z z.[FA] .[FB]2.[FB]2|.[FA]z z.[FA] .[GB]z z.[GB]|[1[EA]4.[FB]2.[FB]2:|2BFEC DEFG||
-    D4E4|F2G2GABc|fddA A2G2|A4A2G2|
-    D4E4|F2G2GABc|B,2C2D2E2|F2G2A2A,2||
-    V:C clef=bass middle=D name=Cello sname=C Octave=-1
-    B,2z2B,2F,2|G,2B,2A,2C2|B,2z2B,2A,2|G,2B,2B,2F,2|
-    B,2z2B,2F,2|G,2B,2A,2C2|B,2z2B,2A,2|G,2B,2A,2C2|
-    D2z2A,2F,2|G,2B,2A,2C2|D2z2A,2F,2|G,2B,2A,2C2|
-    D2z2A,2F,2|G,2B,2A,2C2|B,2z2F,2B,2|D2B,2A,2E2||
-    |:LF2zLFLG2zLG|LF2zE DB,B,D|LF2zLFLG2zLG|1A2E2B2F2:|2A2E2B2F2||
-    D2A,2A,2E2|A,2B,2B,2C2|D2A,2A,2E2|A,2B,2B,2C2|
-    D2A,2A,2E2|A,2B,2B,2C2|B,2z2B,2A,2|G,2B,2A,2C2||
-
+    K: Bmin
+    fBBA BdFG-|GBdB Acec|fBBA BdFG-|GABd cB B/B/B|
+    fBBA BdFG-|GBdB cdeg|fBBA BdFG-|GBfe dBBA|
+    affe decd-|decd ed c/B/A|affe decd-|dfaf feef|
+    affe decd-|decd ed c/B/A|fBBA Bfcd-|dfec dcBA|
+    |:fBBA BdFG-|GBdB Acec|fBBA BdFG-|GABd cB B/B/B|
+    fBBA BdFG-|GBdB cdeg|fBBA BdFG-|GBfe dBBA|
+    affe decd-|decd ed c/B/A|affe decd-|dfaf feef|
+    affe decd-|decd ed c/B/A|fBBA Bfcd-|dfec dcBA|
+    cFFc dGGd|cFFe dBBd|cFFc dGGd|cfec dBBd|
+    cFFc dGGd|cFFe dBBd|cFFc dGGd|cfec defg|
+    affd caBc-|caBc dcBA|affd caBc-|caaf feef|
+    affd caBc-|caBc dcBA|fBBA Bfcd-|dfec|dcBA:|B8|]
 ---
 
 
