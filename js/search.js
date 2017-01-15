@@ -70,7 +70,7 @@
              tableRow += '            onclick="playAudio(audioplayer' + item.tuneID + ', pButton' + item.tuneID + ', playPosition' + item.tuneID + ', \'' + item.mp3 + '\', APos' + item.tuneID + ')">';
              tableRow += '            <div id="APos' + item.tuneID + '" class="audioPos">0.0</div>';
              tableRow += '         </button>';
-             tableRow += '         <input name="playPosition' + item.tuneID + '" id="playPosition' + item.tuneID + '" type="range" class="audio_control" min="0" max=400" value="0"';
+             tableRow += '         <input name="playPosition' + item.tuneID + '" id="playPosition' + item.tuneID + '" type="range" class="audio_control" min="0" max="400" value="0"';
              tableRow += '            oninput="adjustAudioPosition(value/400)" onchange="setAudioPosition(value/400, B1' + item.tuneID + ', B2' + item.tuneID + ')"/>';
              tableRow += '         <div id="speed_control' + item.tuneID + '" class="speed_control">';
              tableRow += '            <span title="Adjust playback speed with slider">';

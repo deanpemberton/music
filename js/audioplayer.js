@@ -63,6 +63,7 @@ function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposit
 
 function setAudioPosition(value, button1ID, button2ID){
   var sliderVal=value*OneAudioPlayer.duration;
+  OneAudioPlayer.addEventListener("timeupdate", positionUpdate);
   OneAudioPlayer.currentTime=sliderVal;
   positionUpdate();
   AudioPosition.innerHTML=OneAudioPlayer.currentTime.toFixed(1);
@@ -78,6 +79,7 @@ function setAudioPosition(value, button1ID, button2ID){
 }
 function adjustAudioPosition(value){
   var sliderVal=value*OneAudioPlayer.duration;
+  OneAudioPlayer.removeEventListener("timeupdate", positionUpdate);
   AudioPosition.innerHTML=sliderVal.toFixed(1);
 }
 

@@ -42,7 +42,7 @@ DED DFA|BAF d2e|faf ede|1 fdd d2 e :|2 fdd d2 D ||
 				onclick="processedABC.value=preProcessABC(abc.value);playABC(processedABC, pButton, playPosition, RSABC.value), APos">
 				<div id="APos" class="audioPos">0.0</div>
 			</button>
-			<input name="playPosition" id="playPosition" type="range" class="audio_control" min="0" max="400" value="0"
+			<input name="playPosition" id="playPosition" type="range" class="audio_control" min="0" max="100" value="0"
 				oninput="setABCPosition(value/100)" />
 			<div class="speed_control">
 				<input name="flevel" id="RSABC" type="range" min="50" max="120" value="100"

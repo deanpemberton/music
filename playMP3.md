@@ -64,11 +64,11 @@ function createMP3player(mp3url) {
     mp3player += '            <div id="APos' + tuneID + '" class="audioPos">0.0</div>';
     mp3player += '         </button>';
     mp3player += '         <input name="playPosition' + tuneID + '" id="playPosition' + tuneID + '" type="range" class="audio_control" min="0" max="400" value="0"';
-    mp3player += '            oninput="setAudioPosition(value/100)" />';
+    mp3player += '            oninput="setAudioPosition(value/400)" />';
     mp3player += '         <div id="speed_control' + tuneID + '" class="speed_control">';
     mp3player += '            <span title="Adjust playback speed with slider">';
     mp3player += '               <input name="flevel" id="RS' + tuneID + '" type="range" min="50" max="120" value="100"';
-    mp3player += '                  onchange="setPlaySpeed(audioplayer' + tuneID + ', value/100)" />';
+    mp3player += '                  onchange="setPlaySpeed(audioplayer' + tuneID + ', value/400)" />';
     mp3player += '               <output name="level">100</output>%';
     mp3player += '            </span>';
     mp3player += '         </div>';

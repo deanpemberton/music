@@ -34,7 +34,9 @@ function playABC(tune, pButton, playPosition, bpm, audioposition) {
 
     var ticks;
     // The ABC L: value scales the ticks value!
-    var noteLen = eval(getABCHeaderValue("L:", tune.value));
+    var Lval=getABCHeaderValue("L:", tune.value);
+    if (Lval=="False") Lval="1/8"; //set defalut value for L
+    var noteLen = eval(Lval);
     ticks = bpm / (2 * noteLen);
 
     // If we have multiple ABC tunes on a page and we start a second one,
@@ -107,15 +109,18 @@ function CalculateTuneDuration(tune, bpm) {
         meterStr = "2/2";
     }
     var meter = eval(meterStr);
-    var noteLen = eval(getABCHeaderValue("L:", tune.value));
+    var Lval=getABCHeaderValue("L:", tune.value);
+    if (Lval=="False") Lval="1/8"; //set defalut value for L
+    var noteLen = eval(Lval);
 
     // Calculate the length of the tune
     ABCduration = bars * meter * 16 * noteLen * 60 / bpm;
 }
 
 function getABCHeaderValue(key, tuneStr) {
+    var keyPos=tuneStr.search(key);
+    if (keyPos==-1) return "False";
     var value = tuneStr.substr(tuneStr.search(key) + 2, 8);
-
     value = value.trim();
     value = value.slice(0, value.search(":") - 1);
 
