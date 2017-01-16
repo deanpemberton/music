@@ -1,7 +1,7 @@
 ---
 title: Cup of Tea, The
 key: Dmaj
-rhythm: reel 
+rhythm: reel
 mode:
 date: 2016-10-27
 location: Arrowtown Dunedin
@@ -11,12 +11,13 @@ abc_source: Dunedin Fiddle Orchestra
 abc_url: http://nefc.org.nz/
 source: 50Dundas
 transcription:
-chords: 
+chords:
 abc: |
     X:94
     T: Cup of Tea, The
     K:Dmaj
     M: 4/4
+    L: 1/8
     "Em"BAGF GEEF|GEBE GEEA|BAGF GEEG|"D"FDAD FDDA|
     |"Em"BAGF GEEF|GEBE GEEA|"G"B2BA GABc|"D"dBAG FDD2:|
     |:"D"d2eg fdec|d2eg "Bm"fBB2|"D"d2eg fdec|"A"dBAG "D"FDD2|
@@ -25,5 +26,3 @@ abc: |
     |"D"FAdA FABA|FAde "A"fee2|"D"fdec dBAF|"A"GBAG "D"FDD2:|
 
 ---
-
-

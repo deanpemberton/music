@@ -1,7 +1,7 @@
 ---
 title: Luna
 key: Amaj
-rhythm: 
+rhythm:
 mode:
 date: 2016-10-27
 location: Dunedin
@@ -11,12 +11,13 @@ abc_source: Dunedin Fiddle Orchestra
 abc_url: http://nefc.org.nz/
 source: 50Dundas
 transcription:
-chords: 
+chords:
 abc: |
     X:84
     T:Luna
     C:Donna Long, Arr Sean Manning
     M:4/4
+    L:1/8
     K:Amaj
     V: V1 clef=treble
     V: V2 clef=treble
@@ -54,5 +55,3 @@ abc: |
     B2 z2 D2 z F|E z z2 F4|C4 DEFG|A2E2 A,4||
 
 ---
-
-

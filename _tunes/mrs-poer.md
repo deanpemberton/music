@@ -1,7 +1,7 @@
 ---
 title: Mrs. Poer
 key: D
-rhythm: 
+rhythm:
 mode:
 date: 2016-10-27
 location: Dunedin
@@ -11,7 +11,7 @@ abc_source: Dunedin Fiddle Orchestra
 abc_url: http://nefc.org.nz/
 source: 50Dundas
 transcription:
-chords: 
+chords:
 abc: |
     X:64
     T:Mrs. Poer
@@ -19,6 +19,7 @@ abc: |
     C:Turlough O'Carolan
     Z:Mike Moroney
     M:C
+    L:1/8
     K:D
     (3A/B/c/|:"D"d2 dd d2 cB|"A"ABGA"D"F2 A2|"A"E2A2 "D"D2A2|"G"Bcde "A"dcBA|"D"d2a2 fgaf|"A7"efge "D"fgaf|
     "G"gabg "D"fdfa|"Em"gfed "A"dcBA|"G"BdBd gBgB|"D"AdAd fAfA|"Em"GBGB efed|"A7"dcBc A2 AG|
@@ -28,5 +29,3 @@ abc: |
     "D/F#"FAdc BAGF|"G"EFGA Bcde|"D/A"A2d2 "A7"fedc|"D"d2 G2 F4:|
 
 ---
-
-

@@ -1,7 +1,7 @@
 ---
 title: Neil Gow's Lament
 key: Dmaj
-rhythm: 
+rhythm:
 mode:
 date: 2016-10-27
 location: Dunedin
@@ -11,7 +11,7 @@ abc_source: Dunedin Fiddle Orchestra
 abc_url: http://nefc.org.nz/
 source: 50Dundas
 transcription:
-chords: 
+chords:
 abc: |
     X:25
     T:Neil Gow's Lament
@@ -20,6 +20,7 @@ abc: |
     C:Neil Gow
     C:arr. Sean Manning
     M:6/8
+    L:1/8
     K:Dmaj
     V:1 name="1st Violin" sname=V1
     D/B,/|"D"A,>B,D "Bm"D>ED|"A"EFA "G"B2d|"D"A>FD "A"{EF}E>DE|"Bm"{DE}FDB, "G"B,2D/B,/|
@@ -41,5 +42,3 @@ abc: |
     D3 B,3|A,3 G,2C|D2A, G,3|G,2B, A,2||
 
 ---
-
-
