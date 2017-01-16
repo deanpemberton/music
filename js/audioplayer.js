@@ -61,7 +61,8 @@ function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposit
     }
 }
 
-function setAudioPosition(value, button1ID, button2ID){
+function setAudioPosition(audioplayer,value, button1ID, button2ID){
+  if(PreviousAudioID!=audioplayer) return;
   var sliderVal=value*OneAudioPlayer.duration;
   OneAudioPlayer.addEventListener("timeupdate", positionUpdate);
   OneAudioPlayer.currentTime=sliderVal;
@@ -77,7 +78,8 @@ function setAudioPosition(value, button1ID, button2ID){
       button1ID.value = BeginLoopTime.toFixed(1);
   }
 }
-function adjustAudioPosition(value){
+function adjustAudioPosition(audioplayer,value){
+  if(PreviousAudioID!=audioplayer) return;
   var sliderVal=value*OneAudioPlayer.duration;
   OneAudioPlayer.removeEventListener("timeupdate", positionUpdate);
   AudioPosition.innerHTML=sliderVal.toFixed(1);
