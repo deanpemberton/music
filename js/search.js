@@ -64,57 +64,12 @@
          if (item.mp3) {
              // build the audio player for each tune
              tableRow += '<td>';
-             tableRow += '   <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
-             tableRow += '      <div id="audioplayer' + item.tuneID + '" title="' + item.title + '" class="audioplayer">';
-             tableRow += '         <button id="pButton' + item.tuneID + '" class="playButton"';
-             tableRow += '            onclick="playAudio(audioplayer' + item.tuneID + ', pButton' + item.tuneID + ', playPosition' + item.tuneID + ', \'' + item.mp3 + '\', APos' + item.tuneID + ')">';
-             tableRow += '            <div id="APos' + item.tuneID + '" class="audioPos">0.0</div>';
-             tableRow += '         </button>';
-             tableRow += '         <input name="playPosition' + item.tuneID + '" id="playPosition' + item.tuneID + '" type="range" class="audio_control" min="0" max="400" value="0"';
-             tableRow += '            oninput="adjustAudioPosition(' + 'audioplayer' + item.tuneID + 'value/400)" onchange="setAudioPosition(' + 'audioplayer' + item.tuneID + 'value/400, B1' + item.tuneID + ', B2' + item.tuneID + ')"/>';
-             tableRow += '         <div id="speed_control' + item.tuneID + '" class="speed_control">';
-             tableRow += '            <span title="Adjust playback speed with slider">';
-             tableRow += '               <input name="flevel" id="RS' + item.tuneID + '" type="range" min="50" max="120" value="100"';
-             tableRow += '                  onchange="setPlaySpeed(audioplayer' + item.tuneID + ', value/100)" />';
-             tableRow += '               <output name="level">100</output>%';
-             tableRow += '            </span>';
-             tableRow += '         </div>';
-             tableRow += '         <div class="loop_control">';
-             tableRow += '            <span title="Play tune, select loop starting point, then select loop end point">';
-             tableRow += '               <input type="button" id="B1' + item.tuneID + '" value="Loop Start"';
-             tableRow += '                  onclick="SetPlayRange(audioplayer' + item.tuneID + ',0,B1' + item.tuneID + ', B2' + item.tuneID + ')" />';
-             tableRow += '               <input type="button" id="B2' + item.tuneID + '" value=" Loop End "';
-             tableRow += '                  onclick="SetPlayRange(audioplayer' + item.tuneID + ',1,B1' + item.tuneID + ', B2' + item.tuneID + ')" />';
-             tableRow += '               <input type="button" value="Reset"';
-             tableRow += '                  onclick="SetPlayRange(audioplayer' + item.tuneID + ',2,B1' + item.tuneID + ', B2' + item.tuneID + ')" />';
-             tableRow += '            </span>';
-             tableRow += '         </div>';
-             tableRow += '      </div>';
-             tableRow += '   </form>';
+             tableRow += createMP3player(item.tuneID, item.mp3);
              tableRow += '</td></tr>';
          } else {
              // build the abc player for each tune
              tableRow += '<td>';
-             tableRow += '    <form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
-             tableRow += '       <div class="audioplayer">';
-
-             tableRow += '          <button id="pButton' + item.tuneID + '" class="playButton"';
-             tableRow += '               onclick="playABC(ABC' + item.tuneID + ', pButton' + item.tuneID + ', playPosition' + item.tuneID + ', RS' + item.tuneID + '.value, APos' + item.tuneID + ')">';
-             tableRow += '               <div id="APos' + item.tuneID + '" class="audioPos">0.0</div>';
-             tableRow += '          </button>';
-
-             tableRow += '          <input name="playPosition' + item.tuneID + '" id="playPosition' + item.tuneID + '" type="range" class="audio_control" min="0" max="500" value="0"';
-             tableRow += '               oninput="setABCPosition(value/100)" />';
-             tableRow += '          <div class="speed_control">';
-             tableRow += '             <input name="flevel" id="RS' + item.tuneID + '" type="range" min="50" max="120" value="100"';
-             tableRow += '                    onchange="changeABCspeed(ABC' + item.tuneID + ', pButton' + item.tuneID + ', value)">';
-             tableRow += '             <output name="level">100</output>%';
-             tableRow += '          </div>';
-             tableRow += '       </div>';
-             tableRow += '       <div class="loop_control">';
-             tableRow += '          <p><small>No recording - playing the <i>dots</i>!</small></p>';
-             tableRow += '       </div>';
-             tableRow += '    </form>';
+             tableRow += createABCplayer(item.tuneID);
              tableRow += '</td></tr>';
          };
          return tableRow;

@@ -24,6 +24,53 @@ var PreviouspButton=null;
 var audioSlider=null;
 var AudioPosition;
 
+function createAudioPlayer() {
+    var pagePlayer =  '';
+    pagePlayer += '<!-- declare an Audio Player for this page-->';
+    pagePlayer += '<audio id="OneAudioPlayer" loop>';
+    pagePlayer += '    <source id="mp3Source" type="audio/mp3"></source>';
+    pagePlayer += '    Your browser does not support the audio format.';
+    pagePlayer += '</audio>';
+
+    return (pagePlayer);
+}
+
+function createMP3player(tuneID, mp3url) {
+    var mp3player = '';
+
+    // build the MP3 player for each tune
+    mp3player += '<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
+    mp3player += '    <div id="audioplayer' + tuneID + '" class="audioplayer">';
+    mp3player += '        <button id="pButton' + tuneID + '" class="playButton"';
+    mp3player += '            onclick="playAudio(audioplayer' + tuneID + ', pButton' + tuneID + ',  playPosition' + tuneID + ', \'' + mp3url + '\', APos' + tuneID + ')">';
+    mp3player += '            <div id="APos' + tuneID + '" class="audioPos">0.0</div>';
+    mp3player += '        </button>';
+    mp3player += '        <input name="playPosition' + tuneID + '" id="playPosition' + tuneID + '" type="range" class="audio_control" min="0" max="400" value="0"';
+    mp3player += '            oninput="adjustAudioPosition(audioplayer' + tuneID + ', value/400)"';
+    mp3player += '            onchange="setAudioPosition(audioplayer' + tuneID + ', value/400, B1' + tuneID + ', B2' + tuneID + ')"/>';
+    mp3player += '        <div id="speed_control' + tuneID + '" class="speed_control">';
+    mp3player += '            <span title="Adjust playback speed with slider">';
+    mp3player += '               <input name="flevel" id="RS' + tuneID + '" type="range" min="50" max="120" value="100"';
+    mp3player += '                  onchange="setPlaySpeed(audioplayer' + tuneID + ', value/100)" />';
+    mp3player += '               <output name="level">100</output>%';
+    mp3player += '            </span>';
+    mp3player += '        </div>';
+    mp3player += '        <div class="loop_control">';
+    mp3player += '            <span title="Play tune, select loop starting point, then select loop end point">';
+    mp3player += '               <input type="button" id="B1' + tuneID + '" value="Loop Start"';
+    mp3player += '                  onclick="SetPlayRange(audioplayer' + tuneID + ',0,B1' + tuneID + ', B2' + tuneID + ')" />';
+    mp3player += '               <input type="button" id="B2' + tuneID + '" value=" Loop End "';
+    mp3player += '                  onclick="SetPlayRange(audioplayer' + tuneID + ',1,B1' + tuneID + ', B2' + tuneID + ')" />';
+    mp3player += '               <input type="button" value="Reset"';
+    mp3player += '                  onclick="SetPlayRange(audioplayer' + tuneID + ',2,B1' + tuneID + ', B2' + tuneID + ')" />';
+    mp3player += '            </span>';
+    mp3player += '        </div>';
+    mp3player += '        <p class="clear"> </p>';
+    mp3player += '    </div>';
+    mp3player += '</form>';
+
+    return (mp3player);
+}
 
 function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposition) {
 
@@ -61,28 +108,28 @@ function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposit
     }
 }
 
-function setAudioPosition(audioplayer,value, button1ID, button2ID){
-  if(PreviousAudioID!=audioplayer) return;
-  var sliderVal=value*OneAudioPlayer.duration;
-  OneAudioPlayer.addEventListener("timeupdate", positionUpdate);
-  OneAudioPlayer.currentTime=sliderVal;
-  positionUpdate();
-  AudioPosition.innerHTML=OneAudioPlayer.currentTime.toFixed(1);
-  if (EndLoopTime==0) return;  // if loops haven't been set don't nudge them
-  if(sliderVal>EndLoopTime){ //nudging loop
-      EndLoopTime=sliderVal;
-      button2ID.value = EndLoopTime.toFixed(1);
-  }
-  if(sliderVal<BeginLoopTime){
-      BeginLoopTime=sliderVal;
-      button1ID.value = BeginLoopTime.toFixed(1);
-  }
+function setAudioPosition(audioplayer, value, button1ID, button2ID){
+    if(PreviousAudioID!=audioplayer) return;
+    var sliderVal=value*OneAudioPlayer.duration;
+    OneAudioPlayer.addEventListener("timeupdate", positionUpdate);
+    OneAudioPlayer.currentTime=sliderVal;
+    positionUpdate();
+    AudioPosition.innerHTML=OneAudioPlayer.currentTime.toFixed(1);
+    if (EndLoopTime==0) return;  // if loops haven't been set don't nudge them
+    if(sliderVal>EndLoopTime){ //nudging loop
+        EndLoopTime=sliderVal;
+        button2ID.value = EndLoopTime.toFixed(1);
+    }
+    if(sliderVal<BeginLoopTime){
+        BeginLoopTime=sliderVal;
+        button1ID.value = BeginLoopTime.toFixed(1);
+    }
 }
-function adjustAudioPosition(audioplayer,value){
-  if(PreviousAudioID!=audioplayer) return;
-  var sliderVal=value*OneAudioPlayer.duration;
-  OneAudioPlayer.removeEventListener("timeupdate", positionUpdate);
-  AudioPosition.innerHTML=sliderVal.toFixed(1);
+function adjustAudioPosition(audioplayer, value){
+    if(PreviousAudioID!=audioplayer) return;
+    var sliderVal=value*OneAudioPlayer.duration;
+    OneAudioPlayer.removeEventListener("timeupdate", positionUpdate);
+    AudioPosition.innerHTML=sliderVal.toFixed(1);
 }
 
 function positionUpdate() {

@@ -10,10 +10,7 @@ Dunedin etc.
 
 **We're happy to add tunes from other parts of NZ.**
 
-<audio id="OneAudioPlayer">
-    <source id="mp3Source" type="audio/mp3"></source>
-    Your browser does not support the audio format.
-</audio>
+<div id="audioPlayer"></div>
 
 <fieldset>
     <legend>Select from the NZ Tunes Archive</legend>
@@ -93,6 +90,8 @@ Dunedin etc.
 <script>
   $(document).ready(function()
     {
+        audioPlayer.innerHTML = createAudioPlayer();
+
         // Set initial sort order
         $.tablesorter.defaults.sortList = [[0,0]];
 

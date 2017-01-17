@@ -29,14 +29,37 @@ var ABCLocation;
 // Select a timbre that sounds like an electric piano.
 var inst = new Instrument('string');
 
+function createABCplayer (tuneID) {
+    var abcPlayer = '';
+    abcPlayer += '<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
+    abcPlayer += '  <div class="audioplayer">';
+    abcPlayer += '      <button id="pButton' + tuneID + '" class="playButton"';
+    abcPlayer += '          onclick="playABC(ABC' + tuneID + ', pButton' + tuneID + ', playPosition' + tuneID + ', RS' + tuneID + '.value, APos' + tuneID + ')">';
+    abcPlayer += '          <div id="APos' + tuneID + '" class="audioPos">0.0</div>';
+    abcPlayer += '      </button>';
+    abcPlayer += '      <input name="playPosition' + tuneID + '" id="playPosition' + tuneID + '" type="range" class="audio_control" min="0" max="500" value="0"';
+    abcPlayer += '          oninput="setABCPosition(value/100)" />';
+    abcPlayer += '      <div class="speed_control">';
+    abcPlayer += '          <input name="flevel" id="RS' + tuneID + '" type="range" min="50" max="120" value="100"';
+    abcPlayer += '              onchange="changeABCspeed(ABC' + tuneID + ', pButton' + tuneID + ', value)">';
+    abcPlayer += '          <output name="level">100</output>%';
+    abcPlayer += '      </div>';
+    abcPlayer += '      <div class="loop_control">';
+    abcPlayer += '          <p><small>Playing the <i>dots</i>!</small></p>';
+    abcPlayer += '      </div>';
+    abcPlayer += '      <p class="clear"> </p>';
+    abcPlayer += '  </div>';
+    abcPlayer += '</form>';
+
+    return (abcPlayer);
+}
+
 function playABC(tune, pButton, playPosition, bpm, audioposition) {
     CalculateTuneDuration(tune, bpm);
 
     var ticks;
     // The ABC L: value scales the ticks value!
-    var Lval=getABCHeaderValue("L:", tune.value);
-    if (Lval=="False") Lval="1/8"; //set defalut value for L
-    var noteLen = eval(Lval);
+    var noteLen = eval(getABCHeaderValue("L:", tune.value));
     ticks = bpm / (2 * noteLen);
 
     // If we have multiple ABC tunes on a page and we start a second one,
@@ -89,7 +112,6 @@ function changeABCspeed(tune, pButton, bpm) {
 
 function CalculateTuneDuration(tune, bpm) {
     // Clean up the ABC bar markers
-
     var tempTune = tune.value.replace(/:\|/g, "|");
     tempTune = tempTune.replace(/\|:/g, "|");
     tempTune.replace(/::/g, "|");
@@ -109,17 +131,15 @@ function CalculateTuneDuration(tune, bpm) {
         meterStr = "2/2";
     }
     var meter = eval(meterStr);
-    var Lval=getABCHeaderValue("L:", tune.value);
-    if (Lval=="False") Lval="1/8"; //set defalut value for L
-    var noteLen = eval(Lval);
-
+    var noteLen = eval(getABCHeaderValue("L:", tune.value));
     // Calculate the length of the tune
     ABCduration = bars * meter * 16 * noteLen * 60 / bpm;
 }
 
 function getABCHeaderValue(key, tuneStr) {
     var keyPos=tuneStr.search(key);
-    if (keyPos==-1) return "False";
+    if((key[0]=="L")&&(keyPos==-1)) return "1/8" //return defalut value of L: 1/8
+    if (keyPos==-1) return false;
     var value = tuneStr.substr(tuneStr.search(key) + 2, 8);
     value = value.trim();
     value = value.slice(0, value.search(":") - 1);
