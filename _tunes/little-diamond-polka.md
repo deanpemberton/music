@@ -1,11 +1,11 @@
 ---
-title: "Little Diamond Polka"
+title: Little Diamond Polka
 key: D
 rhythm: polka
 mode: major
 date: 2016-01-26
 location: Wellington
-tags: slowsession beginner
+tags: slowsession beginner aff
 mp3_file: /mp3/little-diamond-polka.mp3
 mp3_licence: <a href="https://creativecommons.org/licenses/by-nc/2.5/">CC-BY-NC-2.5</a>
 mp3_source: Comhaltas Ceoltóirí Éireann
