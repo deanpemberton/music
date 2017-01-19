@@ -27,7 +27,7 @@ var AudioPosition;
 function createAudioPlayer() {
     var pagePlayer =  '';
     pagePlayer += '<!-- declare an Audio Player for this page-->';
-    pagePlayer += '<audio id="OneAudioPlayer" loop>';
+    pagePlayer += '<audio id="OneAudioPlayer" loop onloadstart="loadStart()" oncanplay="loadFinish()">';
     pagePlayer += '    <source id="mp3Source" type="audio/mp3"></source>';
     pagePlayer += '    Your browser does not support the audio format.';
     pagePlayer += '</audio>';
@@ -106,6 +106,17 @@ function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposit
         pButton.className = "";
         pButton.className = "playButton";
     }
+}
+
+function loadStart(){
+    AudioPosition.style.fontSize="10px";
+    AudioPosition.style.marginLeft="-7px";
+    AudioPosition.innerHTML="Loading";
+}
+function loadFinish(){
+    AudioPosition.style.fontSize="12px";
+    AudioPosition.style.marginLeft="-4px";
+    AudioPosition.innerHTML="0.0";
 }
 
 function setAudioPosition(audioplayer, value, button1ID, button2ID){
