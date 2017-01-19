@@ -27,7 +27,7 @@ var AudioPosition;
 function createAudioPlayer() {
     var pagePlayer =  '';
     pagePlayer += '<!-- declare an Audio Player for this page-->';
-    pagePlayer += '<audio id="OneAudioPlayer" loop onloadstart="loadStart()" oncanplay="loadFinish()">';
+    pagePlayer += '<audio id="OneAudioPlayer" loop onloadstart="loadStart()" oncanplaythrough="loadFinish()">';
     pagePlayer += '    <source id="mp3Source" type="audio/mp3"></source>';
     pagePlayer += '    Your browser does not support the audio format.';
     pagePlayer += '</audio>';
