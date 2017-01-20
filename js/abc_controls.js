@@ -25,6 +25,7 @@ var ABCCurrentTime = 0;
 var ABCduration = 0;
 var IntervalHandle;
 var ABCLocation;
+var ABCdurationP;
 
 // Select a timbre that sounds like an electric piano.
 var inst = new Instrument('string');
@@ -34,8 +35,9 @@ function createABCplayer (tuneID) {
     abcPlayer += '<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
     abcPlayer += '  <div class="audioplayer">';
     abcPlayer += '      <button id="pButton' + tuneID + '" class="playButton"';
-    abcPlayer += '          onclick="playABC(ABC' + tuneID + ', pButton' + tuneID + ', playPosition' + tuneID + ', RS' + tuneID + '.value, APos' + tuneID + ')">';
+    abcPlayer += '          onclick="playABC(ABC' + tuneID + ', pButton' + tuneID + ', playPosition' + tuneID + ', RS' + tuneID + '.value, APos' + tuneID + ' , Dur' + tuneID + ')">';
     abcPlayer += '          <div id="APos' + tuneID + '" class="audioPos">0.0</div>';
+    abcPlayer += '          <div id="Dur' + tuneID + '" class="durationP"></div>';
     abcPlayer += '      </button>';
     abcPlayer += '      <input name="playPosition' + tuneID + '" id="playPosition' + tuneID + '" type="range" class="audio_control" min="0" max="500" value="0"';
     abcPlayer += '          oninput="setABCPosition(value/100)" />';
@@ -54,7 +56,7 @@ function createABCplayer (tuneID) {
     return (abcPlayer);
 }
 
-function playABC(tune, pButton, playPosition, bpm, audioposition) {
+function playABC(tune, pButton, playPosition, bpm, audioposition, duration) {
     CalculateTuneDuration(tune, bpm);
 
     var ticks;
@@ -72,12 +74,14 @@ function playABC(tune, pButton, playPosition, bpm, audioposition) {
     lastpButton = pButton;
     ABCLocation=audioposition; //initialise global variable
     ABCPosition.Ptr = playPosition;
+    ABCdurationP=duration;
 
     if (pButton.className == "playButton") {
         stopABC(tune);
         startABC(tune, ticks);
         pButton.className = "";
         pButton.className = "stopButton";
+        ABCdurationP.innerHTML = ABCduration.toFixed(1);
     } else {
         stopABC(tune);
         audioposition.innerHTML="0.0";
