@@ -36,7 +36,7 @@ function createABCplayer (tuneID) {
     abcPlayer += '  <div class="audioplayer">';
     abcPlayer += '      <button id="pButton' + tuneID + '" class="playButton"';
     abcPlayer += '          onclick="playABC(ABC' + tuneID + ', pButton' + tuneID + ', playPosition' + tuneID + ', RS' + tuneID + '.value, APos' + tuneID + ' , Dur' + tuneID + ')">';
-    abcPlayer += '          <div id="APos' + tuneID + '" class="audioPos">0.0</div>';
+    abcPlayer += '          <div id="APos' + tuneID + '" class="audioPos"></div>';
     abcPlayer += '          <div id="Dur' + tuneID + '" class="durationP"></div>';
     abcPlayer += '      </button>';
     abcPlayer += '      <input name="playPosition' + tuneID + '" id="playPosition' + tuneID + '" type="range" class="audio_control" min="0" max="500" value="0"';
@@ -84,7 +84,8 @@ function playABC(tune, pButton, playPosition, bpm, audioposition, duration) {
         ABCdurationP.innerHTML = ABCduration.toFixed(1);
     } else {
         stopABC(tune);
-        audioposition.innerHTML="0.0";
+        audioposition.innerHTML="";
+        ABCdurationP.innerHTML ="";
         pButton.className = "";
         pButton.className = "playButton";
     }
