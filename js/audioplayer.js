@@ -83,7 +83,7 @@ function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposit
           if(PreviouspButton != null) PreviouspButton.className = "playButton";
           OneAudioPlayer.removeEventListener("timeupdate", positionUpdate);
           OneAudioPlayer.removeEventListener("timeupdate", setAudioLoops);
-          AudioPosition.innerHTML="0.0 /";
+          AudioPosition.innerHTML="0.0";
           if (PreviousButton1ID != null){
             PreviousButton1ID.value = "Loop Start";
             PreviousButton2ID.value = " Loop End ";
@@ -119,7 +119,7 @@ function loadStart(){
 }
 
 function loadFinish(){
-    AudioPosition.innerHTML = "0.0 /";
+    AudioPosition.innerHTML = "0.0";
     DurationP.innerHTML = OneAudioPlayer.duration.toFixed(1);
 }
 
@@ -154,7 +154,7 @@ function positionUpdate() {
     if (OneAudioPlayer.currentTime >= duration - .25) {
         OneAudioPlayer.currentTime = 0;
     }
-    AudioPosition.innerHTML=OneAudioPlayer.currentTime.toFixed(1) + ' /';
+    AudioPosition.innerHTML=OneAudioPlayer.currentTime.toFixed(1);
 }
 
 function SetPlayRange(audioID, ButtonEvent, button1ID, button2ID) {
