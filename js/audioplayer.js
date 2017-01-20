@@ -23,6 +23,7 @@ var PreviouspButton=null;
 //var playheadRadius=5; // diam. of playhead = 10
 var audioSlider=null;
 var AudioPosition;
+var DurationP;
 
 function createAudioPlayer() {
     var pagePlayer =  '';
@@ -42,8 +43,9 @@ function createMP3player(tuneID, mp3url) {
     mp3player += '<form onsubmit="return false" oninput="level.value = flevel.valueAsNumber">';
     mp3player += '    <div id="audioplayer' + tuneID + '" class="audioplayer">';
     mp3player += '        <button id="pButton' + tuneID + '" class="playButton"';
-    mp3player += '            onclick="playAudio(audioplayer' + tuneID + ', pButton' + tuneID + ',  playPosition' + tuneID + ', \'' + mp3url + '\', APos' + tuneID + ')">';
-    mp3player += '            <div id="APos' + tuneID + '" class="audioPos">0.0</div>';
+    mp3player += '            onclick="playAudio(audioplayer' + tuneID + ', pButton' + tuneID + ',  playPosition' + tuneID + ', \'' + mp3url + '\', APos' + tuneID + ', Dur' + tuneID + ',  RS' + tuneID +')">';
+    mp3player += '            <div id="APos' + tuneID + '" class="audioPos"></div>';
+    mp3player += '            <div id="Dur' + tuneID + '" class="durationP"></div>';
     mp3player += '        </button>';
     mp3player += '        <input name="playPosition' + tuneID + '" id="playPosition' + tuneID + '" type="range" class="audio_control" min="0" max="400" value="0"';
     mp3player += '            oninput="adjustAudioPosition(audioplayer' + tuneID + ', value/400)"';
@@ -72,7 +74,7 @@ function createMP3player(tuneID, mp3url) {
     return (mp3player);
 }
 
-function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposition) {
+function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposition, duration, audioSpeed) {
 
     if (pButton.className == "playButton") {
       if(PreviousAudioID != audioplayer){ //only load if necessary
@@ -81,7 +83,7 @@ function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposit
           if(PreviouspButton != null) PreviouspButton.className = "playButton";
           OneAudioPlayer.removeEventListener("timeupdate", positionUpdate);
           OneAudioPlayer.removeEventListener("timeupdate", setAudioLoops);
-          AudioPosition.innerHTML="0.0";
+          AudioPosition.innerHTML="0.0 /";
           if (PreviousButton1ID != null){
             PreviousButton1ID.value = "Loop Start";
             PreviousButton2ID.value = " Loop End ";
@@ -94,9 +96,11 @@ function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposit
           //Previousplayhead=playhead;
           PreviouspButton=pButton;
           AudioPosition=audioposition;
+          DurationP=duration;
       }
 
         audioSlider=positionSlider;
+        OneAudioPlayer.playbackRate = audioSpeed.value/100;
         OneAudioPlayer.play();
         pButton.className = "";
         pButton.className = "pauseButton";
@@ -109,14 +113,14 @@ function playAudio(audioplayer, pButton, positionSlider, audioSource, audioposit
 }
 
 function loadStart(){
-    AudioPosition.style.fontSize="10px";
-    AudioPosition.style.marginLeft="-7px";
-    AudioPosition.innerHTML="Loading";
+    if (AudioPosition) {
+        AudioPosition.innerHTML = "Loading";
+    }
 }
+
 function loadFinish(){
-    AudioPosition.style.fontSize="12px";
-    AudioPosition.style.marginLeft="-4px";
-    AudioPosition.innerHTML="0.0";
+    AudioPosition.innerHTML = "0.0 /";
+    DurationP.innerHTML = OneAudioPlayer.duration.toFixed(1);
 }
 
 function setAudioPosition(audioplayer, value, button1ID, button2ID){
@@ -141,6 +145,7 @@ function adjustAudioPosition(audioplayer, value){
     var sliderVal=value*OneAudioPlayer.duration;
     OneAudioPlayer.removeEventListener("timeupdate", positionUpdate);
     AudioPosition.innerHTML=sliderVal.toFixed(1);
+    DurationP.innerHTML=OneAudioPlayer.duration.toFixed(1);
 }
 
 function positionUpdate() {
@@ -149,7 +154,7 @@ function positionUpdate() {
     if (OneAudioPlayer.currentTime >= duration - .25) {
         OneAudioPlayer.currentTime = 0;
     }
-    AudioPosition.innerHTML=OneAudioPlayer.currentTime.toFixed(1);
+    AudioPosition.innerHTML=OneAudioPlayer.currentTime.toFixed(1) + ' /';
 }
 
 function SetPlayRange(audioID, ButtonEvent, button1ID, button2ID) {
