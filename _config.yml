@@ -11,7 +11,7 @@ email: admin@session.nz
 description: > # this means to ignore newlines until "baseurl:"
   Website of the Irish sessions in New Zealand.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://deanpemberton.github.io/music" # the base hostname & protocol for your site
+url: "https://deanpemberton.github.io/music" # the base hostname & protocol for your site
 facebook: https://www.facebook.com/groups/WellingtonSession
 jekyll: https://jekyllrb.com
 github: https://github.com/slow-session/session.nz
